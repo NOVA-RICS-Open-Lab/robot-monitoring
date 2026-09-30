@@ -1,0 +1,37 @@
+Video: an10.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.58s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs operando sobre uma mesa com blocos amarelos.
+2. Situação idêntica ao frame 1.
+3. Situação idêntica ao frame 1.
+4. Situação idêntica ao frame 1.
+5. Mão humana visível na área de trabalho, tocando um bloco.
+6. Mão humana ainda visível, movendo-se para fora da área de trabalho.
+7. Mão humana não mais visível, robôs continuam operando.
+8. Situação idêntica ao frame 7.
+9. Situação idêntica ao frame 7.
+
+ANOMALIA: A presença de uma mão humana no frame 5 e parcialmente no frame 6 constitui uma anomalia. Qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança, pois pode interferir na operação do robô e representar um risco de segurança. A intervenção humana não autorizada pode causar acidentes ou danos ao equipamento.
+
+STAGE 2  (12 dense frames around src [232, 290], 3.13s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com blocos amarelos na mesa.
+2. Mão humana aparece no canto inferior esquerdo.
+3. Mão humana se aproxima do bloco amarelo à esquerda.
+4. Mão humana toca no bloco amarelo à esquerda.
+5. Mão humana ainda em contato com o bloco amarelo à esquerda.
+6. Mão humana continua em contato com o bloco amarelo à esquerda.
+7. Mão humana se afasta ligeiramente do bloco amarelo.
+8. Mão humana ainda próxima ao bloco amarelo.
+9. Mão humana permanece próxima ao bloco amarelo.
+10. Mão humana começa a se afastar do bloco amarelo.
+11. Mão humana não está mais visível.
+12. Área de trabalho sem presença humana visível.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma anomalia significativa. Em vários frames, a mão entra em contato direto com o bloco amarelo, o que representa um risco de segurança. A interação humana não autorizada pode causar acidentes ou interferir na operação do robô, comprometendo a segurança e a eficiência do processo.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 5.30s

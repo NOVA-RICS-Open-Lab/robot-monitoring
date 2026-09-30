@@ -1,0 +1,8 @@
+model: llama_vision   window 3   30-45 s   idx=[720, 764, 809, 854, 899, 944, 989, 1034, 1079]
+
+STAGE 1 (9 frames) -> NORMAL
+NORMAL: A sequência de frames não apresenta qualquer objeto ou pessoa externa invadindo a área de trabalho do robô, mantendo-se dentro do contexto normal da operação de solda com o Kuka Robot. Os objetos presentes, como microscópios, papel, blocos amarelos e objetos brancos, são consistentes com o ambiente de trabalho e não indicam qualquer anomalia.
+
+STAGE 2: not run
+
+FINAL: NORMAL

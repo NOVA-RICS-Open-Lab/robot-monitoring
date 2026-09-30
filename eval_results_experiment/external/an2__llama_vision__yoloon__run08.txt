@@ -1,0 +1,18 @@
+Vídeo: an2.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.83s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a close-up of a medical device, likely a medical imaging device, with various components and equipment, but no people or hands are visible.
+  Frame 2: The image is a blank, empty space with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image is blank, with no people, hands, or objects.
+  Frame 6: The image is blank, with no people, hands, or objects.
+  Frame 7: The image shows a yellow block of cheese on a white plate, with a blue background and a white object in the corner.
+  Frame 8: The image shows a yellow object on a white surface, with a blue background and a small white object in the corner.
+  Frame 9: The image shows a yellow piece of paper being pushed through a slot in a blue, metal, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por objetos externos, incluindo um bloco de queijo amarelo em Frame 7 e um objeto amarelo em Frame 8, que não pertencem à operação do robô. Além disso, a presença de um papel amarelo sendo empurrado através de uma fenda em Frame 9 também indica uma anomalia, pois não há evidência de que esse objeto seja parte da operação do robô. Esses eventos não são compatíveis com a operação normal do robô e, portanto, são considerados anomalias.

@@ -1,0 +1,18 @@
+Vídeo: an4.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 24.18s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a sign reading "30" and a green plant.
+  Frame 2: urns of yellow and white cubes rest on a blue table, with a person's hand reaching towards them.
+  Frame 3: urns of yellow and white cubes rest on a blue table, with a person's hand reaching towards them.
+  Frame 4: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green sign reading "30".
+  Frame 5: urns of yellow and blue cubes rest on a blue table with white squares, accompanied by a green sign reading "30".
+  Frame 6: urns of yellow and blue sit on a blue table with white handles, accompanied by a green plant and a gray wall with circular signs.
+  Frame 7: urns of yellow and white cubes rest on a blue table with a white baseboard, accompanied by a green plant and a gray wall.
+  Frame 8: urns of yellow and white cubes rest on a blue table with a white baseboard, accompanied by a green sign reading "30".
+  Frame 9: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green sign reading "30".
+
+Resultado:
+ANOMALIA: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green plant.

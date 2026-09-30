@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 33.33s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes and a white and yellow object on top of it.
+  Frame 2: The image shows a blue table with two microscopes and a small, square, white and yellow object on each microscope slide.
+  Frame 3: The image shows a blue table with two microscopes and a small, square, white and yellow object on each microscope.
+  Frame 4: The image shows a blue table with two microscopes and a small, square, white and yellow object on it.
+  Frame 5: The image shows a person's arm reaching for a microscope on a blue table, with a white and yellow object on the table in front of the microscope.
+  Frame 6: The image shows a blue table with two robotic arms and a hand in the corner, likely used for a demonstration or training exercise.
+  Frame 7: The image shows a blue table with two microscopes and a yellow and white object on it, likely used for scientific or educational purposes.
+  Frame 8: The image shows a blue table with two microscopes and a small yellow and white object on it, possibly a piece of equipment or a sample.
+  Frame 9: The image shows a blue table with two microscopes and a yellow and white object on it, possibly a piece of equipment or a sample.
+
+Resultado:
+ANOMALIA: A mão humana na área de trabalho do robô (Frame 5) indica uma anomalia.

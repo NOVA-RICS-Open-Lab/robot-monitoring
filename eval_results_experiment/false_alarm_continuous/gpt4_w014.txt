@@ -1,0 +1,34 @@
+model: gpt4   window 14   195-210 s   idx=[4680, 4724, 4769, 4814, 4859, 4904, 4949, 4994, 5039]
+
+STAGE 1 (9 frames) -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô com blocos amarelos na mesa.
+2. Presença de uma mão humana na área de trabalho.
+3. Robô sem interferência visível.
+4. Robô sem interferência visível.
+5. Movimento de uma mão humana na área de trabalho.
+6. Robô sem interferência visível.
+7. Robô sem interferência visível.
+8. Robô sem interferência visível.
+9. Robô sem interferência visível.
+
+ANOMALIA: A presença de uma mão humana nos frames 2 e 5 constitui uma anomalia, pois indica a invasão da área de trabalho do robô por um elemento externo. Isso pode comprometer a segurança operacional e a integridade do processo automatizado.
+
+STAGE 2 (12 frames) -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô posicionado sobre a mesa com blocos amarelos.
+2. Robô continua na mesma posição, sem alterações visíveis.
+3. Robô permanece estático, blocos inalterados.
+4. Nenhuma mudança na posição do robô ou dos blocos.
+5. Robô e blocos ainda na mesma configuração.
+6. Sem alterações na cena, tudo permanece igual.
+7. Mão humana visível na área de trabalho do robô.
+8. Mão humana interagindo com um dos blocos amarelos.
+9. Mão humana movendo um bloco amarelo.
+10. Mão humana ainda em contato com o bloco.
+11. Mão humana continua a manipular o bloco.
+12. Mão humana se afastando da área de trabalho.
+
+ANOMALIA: A presença de uma mão humana nos frames 7 a 12 constitui uma anomalia. A mão interage diretamente com os blocos amarelos na área de trabalho do robô, o que não faz parte da operação normal do robô e representa uma invasão do espaço de trabalho, potencialmente comprometendo a segurança e a operação do robô.
+
+FINAL: ANOMALY

@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.27s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Braços robóticos continuam a operação, sem alterações visíveis.
+3. Braços robóticos ainda em operação, cenário inalterado.
+4. Braços robóticos movem-se ligeiramente, sem interferências externas.
+5. Braços robóticos continuam a operação, sem objetos estranhos.
+6. Braços robóticos em movimento, área de trabalho limpa.
+7. Mão humana visível na área de trabalho do robô.
+8. Braços robóticos voltam à operação normal, mão não visível.
+9. Braços robóticos continuam a operação, sem presença humana.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho do robô, o que constitui uma anomalia. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. É crucial garantir que a área de trabalho esteja livre de interferências humanas para evitar acidentes.
+
+STAGE 2  (12 dense frames around src [517], 3.35s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente sobre a mesa com peças amarelas.
+2. Robô continua operando sem alterações visíveis.
+3. Robô ainda em operação normal, sem interferências.
+4. Mão humana começa a aparecer no canto inferior esquerdo.
+5. Mão humana se aproxima mais do robô.
+6. Mão humana toca o robô.
+7. Mão humana ainda em contato com o robô.
+8. Mão humana permanece em contato com o robô.
+9. Mão humana continua tocando o robô.
+10. Mão humana ainda em contato com o robô.
+11. Mão humana permanece em contato com o robô.
+12. Mão humana se afasta do robô.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação das normas de segurança. Em vários frames, a mão toca o robô, o que pode causar riscos de segurança tanto para o operador quanto para o equipamento. A intervenção humana direta em um espaço de operação automatizado deve ser evitada para prevenir acidentes e garantir a integridade do processo.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

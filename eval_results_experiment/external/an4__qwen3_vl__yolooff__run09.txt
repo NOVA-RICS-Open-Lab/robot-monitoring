@@ -1,0 +1,35 @@
+Video: an4.mp4 (external)
+Model: qwen3_vl (qwen3-vl:8b)
+
+
+STAGE 1  (9 frames, 18.59s)  -> ANOMALY
+1. Robôs posicionados sobre mesa azul com blocos amarelos e brancos, sem presença humana  
+2. Mão humana interagindo com blocos amarelos na área de trabalho do robô  
+3. Mão humana ajustando blocos amarelos na área de trabalho do robô  
+4. Mão humana movendo blocos amarelos na área de trabalho do robô  
+5. Mão humana posicionando blocos amarelos na área de trabalho do robô  
+6. Mão humana segurando blocos amarelos na área de trabalho do robô  
+7. Mão humana ajustando blocos amarelos na área de trabalho do robô  
+8. Mão humana interagindo com blocos amarelos na área de trabalho do robô  
+9. Mão humana permanecendo na área de trabalho do robô  
+
+ANOMALIA: A mão humana aparece em múltiplos frames (2 a 9), entrando em contato direto com os blocos amarelos na área de trabalho do robô. Isso viola o princípio de segurança estabelecido, já que qualquer parte do corpo humano na zona operacional é considerada anomalia. A presença humana não autorizada interfere na operação automatizada e representa risco de acidentes, contrariando as normas de segurança do workspace industrial.
+
+STAGE 2  (12 dense frames around src [0, 65], 16.81s)  -> ANOMALY
+1. Ambiente estático com robôs e bandejas, sem objetos externos.  
+2. Cenário idêntico ao frame 1, sem alterações visíveis.  
+3. Configuração permanece igual, sem elementos estranhos.  
+4. Área de trabalho do robô mantém-se inalterada.  
+5. Nenhum objeto ou pessoa externa presente.  
+6. Sistema operacional do robô está em funcionamento normal.  
+7. Aparece uma mão humana tocando a bandeja inferior com blocos amarelos.  
+8. Mão permanece em contato com a bandeja, invadindo a área de trabalho.  
+9. Posição da mão não muda, mantendo contato com os blocos.  
+10. A mão está claramente visível na área operacional do robô.  
+11. Elemento humano está presente, violando a segurança do workspace.  
+12. A mão continua em contato com a bandeja, confirmando a invasão.  
+
+ANOMALIA: A mão humana entra em contato direto com a bandeja inferior (frames 7-12), representando uma violação explícita da segurança do workspace. Qualquer parte do corpo humano na área de trabalho do robô é sempre considerada anomalia, conforme os critérios estabelecidos. A presença contínua da mão nos últimos cinco frames confirma a invasão não autorizada, comprometendo a operação segura do sistema.
+
+Result:
+ANOMALY   anomaly window ~ 0.00s .. 1.62s

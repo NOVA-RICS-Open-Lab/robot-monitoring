@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 21.97s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a sign reading "30".
+  Frame 2: urns of water and yellow cubes on a blue table with white text, accompanied by a green sign reading "30".
+  Frame 3: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green sign reading "30%".
+  Frame 4: ursine robots with blue and gray bodies stand on a blue table, accompanied by yellow blocks and a white sign displaying "30".
+  Frame 5: urns of water and a blue table with white paper and gray robot arms on either side.
+  Frame 6: urns of water and yellow cubes on a blue tablecloth with white text.
+  Frame 7: urns of water on a blue table with white paper and yellow paper, accompanied by a green sign reading "30%".
+  Frame 8: urns of water and a yellow object on a blue tablecloth with white text.
+  Frame 9: urns of water and yellow liquid on a blue tablecloth, with a white sign reading "30" above them.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white paper and gray robot arms on either side.

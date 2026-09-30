@@ -1,0 +1,18 @@
+model: qwen3_vl   window 5   60-75 s   idx=[1440, 1484, 1529, 1574, 1619, 1664, 1709, 1754, 1799]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô com braço azul posicionado sobre blocos amarelos em placa branca.  
+2. Robô com braço azul mantendo contato com blocos amarelos em placa branca.  
+3. Robô movendo bloco amarelo com braço azul, próximo a placa branca.  
+4. Robô ajustando posição do braço sobre placa branca com bloco amarelo.  
+5. Robô posicionando braço sobre placa branca com bloco amarelo.  
+6. Robô com braço azul em movimento sobre placa branca com bloco amarelo.  
+7. Robô com braço azul próximo a placa branca com bloco amarelo.  
+8. Robô com braço azul em movimento sobre placa branca com bloco amarelo.  
+9. Robô com braço azul ajustando posição sobre placa branca com bloco amarelo.  
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos (como garrafas, bolas) nas imagens. Todos os elementos visíveis (robô, blocos amarelos, placa branca) são parte da operação normal do robô, conforme descrito no contexto. As mudanças de posição dos blocos são resultado da ação do próprio robô, sem intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

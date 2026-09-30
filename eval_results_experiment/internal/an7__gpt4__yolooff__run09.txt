@@ -1,0 +1,37 @@
+Video: an7.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 4.00s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança na posição dos robôs ou dos blocos.
+4. A cena continua inalterada, com os robôs e blocos na mesma posição.
+5. Uma mão humana aparece e move um dos blocos amarelos.
+6. A mão humana ainda está presente, mas parece estar se afastando.
+7. Os robôs e blocos estão na mesma posição, sem a mão visível.
+8. Nenhuma alteração visível na posição dos robôs ou blocos.
+9. A cena permanece inalterada, com os robôs e blocos na mesma posição.
+
+ANOMALIA: A presença de uma mão humana movendo um bloco indica uma interferência externa no processo. No entanto, como o log de estado está vazio, não há dados para verificar se houve uma queda de pressão no gripper ou outro erro interno. A ausência de dados no log impede a verificação completa de anomalias internas, mas a interferência externa é evidente.
+
+STAGE 2  (12 dense frames around src [116, 232], 3.65s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre um bloco amarelo à esquerda.
+2. O robô mantém a posição sobre o bloco amarelo à esquerda.
+3. O robô continua na mesma posição, sem alterações visíveis.
+4. O robô ainda está sobre o bloco amarelo à esquerda.
+5. O robô permanece na mesma posição, sem movimento.
+6. O robô não se moveu, ainda sobre o bloco amarelo à esquerda.
+7. O robô continua na mesma posição.
+8. Uma mão humana aproxima-se do bloco amarelo à esquerda.
+9. A mão humana toca no bloco amarelo à esquerda.
+10. A mão humana começa a mover o bloco amarelo à esquerda.
+11. A mão humana desloca o bloco amarelo para fora da posição original.
+12. A mão humana continua a mover o bloco amarelo.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, mas a presença de uma mão humana interferindo com o bloco amarelo sugere uma possível anomalia externa. No entanto, sem dados de pressão do gripper ou estado do robô, não é possível confirmar uma falha interna. A ausência de log impede a verificação de transições de estado ou pressão do gripper, mas a intervenção humana não autorizada é uma anomalia no contexto de operação normal do robô.
+
+Result:
+ANOMALY   anomaly window ~ 1.27s .. 4.33s

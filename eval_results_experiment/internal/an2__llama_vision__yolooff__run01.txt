@@ -1,0 +1,12 @@
+Video: an2.mp4 (internal)
+Model: llama_vision (llama3.2-vision)
+Log lines used: 8
+
+STAGE 1  (9 frames, 35.39s)  -> ANOMALY
+ANOMALIA: A análise dos frames e do log de estado do robô indica que houve uma anomalia durante a execução da tarefa PickAndPlace. No frame 5, a pressão do gripper é de 520, indicando que a garra está a segurar um objeto, mas no frame 6, a pressão do gripper é de 0, sugerindo que o objeto foi largado. Além disso, o log de estado mostra que o robô passou de estado "running" para "idle" sem explicação, e a divergência entre a presente e a target board não é explicada. Estes fatores indicam que houve uma falha interna na execução da tarefa.
+
+STAGE 2  (12 dense frames around src [232, 290], 46.00s)  -> ANOMALY
+ANOMALIA: A análise dos frames e do log de estado do robô indica que houve uma anomalia durante a execução da tarefa PickAndPlace. No frame 5, a pressão do gripper é de 520, indicando que a garra está segurando um objeto. No entanto, no frame 9, a pressão do gripper cai para 0, sugerindo que o objeto foi largado. Além disso, o log de estado mostra que o robô passou de estado "running" para "idle" sem explicação, e a divergência entre present_board e target_board não é explicada. Estes fatores indicam que houve uma falha interna na execução da tarefa.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 5.30s

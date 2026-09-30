@@ -1,0 +1,19 @@
+Vídeo: an3.mp4 (interna)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.52s
+Linhas de log usadas: 6
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue tablecloth with white text.
+  Frame 2: ursa robot with blue and gray arms on a blue table, accompanied by yellow blocks and a white sign displaying "30" and "30 years of robotics".
+  Frame 3: urns of water and yellow cubes on a blue table with white paper and silver metal frame.
+  Frame 4: urns of water on a blue table with white paper and a black button, accompanied by a green sign reading "30"
+  Frame 5: urns of water on a blue table with a white paper and yellow label, accompanied by a green plant and a gray wall.
+  Frame 6: urns of water on a blue table with a white paper and yellow label, accompanied by a sign reading "30" and an illustration of a robot arm.
+  Frame 7: urns of water on a blue table with white paper and yellow post-it notes, accompanied by a green sign reading "30"
+  Frame 8: urns of water and a yellow paper on a blue table with a white sign reading "30" above it.
+  Frame 9: urn of water on a blue table with a white paper and yellow post-it note, accompanied by a sign reading "30" and a green plant.
+
+Resultado:
+ANOMALIA: [0.01, 0.61, 0.11, 0.72]

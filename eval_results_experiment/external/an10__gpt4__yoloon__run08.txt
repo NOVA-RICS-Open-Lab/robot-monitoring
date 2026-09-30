@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.09s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem azul sem detalhes visíveis.
+2. Imagem azul sem detalhes visíveis.
+3. Imagem azul sem detalhes visíveis.
+4. Imagem azul sem detalhes visíveis.
+5. Objeto retangular com duas peças amarelas sobre uma superfície azul.
+6. Objeto retangular com duas peças amarelas sobre uma superfície azul.
+7. Objeto retangular com duas peças amarelas sobre uma superfície azul.
+8. Objeto retangular com duas peças amarelas sobre uma superfície azul.
+9. Objeto retangular com duas peças amarelas sobre uma superfície azul.
+
+NORMAL: Nos frames analisados, não há presença de partes do corpo humano ou objetos estranhos que invadam a área de trabalho do robô. As imagens mostram apenas um objeto retangular com peças amarelas, que parece ser parte do ambiente ou material de operação do robô. Não há indícios de anomalias ou invasões externas.

@@ -1,0 +1,37 @@
+Video: an5.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.87s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente com peças no ambiente de trabalho.
+2. Objeto esférico amarelo em movimento no ar.
+3. Objeto esférico amarelo pousado na mesa.
+4. Objeto esférico amarelo ainda na mesa, sem movimento.
+5. Objeto esférico amarelo permanece na mesma posição.
+6. Objeto esférico amarelo ainda visível na mesa.
+7. Objeto esférico amarelo não se moveu.
+8. Objeto esférico amarelo continua na mesa.
+9. Objeto esférico amarelo permanece na mesma posição.
+
+ANOMALIA: Um objeto esférico amarelo, que não faz parte do ambiente normal de operação do robô, entrou na área de trabalho. Este objeto não pertence ao conjunto de ferramentas ou materiais que o robô deveria manusear, representando uma potencial interferência ou risco para a operação segura do robô.
+
+STAGE 2  (12 dense frames around src [92], 3.56s)  -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com blocos amarelos.
+2. Dois braços robóticos sobre uma mesa com blocos amarelos.
+3. Dois braços robóticos sobre uma mesa com blocos amarelos.
+4. Dois braços robóticos sobre uma mesa com blocos amarelos.
+5. Dois braços robóticos sobre uma mesa com blocos amarelos.
+6. Dois braços robóticos sobre uma mesa com blocos amarelos.
+7. Dois braços robóticos sobre uma mesa com blocos amarelos.
+8. Dois braços robóticos sobre uma mesa com blocos amarelos.
+9. Dois braços robóticos sobre uma mesa com blocos amarelos.
+10. Dois braços robóticos sobre uma mesa com blocos amarelos.
+11. Dois braços robóticos sobre uma mesa com blocos amarelos.
+12. Dois braços robóticos sobre uma mesa com blocos amarelos.
+
+NORMAL: Em todos os frames, apenas os braços robóticos e os blocos amarelos são visíveis, sem presença de objetos estranhos ou partes do corpo humano na área de trabalho. A operação parece estar dentro dos parâmetros normais de segurança.
+
+Result:
+NORMAL   anomaly window ~ 0.87s .. 2.13s

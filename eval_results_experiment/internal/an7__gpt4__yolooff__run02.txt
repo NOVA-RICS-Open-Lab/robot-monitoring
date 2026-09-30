@@ -1,0 +1,37 @@
+Video: an7.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.72s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. O robô à esquerda aproxima-se de um bloco amarelo.
+3. O robô à esquerda parece estar a agarrar o bloco amarelo.
+4. O robô à esquerda mantém o bloco amarelo na garra.
+5. Uma mão humana aproxima-se do bloco à direita.
+6. A mão humana move o bloco à direita.
+7. O robô à esquerda ainda segura o bloco amarelo.
+8. O robô à esquerda continua a segurar o bloco amarelo.
+9. O robô à esquerda permanece com o bloco amarelo na garra.
+
+ANOMALIA: Não há registo de estado no log, o que impede a verificação de transições de estado ou pressão do gripper. A presença de uma mão humana a mover um bloco pode indicar uma interferência externa, mas não é uma falha interna do robô. Sem dados de pressão ou estado, não é possível confirmar uma anomalia interna.
+
+STAGE 2  (12 dense frames around src [232, 290], 3.07s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Uma mão humana aproxima-se do bloco à esquerda.
+3. A mão humana toca no bloco à esquerda.
+4. A mão humana começa a mover o bloco à esquerda.
+5. A mão humana continua a mover o bloco à esquerda.
+6. A mão humana ainda está a mover o bloco à esquerda.
+7. A mão humana está prestes a soltar o bloco à esquerda.
+8. A mão humana solta o bloco à esquerda.
+9. A mão humana afasta-se do bloco à esquerda.
+10. A mão humana continua a afastar-se do bloco à esquerda.
+11. A mão humana está quase fora do campo de visão.
+12. A mão humana já não está visível.
+
+ANOMALIA: Não há dados no log de estado do robô, o que impede a verificação de transições de estado ou pressão do gripper. No entanto, a presença de uma mão humana a interagir com o bloco sugere uma interferência externa, mas não uma falha interna do robô. Sem informações adicionais do log, não é possível determinar uma anomalia interna.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 5.30s

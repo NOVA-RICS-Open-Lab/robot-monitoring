@@ -1,0 +1,37 @@
+Video: an7.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.70s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança na posição dos robôs ou dos blocos.
+4. Os robôs continuam estáticos, sem interação com os blocos.
+5. Uma mão humana aparece e move um dos blocos amarelos.
+6. A mão humana ainda está presente, mas não está tocando nos blocos.
+7. A mão desapareceu, e os robôs permanecem na mesma posição.
+8. Nenhuma alteração visível na posição dos robôs ou dos blocos.
+9. Os robôs e os blocos permanecem inalterados.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, mas a presença de uma mão humana movendo um bloco sugere uma interferência externa. No entanto, sem dados de pressão do gripper ou estado do robô, não é possível determinar uma falha interna. A ausência de log impede a verificação de transições de estado ou pressão do gripper, mas a interferência externa é evidente.
+
+STAGE 2  (12 dense frames around src [116, 232], 3.48s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança na posição dos robôs ou dos blocos.
+4. Os robôs continuam imóveis, sem interação com os blocos.
+5. A situação permanece inalterada, com os robôs ainda na mesma posição.
+6. Nenhuma atividade visível dos robôs.
+7. Os robôs continuam sem movimento.
+8. Uma mão humana aparece, aproximando-se dos blocos.
+9. A mão humana toca um dos blocos, enquanto os robôs permanecem imóveis.
+10. A mão humana move o bloco, sem reação dos robôs.
+11. O bloco é deslocado pela mão humana, os robôs não se movem.
+12. A mão humana continua a mover o bloco, sem interação dos robôs.
+
+ANOMALIA: Não há registro de estado no log, o que impede a verificação de transições normais ou anômalas. A presença de uma mão humana movendo os blocos sugere uma interferência externa, mas não há evidência de falha interna do robô. No entanto, a ausência de qualquer atividade dos robôs durante a interação com os blocos pode indicar uma falha de operação ou um estado de parada não registrado.
+
+Result:
+ANOMALY   anomaly window ~ 1.27s .. 4.33s

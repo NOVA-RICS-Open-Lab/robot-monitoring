@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 21.67s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: 
+  Frame 2: urn with a dark blue interior and a light gray exterior, featuring a handle on the right side.
+  Frame 3: urn of water sits on a dark surface with a black and white striped pattern.
+  Frame 4: urn of water with a blue lid and handle on top rests on a dark surface.
+  Frame 5: 
+  Frame 6: urn of water with a blue and white striped pattern on its surface.
+  Frame 7: urn with a green lid and blue rim is tilted to the left against a dark blue background.
+  Frame 8: 
+  Frame 9: urn with a green lid and blue rim is tilted to the left against a light blue sky backdrop.
+
+Resultado:
+ANOMALIA: urn with a dark blue interior and a light gray exterior, featuring a handle on the right side.

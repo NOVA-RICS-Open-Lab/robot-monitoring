@@ -1,0 +1,11 @@
+Video: an5.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 35.02s)  -> NORMAL
+NORMAL: A sequência de imagens mostra a operação do robô Kuka em uma área de trabalho controlada, com objetos e equipamentos específicos para a tarefa de solda, como microscópios, blocos e objetos de teste, sem a presença de pessoas ou objetos estranhos. A área de trabalho é segura e controlada, com scanners e barreiras de luz integradas para prevenir anomalias durante a operação. A sequência não apresenta nenhuma anomalia ou entrada de objetos ou pessoas externas na área de trabalho do robô.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

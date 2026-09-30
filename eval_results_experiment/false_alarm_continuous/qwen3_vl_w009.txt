@@ -1,0 +1,19 @@
+model: qwen3_vl   window 9   120-135 s   idx=[2880, 2924, 2969, 3014, 3059, 3104, 3149, 3194, 3239]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô manipula blocos amarelos em painel branco sobre mesa azul.
+2. Robô posiciona bloco amarelo no painel com movimento suave.
+3. Robô ajusta bloco amarelo em posição específica no painel.
+4. Robô mantém contato com bloco amarelo durante operação.
+5. Robô move braço para nova posição, mantendo foco nos blocos.
+6. Robô solta bloco amarelo em posição definida no painel.
+7. Robô retorna à posição inicial após operação.
+8. Robô observa área de trabalho sem interrupções.
+9. Robô permanece estático, monitorando o ambiente.
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos (como garrafas, plantas) em nenhum frame. O robô manipula os blocos amarelos conforme operação normal descrita, com movimentos consistentes e sem interferência externa. Todos os elementos visíveis (robô, blocos, mesa) são parte integrante do processo industrial simulado.
+
+STAGE 2: not run
+
+FINAL: NORMAL

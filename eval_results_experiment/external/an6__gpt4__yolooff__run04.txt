@@ -1,0 +1,37 @@
+Video: an6.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.98s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com peças amarelas sobre a mesa.
+2. Presença de uma pessoa com parte do corpo visível na área de trabalho.
+3. Pessoa ainda visível, mais próxima dos robôs.
+4. Pessoa coloca um vaso com plantas na área de trabalho.
+5. Vaso e plantas permanecem na área, pessoa ainda visível.
+6. Pessoa remove o vaso da área de trabalho.
+7. Área de trabalho sem o vaso, mas pessoa ainda visível.
+8. Pessoa ainda presente, sem objetos estranhos na mesa.
+9. Pessoa ainda visível, sem alterações adicionais.
+
+ANOMALIA: A presença de uma pessoa na área de trabalho do robô é uma anomalia, pois qualquer parte do corpo humano na área de operação representa um risco de segurança. Além disso, a introdução de um vaso com plantas, que não faz parte do processo normal de operação, também constitui uma anomalia. Esses fatores comprometem a segurança e a integridade do ambiente de trabalho do robô.
+
+STAGE 2  (12 dense frames around src [136, 273], 3.19s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Presença de um braço humano próximo à área de trabalho.
+2. Braço humano ainda visível, próximo ao robô.
+3. Braço humano continua na área, sem contato direto com o robô.
+4. Braço humano permanece na área de trabalho.
+5. Braço humano ainda visível, próximo ao robô.
+6. Braço humano continua presente na área de trabalho.
+7. Braço humano visível, sem contato direto com o robô.
+8. Braço humano ainda na área de trabalho.
+9. Braço humano permanece próximo ao robô.
+10. Braço humano visível, sem contato direto com o robô.
+11. Braço humano ainda presente na área de trabalho.
+12. Braço humano visível, próximo ao robô.
+
+ANOMALIA: A presença contínua de um braço humano na área de trabalho do robô em todos os frames representa uma anomalia. Qualquer parte do corpo humano na área de operação do robô é considerada uma violação das normas de segurança, pois pode resultar em acidentes ou interferir no funcionamento do robô. É essencial garantir que a área de trabalho esteja livre de intrusões humanas para manter a segurança operacional.
+
+Result:
+ANOMALY   anomaly window ~ 1.60s .. 5.02s

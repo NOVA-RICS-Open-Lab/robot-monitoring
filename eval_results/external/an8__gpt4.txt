@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.75s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Robô operando com objetos amarelos na mesa.
+2. Um objeto preto aparece na mesa.
+3. Uma mão segurando uma garrafa de água entra na área de trabalho.
+4. Garrafa de água colocada na mesa.
+5. Mão novamente na área de trabalho, tocando a garrafa.
+6. Mão e garrafa ausentes, apenas objetos normais na mesa.
+7. Cena permanece inalterada com objetos normais.
+8. Cena permanece inalterada com objetos normais.
+9. Cena permanece inalterada com objetos normais.
+
+ANOMALIA: Nos frames 3 e 5, uma mão humana entra na área de trabalho do robô, o que constitui uma anomalia. A presença de partes do corpo humano na zona de operação do robô é sempre considerada uma violação de segurança, pois pode causar acidentes ou interferir no funcionamento do robô. Além disso, a introdução de uma garrafa de água, que não faz parte do ambiente normal de operação, também é uma anomalia.

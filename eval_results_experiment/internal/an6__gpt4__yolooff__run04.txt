@@ -1,0 +1,37 @@
+Video: an6.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.82s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre a mesa, aparentemente pronto para iniciar uma tarefa.
+2. O robô move-se ligeiramente, mas ainda não interage com os objetos.
+3. Uma mão humana coloca um bloco amarelo na área de trabalho do robô.
+4. O robô está próximo do bloco amarelo recém-colocado.
+5. O robô parece estar a ajustar a sua posição em relação ao bloco.
+6. O robô aproxima-se do bloco, possivelmente para agarrá-lo.
+7. O robô está a segurar o bloco amarelo.
+8. O robô mantém o bloco na garra, sem movimento adicional.
+9. O robô continua a segurar o bloco, sem alterações visíveis.
+
+ANOMALIA: Não há log de estado disponível para verificar a pressão do gripper ou o estado do robô. No entanto, a presença de uma mão humana a interagir com o ambiente do robô pode indicar uma interferência externa não prevista. Além disso, sem dados de pressão do gripper, não é possível confirmar se o bloco foi agarrado corretamente.
+
+STAGE 2  (12 dense frames around src [172], 2.82s)  -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Um braço robótico está próximo de um bloco amarelo.
+2. O braço robótico move-se em direção ao bloco amarelo.
+3. O braço robótico está prestes a tocar no bloco amarelo.
+4. O braço robótico toca no bloco amarelo.
+5. O braço robótico parece estar a agarrar o bloco amarelo.
+6. O braço robótico mantém o bloco amarelo.
+7. O braço robótico ainda segura o bloco amarelo.
+8. O braço robótico continua a segurar o bloco amarelo.
+9. O braço robótico começa a mover-se com o bloco amarelo.
+10. O braço robótico move o bloco amarelo para a direita.
+11. O braço robótico continua a mover o bloco amarelo.
+12. O braço robótico coloca o bloco amarelo na nova posição.
+
+NORMAL: Não há registo de anomalias no log de estado. O braço robótico executa a tarefa de agarrar e mover o bloco amarelo conforme esperado, sem quedas de pressão no gripper ou estados inesperados. A operação parece decorrer sem falhas internas.
+
+Result:
+NORMAL   anomaly window ~ 2.20s .. 3.47s

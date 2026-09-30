@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 38.09s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes on it, with a white and yellow object on the table in front of the microscopes.
+  Frame 2: The image shows a person standing next to a blue table with two microscopes on it, with a white and yellow object on the table in front of the microscopes.
+  Frame 3: The image shows a person using a microscope to examine a yellow and white object on a blue table.
+  Frame 4: The image shows a person using a microscope to examine a slide with a grid of squares, possibly for a science or educational purpose.
+  Frame 5: The image shows a blue table with two microscopes, a plant, and a small red pot, likely taken in a classroom or laboratory setting.
+  Frame 6: The image shows a person's hand holding a plant pot, with a blue table in the background featuring two microscopes and a few yellow and white objects.
+  Frame 7: The image shows a blue table with two microscopes and a white and yellow object on it, with a person's leg visible in the background.
+  Frame 8: The image shows a blue table with two microscopes and a hand holding a piece of paper, likely used for educational purposes.
+  Frame 9: The image shows a blue table with two microscopes and a white and yellow object on it, possibly a science or lab setting.
+
+Resultado:
+ANOMALIA: A pessoa está presente em várias imagens, invadindo a área de trabalho do robô, o que é considerado uma anomalia.

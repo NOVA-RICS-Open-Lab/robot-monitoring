@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.10s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Braços robóticos continuam a operar, sem alterações visíveis.
+3. Braços robóticos ainda em operação, cenário inalterado.
+4. Braços robóticos movem-se sobre a mesa, sem interferências externas.
+5. Braços robóticos continuam a movimentar-se, sem objetos estranhos.
+6. Braços robóticos em movimento, ambiente permanece normal.
+7. Mão humana visível na área de trabalho dos robôs.
+8. Braços robóticos voltam a operar sem presença humana.
+9. Braços robóticos continuam a operar normalmente.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho dos robôs, o que representa uma anomalia de segurança. A presença de qualquer parte do corpo humano na zona de operação do robô é sempre considerada uma anomalia, pois pode causar riscos de segurança e interromper o funcionamento seguro do sistema.
+
+STAGE 2  (12 dense frames around src [517], 3.99s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente sobre a mesa.
+2. Robô continua operando sem interferências.
+3. Robô em movimento, sem objetos estranhos.
+4. Mão humana começa a aparecer no canto inferior esquerdo.
+5. Mão humana se aproxima do robô.
+6. Mão humana toca o robô.
+7. Mão humana ainda em contato com o robô.
+8. Mão humana permanece em contato com o robô.
+9. Mão humana continua tocando o robô.
+10. Mão humana ainda em contato com o robô.
+11. Mão humana permanece em contato com o robô.
+12. Mão humana se afasta do robô.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação das normas de segurança. Em vários frames, a mão toca o robô, o que pode causar riscos de segurança tanto para o operador quanto para o equipamento. A invasão da área de trabalho por parte do corpo humano é sempre considerada uma anomalia, pois compromete a operação segura do robô.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

@@ -1,0 +1,19 @@
+Video: an1.mp4 (external)
+Model: yolo_coco (yolo11n.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> NORMAL
+  src#0     t=  0.00s : toilet(0.59)
+  src#86    t=  1.43s : toilet(0.42)
+  src#172   t=  2.87s : toilet(0.59)
+  src#258   t=  4.30s : (nothing)
+  src#345   t=  5.75s : (nothing)
+  src#431   t=  7.18s : (nothing)
+  src#517   t=  8.62s : (nothing)
+  src#603   t= 10.05s : (nothing)
+  src#690   t= 11.50s : (nothing)
+  basis: no person detected
+
+STAGE 2  : not run (stage 1 not ANOMALY, or no anchor frame)
+
+Result:
+NORMAL

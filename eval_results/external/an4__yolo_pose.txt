@@ -1,0 +1,41 @@
+Video: an4.mp4 (external)
+Model: yolo_pose (yolo11n-pose.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> ANOMALY
+  src#0     t=  0.00s : 1 person(s)
+  src#65    t=  1.08s : 0 person(s)
+  src#131   t=  2.18s : 0 person(s)
+  src#197   t=  3.28s : 0 person(s)
+  src#263   t=  4.38s : 1 person(s); wrists left_wrist(0.42), right_wrist(0.38)
+  src#329   t=  5.48s : 0 person(s)
+  src#395   t=  6.58s : 0 person(s)
+  src#461   t=  7.68s : 0 person(s)
+  src#527   t=  8.78s : 0 person(s)
+  basis: wrist keypoint in 1 frame(s)
+
+STAGE 2  (21 dense frames around src [263])  -> ANOMALY
+  src#223   t=  3.72s : 1 person(s); wrists left_wrist(0.55), right_wrist(0.42)
+  src#227   t=  3.78s : 1 person(s); wrists left_wrist(0.56), right_wrist(0.46)
+  src#231   t=  3.85s : 1 person(s); wrists left_wrist(0.54), right_wrist(0.48)
+  src#235   t=  3.92s : 1 person(s); wrists left_wrist(0.54), right_wrist(0.49)
+  src#239   t=  3.98s : 1 person(s); wrists left_wrist(0.55), right_wrist(0.47)
+  src#243   t=  4.05s : 1 person(s); wrists left_wrist(0.51), right_wrist(0.40)
+  src#247   t=  4.12s : 1 person(s); wrists left_wrist(0.52), right_wrist(0.45)
+  src#251   t=  4.18s : 1 person(s); wrists left_wrist(0.52), right_wrist(0.45)
+  src#255   t=  4.25s : 1 person(s); wrists left_wrist(0.45), right_wrist(0.41)
+  src#259   t=  4.32s : 1 person(s); wrists left_wrist(0.40), right_wrist(0.36)
+  src#263   t=  4.38s : 1 person(s); wrists left_wrist(0.42), right_wrist(0.38)
+  src#267   t=  4.45s : 1 person(s); wrists left_wrist(0.42)
+  src#271   t=  4.52s : 1 person(s); wrists left_wrist(0.41)
+  src#275   t=  4.58s : 1 person(s); wrists left_wrist(0.42)
+  src#279   t=  4.65s : 1 person(s); wrists left_wrist(0.40)
+  src#283   t=  4.72s : 1 person(s); wrists left_wrist(0.40), right_wrist(0.35)
+  src#287   t=  4.78s : 1 person(s); wrists left_wrist(0.40)
+  src#291   t=  4.85s : 1 person(s); wrists left_wrist(0.43), right_wrist(0.37)
+  src#295   t=  4.92s : 1 person(s); wrists left_wrist(0.45), right_wrist(0.39)
+  src#299   t=  4.98s : 1 person(s); wrists left_wrist(0.43), right_wrist(0.36)
+  src#303   t=  5.05s : 1 person(s); wrists left_wrist(0.46), right_wrist(0.39)
+  basis: wrist keypoint in 21 frame(s)
+
+Result:
+ANOMALY   anomaly window ~ 3.72s .. 5.05s

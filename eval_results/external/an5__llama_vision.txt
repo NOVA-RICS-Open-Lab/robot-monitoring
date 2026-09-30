@@ -1,0 +1,22 @@
+Vídeo: an5.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 37.27s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes and a small, square, white and yellow object on it. The purpose of the image is to show the setup of a laboratory or scientific experiment. 
+
+* A blue table:
+	+ The table is rectangular in shape.
+	+ It has a
+  Frame 2: The image shows a blue table with two microscopes and a yellow ball, likely used for a science experiment or demonstration.
+  Frame 3: The image shows a blue table with two microscopes and a white and yellow object on it, likely used for scientific or educational purposes.
+  Frame 4: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 5: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 6: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 7: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 8: The image shows a blue table with two microscopes and a piece of paper with a yellow square on it, likely used for a science experiment or demonstration.
+  Frame 9: The image shows a blue table with two microscopes and two pieces of paper with yellow and white squares on them.
+
+Resultado:
+ANOMALIA: Não há objetos ou pessoas externas na área de trabalho do robô durante a sequência de frames.

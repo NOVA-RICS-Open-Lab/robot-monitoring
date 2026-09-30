@@ -1,0 +1,18 @@
+Vídeo: an2.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.13s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a close-up of a medical device, likely a medical imaging device, with various components and equipment, but no people or hands are visible.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image is blank, with no people, hands, or objects.
+  Frame 6: The image is blank, with no people, hands, or objects.
+  Frame 7: The image shows a yellow block of cheese on a white plate, with a blue background and a white object in the corner.
+  Frame 8: The image shows a yellow object on a white surface, with a blue background and a small white object in the corner.
+  Frame 9: The image shows a yellow piece of paper being pushed through a slot in a blue, metal, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal-looked, metal
+
+Resultado:
+NORMAL: A sequência de frames não apresenta qualquer parte do corpo humano ou objetos estranhos invadindo a área de trabalho do robô, mantendo-se dentro dos critérios de normalidade.

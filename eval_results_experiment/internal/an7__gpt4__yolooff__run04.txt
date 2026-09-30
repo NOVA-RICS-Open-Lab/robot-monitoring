@@ -1,0 +1,37 @@
+Video: an7.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.13s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança aparente na posição dos robôs ou dos blocos.
+4. Os robôs continuam na mesma posição, sem interação com os blocos.
+5. Uma mão humana aparece, movendo um dos blocos amarelos.
+6. A mão humana ainda está presente, ajustando a posição do bloco.
+7. A mão desaparece, e os robôs permanecem inativos.
+8. Os robôs continuam na mesma posição, sem interação com os blocos.
+9. Nenhuma alteração visível na posição dos robôs ou dos blocos.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, mas a presença de uma mão humana interferindo no processo sugere uma possível anomalia. A interação humana não programada pode indicar uma falha no ciclo automatizado do robô, especialmente se o gripper deveria estar ativo. A ausência de dados de pressão do gripper impossibilita verificar se houve uma queda de pressão inesperada.
+
+STAGE 2  (12 dense frames around src [116, 232], 3.38s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança na posição dos robôs ou dos blocos.
+4. Os robôs continuam imóveis, sem interação com os blocos.
+5. A situação permanece inalterada, com os robôs e blocos na mesma posição.
+6. Nenhuma atividade visível dos robôs.
+7. Os robôs ainda não interagem com os blocos.
+8. Uma mão humana aparece, aproximando-se dos blocos.
+9. A mão humana toca um dos blocos, movendo-o ligeiramente.
+10. A mão continua a mover o bloco, afastando-o da posição original.
+11. O bloco é movido ainda mais pela mão humana.
+12. A mão humana continua a interagir com o bloco, sem ação dos robôs.
+
+ANOMALIA: Não há registro de estado do robô no log, o que é incomum. Além disso, os robôs não realizam nenhuma ação durante os frames, enquanto uma mão humana interfere com os blocos. A ausência de atividade dos robôs e a falta de dados no log indicam uma possível falha no sistema de monitorização ou uma interrupção não registrada no ciclo de operação.
+
+Result:
+ANOMALY   anomaly window ~ 1.27s .. 4.33s

@@ -1,0 +1,37 @@
+Video: an2.mp4 (internal)
+Model: gpt4 (gpt-4o)
+Log lines used: 8
+
+STAGE 1  (9 frames, 2.78s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô à esquerda está a segurar um bloco amarelo.
+2. O robô à esquerda continua a segurar o bloco amarelo.
+3. O robô à esquerda ainda está a segurar o bloco amarelo.
+4. O robô à esquerda mantém o bloco amarelo.
+5. Uma mão humana está a interagir com o bloco à esquerda.
+6. A mão humana está a retirar o bloco do robô à esquerda.
+7. O robô à esquerda está sem o bloco amarelo.
+8. O robô à esquerda continua sem o bloco amarelo.
+9. O robô à esquerda permanece sem o bloco amarelo.
+
+ANOMALIA: O log indica que o robô estava em estado "running" até 00:04, mas a pressão do gripper caiu para 0 em 00:05, indicando que o bloco foi largado. Além disso, a presença de uma mão humana a interagir com o bloco sugere uma interferência externa. O estado "idle" com um erro de gripper confirma uma anomalia interna, pois o robô deveria estar a segurar o bloco durante a operação.
+
+STAGE 2  (12 dense frames around src [232, 290], 9.98s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô à esquerda segurando um bloco amarelo.
+2. Mão humana se aproximando do bloco segurado pelo robô.
+3. Mão humana tocando no bloco segurado pelo robô.
+4. Mão humana movendo o bloco para a esquerda.
+5. Mão humana ainda movendo o bloco para a esquerda.
+6. Mão humana continua a mover o bloco.
+7. Mão humana parando de mover o bloco.
+8. Mão humana ainda próxima ao bloco.
+9. Mão humana ainda próxima ao bloco.
+10. Mão humana começando a se afastar do bloco.
+11. Mão humana se afastando do bloco.
+12. Robô à esquerda sem segurar o bloco.
+
+ANOMALIA: O log indica que o robô estava em estado "running" e deveria estar segurando um objeto, mas a pressão do gripper caiu para 0 em 00:05, indicando que o objeto foi largado. Além disso, a presença de uma mão humana interferindo no processo sugere uma possível intervenção externa, mas a queda de pressão do gripper é uma falha interna. O estado "idle" com "last_error": "gripper" confirma a anomalia.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 5.30s

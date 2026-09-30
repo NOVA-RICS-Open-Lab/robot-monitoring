@@ -1,0 +1,12 @@
+Video: an1.mp4 (internal)
+Model: llama_vision (llama3.2-vision)
+Log lines used: 6
+
+STAGE 1  (9 frames, 34.83s)  -> ANOMALY
+ANOMALIA: O log de estado do robô indica que o estado mudou de "running" para "idle" em 00:05, mas não há explicação para essa mudança. Além disso, o campo "gripper" permanece em 0, indicando que a garra não está exercendo pressão, mesmo durante a fase "moving" do ciclo, o que sugere que o objeto foi largado ou nunca foi agarrado. Essas mudanças inesperadas no estado e no comportamento do gripper indicam uma anomalia na execução do robô.
+
+STAGE 2  (12 dense frames around src [345], 45.97s)  -> ANOMALY
+ANOMALIA: O log de estado do robô indica que o estado mudou de "running" para "idle" em 00:05, mas não há explicação para essa mudança. Além disso, a pressão do gripper permanece em 0 durante a fase em que deveria estar a segurar um objeto, indicando que o objeto foi largado ou nunca foi agarrado. Essas mudanças inesperadas no estado e na pressão do gripper sugerem que houve uma anomalia na execução do robô.
+
+Result:
+ANOMALY   anomaly window ~ 5.08s .. 6.35s

@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.25s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow blocks on a blue table with a white sign reading "no smoking" nearby.
+  Frame 2: urns of water on a blue table with a white plate and yellow block, accompanied by a gray robot arm.
+  Frame 3: urns of water on a blue table with yellow and white labels, accompanied by a person's hand reaching out to touch the object.
+  Frame 4: urns of water on a blue table with a white label and yellow block, accompanied by a person's hand reaching out to touch the object.
+  Frame 5: urns of water on a blue table with a white plate and yellow block, accompanied by a gray robot arm.
+  Frame 6: urns of water on a blue table with a white sign and yellow block nearby.
+  Frame 7: urns of yellow and blue sit on a blue tablecloth, with a white plate holding a yellow object nearby.
+  Frame 8: urns of water on a blue table with a white sign reading "water" and "no water".
+  Frame 9: urns of a blue table with yellow handles and a gray robot arm on the right side.
+
+Resultado:
+ANOMALIA: urns of water and yellow blocks on a blue table with a white sign reading "no smoking" nearby.

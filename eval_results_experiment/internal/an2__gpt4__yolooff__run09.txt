@@ -1,0 +1,37 @@
+Video: an2.mp4 (internal)
+Model: gpt4 (gpt-4o)
+Log lines used: 8
+
+STAGE 1  (9 frames, 2.80s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô à esquerda está a segurar um bloco amarelo.
+2. O robô à esquerda continua a segurar o bloco amarelo.
+3. O robô à esquerda ainda segura o bloco amarelo.
+4. O robô à esquerda mantém o bloco amarelo seguro.
+5. Uma mão humana interfere, tocando no bloco amarelo.
+6. A mão humana está a mover o bloco amarelo.
+7. O robô à esquerda já não segura o bloco amarelo.
+8. O robô à esquerda permanece sem segurar o bloco.
+9. O robô à esquerda continua sem segurar o bloco.
+
+ANOMALIA: O log indica que o robô estava em estado "running" até 00:04, mas a pressão da garra caiu para 0 em 00:05, indicando que o bloco foi largado. A presença de uma mão humana nos frames 5 e 6 sugere interferência externa, mas o log mostra um erro de garra. A queda repentina da pressão da garra sem uma transição normal de fase ou estado sugere uma falha interna no sistema de preensão do robô.
+
+STAGE 2  (12 dense frames around src [232], 3.71s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Uma mão humana aproxima-se do bloco à esquerda.
+4. A mão humana toca no bloco à esquerda.
+5. A mão humana começa a mover o bloco à esquerda.
+6. O bloco à esquerda está a ser levantado pela mão humana.
+7. A mão humana continua a mover o bloco à esquerda.
+8. O bloco à esquerda está a ser reposicionado pela mão humana.
+9. A mão humana ainda está em contato com o bloco à esquerda.
+10. O bloco à esquerda está quase na posição final.
+11. A mão humana está a soltar o bloco à esquerda.
+12. A mão humana afasta-se do bloco à esquerda.
+
+ANOMALIA: O log indica que o robô estava em estado "running" até 00:04, mas em 00:05 o estado muda para "idle" com um erro de gripper. Nos frames, observa-se uma intervenção humana movendo o bloco, o que não deveria ocorrer durante a operação normal do robô. A pressão do gripper caiu para 0, indicando que o robô não estava a segurar o objeto quando deveria. Isso, combinado com o erro de gripper no log, confirma uma anomalia na execução do robô.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 4.47s

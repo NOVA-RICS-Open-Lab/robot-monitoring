@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.25s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Fundo azul sem objetos visíveis.
+2. Fundo azul sem objetos visíveis.
+3. Fundo azul sem objetos visíveis.
+4. Parte de um objeto ou corpo humano aparece no canto superior.
+5. Objeto ou corpo humano mais visível, parece ser uma mão.
+6. Objeto ou corpo humano ainda visível, parece estar se movendo.
+7. Fundo azul sem objetos visíveis.
+8. Fundo azul sem objetos visíveis.
+9. Fundo azul sem objetos visíveis.
+
+ANOMALIA: Nos frames 4, 5 e 6, é visível a presença de um objeto ou parte do corpo humano, possivelmente uma mão, dentro da área de trabalho do robô. Isso representa uma invasão da zona de segurança, o que é uma anomalia grave. A presença humana em áreas de operação de robôs industriais pode causar acidentes e comprometer a segurança do sistema.

@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.93s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com peças amarelas.
+2. Uma mão humana entra na área de trabalho segurando um objeto branco.
+3. A mão humana coloca o objeto branco na mesa.
+4. A mão humana está se afastando da área de trabalho.
+5. A área de trabalho está sem presença humana, apenas o objeto branco e peças amarelas.
+6. A área de trabalho permanece sem presença humana.
+7. A área de trabalho continua sem presença humana.
+8. A área de trabalho ainda está sem presença humana.
+9. A área de trabalho permanece sem presença humana.
+
+ANOMALIA: A presença de uma mão humana no segundo e terceiro frames constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é sempre considerada uma anomalia. A introdução de um objeto branco que não faz parte do ambiente normal do robô também é uma anomalia. Isso representa um risco de segurança e pode interferir na operação do robô.

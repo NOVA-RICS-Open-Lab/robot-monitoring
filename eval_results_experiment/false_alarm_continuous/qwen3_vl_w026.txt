@@ -1,0 +1,18 @@
+model: qwen3_vl   window 26   375-390 s   idx=[9000, 9044, 9089, 9134, 9179, 9224, 9269, 9314, 9359]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posicionado sobre placa branca com quatro blocos amarelos, sem elementos externos visíveis.  
+2. Robô ajustando posição, blocos amarelos mantidos na placa, sem alterações anômalas.  
+3. Robô movendo-se para a placa, com blocos amarelos em posição original, ambiente estável.  
+4. Robô próximo à placa, sem presença de mãos ou objetos estranhos.  
+5. Robô em movimento, blocos amarelos permanecem na placa, operação contínua.  
+6. Robô posicionado sobre placa, com marcação circular no fundo, sem interferências.  
+7. Robô ajustando posição, blocos amarelos em localização normal, ambiente seguro.  
+8. Robô movendo-se para a placa, sem elementos externos na área de trabalho.  
+9. Robô interagindo com blocos amarelos, movimento consistente com operação programada.  
+
+NORMAL: Nenhum elemento humano ou objeto estranho foi observado em nenhum frame. O robô manipula os blocos amarelos conforme operação normal, e todos os elementos visíveis (placas, blocos, marcações circulares) são parte do ambiente projetado para a tarefa de soldagem. A ausência de mãos, braços ou objetos não relacionados confirma a segurança do workspace.
+
+STAGE 2: not run
+
+FINAL: NORMAL

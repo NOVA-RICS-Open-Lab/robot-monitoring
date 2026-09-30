@@ -1,0 +1,8 @@
+model: llama_vision   window 22   315-330 s   idx=[7560, 7604, 7649, 7694, 7739, 7784, 7829, 7874, 7919]
+
+STAGE 1 (9 frames) -> NORMAL
+NORMAL: A sequência de frames não apresenta nenhuma parte do corpo humano ou objetos estranhos na área de trabalho do robô, mantendo-se dentro do contexto normal da operação de solda com o braço robótico. Os blocos amarelos são manipulados pelo robô, e não há mudanças anormais na posição dos objetos entre os frames. O ambiente e os objetos presentes são consistentes com a operação normal do robô, sem evidências de anomalias ou invasões externas.
+
+STAGE 2: not run
+
+FINAL: NORMAL

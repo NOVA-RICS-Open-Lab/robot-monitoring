@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.00s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white squares for testing.
+  Frame 2: urns of water and yellow cubes on a blue table with two gray robots nearby.
+  Frame 3: urns of water and a blue table with white squares for a game board are present on the floor.
+  Frame 4: urns of water and a green plant sit on a blue table, with two gray robots in the background.
+  Frame 5: urn of dirt and a plant on a blue table with white squares, accompanied by two gray robots.
+  Frame 6: urn of soil with a plant on a blue tablecloth and two gray robots with white heads and black eyes.
+  Frame 7: urns of water and yellow cubes on a blue table with white text.
+  Frame 8: urns of water and yellow cubes on a blue table with white squares, accompanied by a person's hand holding a black object.
+  Frame 9: urns of yellow and white cubes rest on a blue table with two gray robots nearby.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white squares for testing.

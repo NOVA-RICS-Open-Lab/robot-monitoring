@@ -1,0 +1,19 @@
+Video: an5.mp4 (internal)
+Model: yolo_coco (yolo11n.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> NORMAL
+  src#0     t=  0.00s : (nothing)
+  src#37    t=  0.62s : (nothing)
+  src#74    t=  1.23s : (nothing)
+  src#112   t=  1.87s : (nothing)
+  src#149   t=  2.48s : (nothing)
+  src#186   t=  3.10s : dining table(0.43)
+  src#224   t=  3.73s : dining table(0.54), cup(0.43)
+  src#261   t=  4.35s : dining table(0.50), cup(0.38)
+  src#299   t=  4.98s : dining table(0.50), cup(0.39)
+  basis: no person detected (foreign seen, not counted: cup)
+
+STAGE 2  : not run (stage 1 not ANOMALY, or no anchor frame)
+
+Result:
+NORMAL

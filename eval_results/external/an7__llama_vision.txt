@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 37.79s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 2: The image shows a person's hand holding a white object, possibly a tool or device, in front of a blue table with two microscopes and a white and yellow object on it.
+  Frame 3: The image shows a person's hand on a blue table with two microscopes and a mouse, suggesting a scientific or educational setting.
+  Frame 4: The image shows a blue table with two microscopes, a mouse, and a white and yellow object on it.
+  Frame 5: The image shows a blue table with two microscopes, a mouse, and a keyboard, likely used for scientific or educational purposes.
+  Frame 6: The image shows a blue table with two microscopes, a mouse, and a white and yellow object on it.
+  Frame 7: The image shows a blue table with two microscopes, a mouse, and a white and yellow object on it, likely used for scientific or educational purposes.
+  Frame 8: The image shows a blue table with two microscopes, a mouse, and a white and yellow object on it.
+  Frame 9: The image shows a blue table with two microscopes, a mouse, and a white and yellow object on it.
+
+Resultado:
+ANOMALIA: A mão de uma pessoa está presente em várias imagens, invadindo a área de trabalho do robô.

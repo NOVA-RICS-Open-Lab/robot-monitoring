@@ -1,0 +1,18 @@
+Vídeo: an5.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.78s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com blocos amarelos.
+2. Uma bola amarela aparece em movimento sobre a mesa.
+3. A bola amarela está parada no canto superior esquerdo da mesa.
+4. A mesa com os blocos amarelos e a bola no canto.
+5. A mesa permanece inalterada com a bola no canto.
+6. A mesa continua igual, sem alterações.
+7. A mesa ainda com a bola no canto.
+8. Nenhuma mudança visível na mesa.
+9. A mesa permanece com a bola no canto.
+
+ANOMALIA: A presença de uma bola amarela que não faz parte do ambiente normal do robô constitui uma anomalia. Este objeto estranho pode interferir com a operação do robô, representando um risco potencial para a segurança e a eficiência do processo. É necessário investigar como a bola entrou na área de trabalho e removê-la para evitar problemas futuros.

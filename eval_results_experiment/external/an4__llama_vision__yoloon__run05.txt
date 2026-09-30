@@ -1,0 +1,18 @@
+Vídeo: an4.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 32.00s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is blank, with no people, hands, or objects.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is empty, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image is blank, with no people, hands, or objects.
+  Frame 6: The image is blank, with no people, hands, or objects.
+  Frame 7: There is no description for this image as it is blank.
+  Frame 8: The image is blank, with no people, hands, or objects.
+  Frame 9: The image is blank, with no people, hands, or objects.
+
+Resultado:
+NORMAL: A sequência de frames não apresenta nenhuma anomalia, pois todas as imagens são vazias, sem pessoas, mãos ou objetos, o que indica que a área de trabalho do robô está livre de obstáculos externos.

@@ -1,0 +1,23 @@
+model: qwen3_vl   run 5   seed 80060
+STAGE 1: 15 frames  idx=[1248, 2591, 2945, 3621, 3937, 4421, 4708, 4818, 5791, 8323, 9249, 11655, 12601, 14051, 14149]
+1. Robô manipulando blocos amarelos em placa branca, sem presença humana.  
+2. Robô posicionando blocos em placa branca, ambiente interno sem interferências.  
+3. Robô movendo blocos entre placas, sem objetos externos visíveis.  
+4. Robô ajustando posição, com blocos e equipamentos integrados.  
+5. Robô operando com blocos, sem elementos estranhos na área.  
+6. Robô transferindo blocos, ambiente controlado sem invasões.  
+7. Robô posicionando blocos, sem presença humana ou objetos anômalos.  
+8. Robô manipulando blocos, com circuitos e cabos normais.  
+9. Robô movendo blocos, sem interferências externas.  
+10. Robô ajustando blocos, ambiente seguro sem anomalias.  
+11. Robô posicionando blocos, sem elementos estranhos.  
+12. Robô operando com blocos, sem presença humana.  
+13. Robô movendo blocos, ambiente interno controlado.  
+14. Robô ajustando blocos, sem objetos externos.  
+15. Robô finalizando operação, com elementos normais.  
+
+NORMAL: Não há presença de partes humanas ou objetos externos em nenhum frame. Todos os elementos visíveis, como blocos amarelos, placa branca e equipamentos do robô, são parte integrante da operação de carga da estação. O ambiente mantém-se seguro, com o robô executando tarefas dentro dos parâmetros definidos, sem violação de segurança ou anomalias detectadas.
+
+STAGE 2: not run
+
+FINAL: NORMAL

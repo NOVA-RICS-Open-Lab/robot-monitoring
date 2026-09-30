@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.88s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Braços robóticos continuam a operação, sem alterações visíveis.
+3. Braços robóticos ainda em operação, cenário inalterado.
+4. Braços robóticos movem-se sobre a mesa, sem interferências externas.
+5. Braços robóticos continuam a movimentação, área de trabalho limpa.
+6. Braços robóticos em operação, sem objetos estranhos.
+7. Mão humana visível na área de trabalho, interagindo com o robô.
+8. Mão humana não está mais visível, braços robóticos continuam.
+9. Braços robóticos operando normalmente, sem presença humana.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho do robô, o que constitui uma anomalia. A presença de qualquer parte do corpo humano na zona de operação do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. É crucial garantir que a área de trabalho esteja livre de interferências humanas para evitar acidentes.
+
+STAGE 2  (12 dense frames around src [517], 3.31s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente sobre a mesa.
+2. Robô continua operação sem interferências.
+3. Robô em movimento, sem objetos estranhos.
+4. Mão humana começa a aparecer no canto inferior esquerdo.
+5. Mão humana se aproxima do robô.
+6. Mão humana toca o robô.
+7. Mão humana ainda em contato com o robô.
+8. Mão humana permanece na área de trabalho.
+9. Mão humana continua em contato com o robô.
+10. Mão humana ainda visível e próxima ao robô.
+11. Mão humana permanece na área de trabalho.
+12. Mão humana se afasta, mas ainda visível.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação das normas de segurança. Em vários frames, a mão toca o robô, o que pode causar riscos de segurança tanto para o operador quanto para o equipamento. A invasão da área de trabalho por parte do corpo humano é sempre considerada uma anomalia, pois compromete a segurança operacional.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

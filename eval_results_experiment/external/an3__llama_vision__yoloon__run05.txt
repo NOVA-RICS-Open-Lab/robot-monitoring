@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.20s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a yellow piece of paper being pushed into a white slot on a blue table, but there are no people or hands in the shot.
+  Frame 2: The image shows a yellow piece of paper being held by a person's hand, with the paper's edges and the person's fingers visible.
+  Frame 3: The image shows a person's hand holding a yellow block on a white board, with a blue background.
+  Frame 4: The image shows a yellow piece of paper being held by a person's hand, with the paper's edges and the person's fingers visible.
+  Frame 5: The image shows a yellow piece of paper on a blue table, with a white object (possibly a pen or a piece of paper) on top of it.
+  Frame 6: The image shows a hand holding a white object with a yellow square on it, but it is too blurry to make out any other details.
+  Frame 7: The image shows a yellow piece of paper being held by a person's hand, with the paper's edge being held by the person's fingers.
+  Frame 8: The image shows a yellow sticky note on a white piece of paper on a blue table, with a white pen or pen holder in the corner.
+  Frame 9: The image shows a yellow piece of paper being held by a person's hand, with the paper's edge being held by the person's fingers.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a mão humana está presente em várias imagens, com a mão segurando papel amarelo em frames 2, 4, 7 e 9, indicando que uma pessoa invadiu a área de trabalho do robô, o que é considerado uma anomalia. Além disso, a presença de um objeto branco (possivelmente um lápis ou papel) em cima do papel amarelo no frame 5 também sugere que há objetos estranhos na área de trabalho do robô.

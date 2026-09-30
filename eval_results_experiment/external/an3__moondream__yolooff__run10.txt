@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.07s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow blocks on a blue tablecloth with white lines.
+  Frame 2: urns of water on a blue table with a white plate and yellow block, accompanied by a person's hand holding a yellow object.
+  Frame 3: urns of water sit on a blue tablecloth, with a person's hand reaching out to touch the leftmost object.
+  Frame 4: urns of water on a blue table with a white label and yellow block, accompanied by a person's hand reaching out to touch the object.
+  Frame 5: urns of water sit on a blue tablecloth, with a white and yellow block on the right side.
+  Frame 6: urns of water on a blue table with a white sign and yellow block nearby.
+  Frame 7: urns of yellow and blue sit on a blue tablecloth, with a white plate holding a yellow object nearby.
+  Frame 8: urns of water on a blue table with a white sign reading "water" and "no water".
+  Frame 9: urns of a blue table with two gray robotic arms and yellow buttons on the left side.
+
+Resultado:
+ANOMALIA: urns of water and yellow blocks on a blue tablecloth with white lines.

@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.07s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Braços robóticos continuam a operar, sem alterações visíveis.
+3. Braços robóticos ainda em operação, cenário inalterado.
+4. Braços robóticos movem-se sobre a mesa, sem interferências externas.
+5. Braços robóticos continuam a mover-se, sem objetos estranhos.
+6. Braços robóticos em movimento, ambiente permanece normal.
+7. Mão humana visível na área de trabalho dos robôs.
+8. Braços robóticos voltam a operar sem presença humana.
+9. Braços robóticos continuam a operar, área de trabalho limpa.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho dos robôs, o que representa uma violação clara dos critérios de segurança. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia, pois pode causar riscos de segurança e interromper o funcionamento normal do sistema.
+
+STAGE 2  (12 dense frames around src [517], 3.06s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente sem interferências.
+2. O robô continua a operar sem alterações visíveis.
+3. O robô mantém sua operação normal.
+4. Uma mão humana começa a aparecer no canto inferior esquerdo.
+5. A mão humana está mais próxima do robô.
+6. A mão toca o robô, interferindo na operação.
+7. A mão ainda está em contato com o robô.
+8. A mão permanece em contato com o robô.
+9. A mão continua a tocar o robô.
+10. A mão ainda está presente na área de trabalho do robô.
+11. A mão permanece em contato com o robô.
+12. A mão começa a se afastar, mas ainda está visível.
+
+ANOMALIA: Uma mão humana entrou na área de trabalho do robô e entrou em contato direto com ele. Isso representa uma violação clara dos critérios de segurança, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma anomalia. A presença da mão pode causar riscos de segurança e interromper a operação normal do robô.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

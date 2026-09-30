@@ -1,0 +1,37 @@
+Video: an9.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.72s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô e mesa com garrafa de plástico e blocos amarelos.
+2. Robô e mesa com garrafa de plástico e blocos amarelos.
+3. Robô movendo garrafa de plástico sobre a mesa.
+4. Robô movendo garrafa de plástico sobre a mesa.
+5. Robô movendo garrafa de plástico sobre a mesa.
+6. Robô movendo garrafa de plástico sobre a mesa.
+7. Robô e mesa com garrafa de plástico e blocos amarelos.
+8. Robô e mesa com garrafa de plástico e blocos amarelos.
+9. Robô e mesa com garrafa de plástico e blocos amarelos.
+
+ANOMALIA: A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia. Este objeto não faz parte do ambiente normal de operação do robô, que deveria estar focado em tarefas de soldagem e manuseio de componentes específicos. A garrafa pode interferir nas operações do robô, causando possíveis falhas ou danos.
+
+STAGE 2  (12 dense frames around src [0, 74], 2.92s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos e uma garrafa de plástico na mesa.
+2. Dois braços robóticos e uma garrafa de plástico na mesa.
+3. Dois braços robóticos e uma garrafa de plástico na mesa.
+4. Dois braços robóticos e uma garrafa de plástico na mesa.
+5. Dois braços robóticos e uma garrafa de plástico na mesa.
+6. Dois braços robóticos e uma garrafa de plástico na mesa.
+7. Dois braços robóticos e uma garrafa de plástico na mesa.
+8. Dois braços robóticos e uma garrafa de plástico na mesa.
+9. Dois braços robóticos e uma garrafa de plástico na mesa.
+10. Dois braços robóticos e uma garrafa de plástico na mesa.
+11. Dois braços robóticos e uma garrafa de plástico na mesa.
+12. Dois braços robóticos e uma garrafa de plástico na mesa.
+
+ANOMALIA: A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia. Este objeto não faz parte do ambiente operacional normal do robô e pode interferir nas suas funções. A garrafa pode representar um risco de segurança, pois não está prevista no contexto de operação do robô e pode causar falhas ou acidentes.
+
+Result:
+ANOMALY   anomaly window ~ 0.00s .. 1.77s

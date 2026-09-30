@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.45s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente sem interferências.
+2. Mão humana se aproximando do robô.
+3. Mão humana mais próxima do robô.
+4. Mão humana tocando o robô.
+5. Mão humana ainda em contato com o robô.
+6. Mão humana interagindo com o robô.
+7. Mão humana tocando a base do robô.
+8. Mão humana se afastando do robô.
+9. Robô operando novamente sem interferências.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vários frames, a mão entra em contato direto com o robô, o que representa um risco de segurança significativo. Qualquer parte do corpo humano na área de trabalho do robô deve ser considerada uma anomalia, pois pode causar acidentes ou interferir na operação segura do robô.

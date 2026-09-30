@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.58s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white text reading "30%".
+  Frame 2: urns of water and a black wallet rest on a blue tablecloth with white squares, accompanied by two gray robots.
+  Frame 3: urn of water, white mouse, black wallet, blue and white blocks on a blue tablecloth with a green sign reading "30%".
+  Frame 4: urns of water and a black wallet rest on a blue tablecloth-covered table, with two white cubes and a gray robot arm nearby.
+  Frame 5: urn of water and blocks on a blue table with white text, accompanied by a person's hand holding the water bottle.
+  Frame 6: urn of water and a blue table with white squares for a game board are present on the floor.
+  Frame 7: urn of water and a blue table with white squares for a game are present on the floor.
+  Frame 8: urn of water and a blue table with white squares for blocks are present on the floor.
+  Frame 9: urns of water and yellow cubes on a blue table with white text, accompanied by a robot arm and a green plant.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white text reading "30%"

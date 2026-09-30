@@ -1,0 +1,18 @@
+model: qwen3_vl   window 39   570-585 s   idx=[13680, 13724, 13769, 13814, 13859, 13904, 13949, 13994, 14039]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posicionando blocos amarelos sobre placa branca em superfície azul  
+2. Robô ajustando posição com ferramenta azul sobre placa azul  
+3. Robô movendo blocos amarelos para placa branca com divisões  
+4. Robô segurando bloco amarelo com ferramenta azul próximo à placa branca  
+5. Robô posicionando bloco amarelo sobre placa branca com divisões  
+6. Robô movendo bloco amarelo para placa branca com divisões  
+7. Robô ajustando posição com ferramenta azul sobre placa azul  
+8. Robô posicionando blocos amarelos sobre placa branca com divisões  
+9. Robô movendo blocos amarelos para placa branca com divisões  
+
+NORMAL: Em todos os frames, apenas o robô e seus componentes operacionais (blocos amarelos, placa branca, ferramenta azul) são visíveis, sem presença humana ou objetos estranhos. A movimentação dos blocos amarelos é parte da operação normal do robô, conforme descrito no contexto. Nenhuma anomalia foi observada, já que todos os elementos estão alinhados com a descrição da operação do Kuka Robot.
+
+STAGE 2: not run
+
+FINAL: NORMAL

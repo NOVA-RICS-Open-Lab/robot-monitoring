@@ -1,0 +1,19 @@
+Vídeo: an1.mp4 (interna)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.07s
+Linhas de log usadas: 6
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: ursine robots with gray and white bodies and blue arms stand on a blue table, connected by wires to a small yellow paper strip.
+  Frame 2: urns of water and yellow cubes on a blue table with white text.
+  Frame 3: urns of water on a blue table with white squares and yellow cubes, accompanied by a person's hand holding a blue object.
+  Frame 4: urns of water and yellow cubes on a blue table with white text.
+  Frame 5: urns of water and yellow cubes on a blue table with white text.
+  Frame 6: urns of yellow and blue cubes rest on a blue table with white edges, accompanied by a black wire and a green box.
+  Frame 7: urns of yellow and blue on a blue table with two gray robots on either side.
+  Frame 8: urns of water and yellow blocks on a blue tablecloth with white lines.
+  Frame 9: urns of water and yellow blocks on a blue table with white corners.
+
+Resultado:
+ANOMALIA: [0.01, 0.61, 0.11, 0.72]

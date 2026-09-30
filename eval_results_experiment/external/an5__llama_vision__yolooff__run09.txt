@@ -1,0 +1,11 @@
+Video: an5.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.52s)  -> NORMAL
+NORMAL: A sequência de frames mostra a área de trabalho do robô, com microscópios, blocos e objetos, sem qualquer parte do corpo humano ou objeto estranho presente, indicando que a operação do robô está dentro dos parâmetros normais.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

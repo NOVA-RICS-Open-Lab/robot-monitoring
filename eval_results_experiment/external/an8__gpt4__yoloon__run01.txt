@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.17s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Fundo azul sem objetos visíveis.
+2. Objeto escuro aparece parcialmente.
+3. Objeto escuro continua visível.
+4. Objeto escuro permanece na mesma posição.
+5. Parte de um objeto claro aparece à esquerda.
+6. Objeto claro com detalhes visíveis à esquerda.
+7. Objeto claro permanece à esquerda.
+8. Objeto claro ainda visível à esquerda.
+9. Objeto claro continua à esquerda.
+
+ANOMALIA: Nos frames 5 a 9, um objeto claro aparece e permanece na área de trabalho do robô. Este objeto não parece ser parte do robô ou dos materiais que ele manuseia, indicando uma possível invasão da área de trabalho. A presença de um objeto não identificado pode representar um risco para a operação segura do robô.

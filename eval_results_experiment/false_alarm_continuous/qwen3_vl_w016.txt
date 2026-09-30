@@ -1,0 +1,19 @@
+model: qwen3_vl   window 16   225-240 s   idx=[5400, 5444, 5489, 5534, 5579, 5624, 5669, 5714, 5759]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô com braço azul posicionado sobre blocos amarelos em placa branca, sem elementos externos.
+2. Configuração idêntica ao frame 1, com robô operando normalmente.
+3. Posição do robô mantém-se, sem alterações visíveis de objetos estranhos.
+4. Robô ajusta posição, mantendo blocos amarelos na área de trabalho.
+5. Movimento do braço do robô sobre os blocos, sem intervenção externa.
+6. Robô manipula blocos amarelos como parte da operação programada.
+7. Área de trabalho permanece livre de elementos humanos ou estranhos.
+8. Configuração estável, com robô focado na tarefa de posicionamento.
+9. Bloco amarelo é ajustado pelo robô, dentro do contexto operacional.
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos (como garrafas, bolas) em nenhum frame. Os blocos amarelos são parte integrante da operação do robô, conforme descrito no contexto (manuseio de peças na estação de montagem). Todas as ações observadas são consistentes com a atividade normal do robô, sem violação de segurança ou intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

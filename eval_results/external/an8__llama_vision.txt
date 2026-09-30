@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 38.22s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes, a computer mouse, and a white and yellow object on it.
+  Frame 2: The image shows a blue table with two microscopes, a mouse, and a keyboard, likely used for scientific or educational purposes.
+  Frame 3: The image shows a blue table with two microscopes, a hand holding a water bottle, and a mousepad with a mouse on it.
+  Frame 4: The image shows a blue table with two microscopes, a water bottle, and a small black bag on it, with a poster in the background.
+  Frame 5: The image shows a person's hand holding a water bottle next to a blue table with two microscopes and a white and yellow object on it.
+  Frame 6: The image shows a blue table with two microscopes, a water bottle, and a paper with a yellow square on it.
+  Frame 7: The image shows a blue table with two microscopes, a water bottle, and a paper with a yellow square on it.
+  Frame 8: The image shows a blue table with two microscopes, a water bottle, and a piece of paper with a yellow square on it.
+  Frame 9: The image shows a blue table with two microscopes, a water bottle, and a paper with a yellow square on it.
+
+Resultado:
+ANOMALIA: Uma mão segurando um copo de água está presente na área de trabalho do robô em várias imagens, indicando uma anomalia.

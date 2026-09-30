@@ -1,0 +1,18 @@
+model: qwen3_vl   window 6   75-90 s   idx=[1800, 1844, 1889, 1934, 1979, 2024, 2069, 2114, 2159]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô com braços mecânicos posicionados sobre plataforma azul, sem elementos externos visíveis.  
+2. Braço robô manipulando bloco amarelo próximo a folha branca, sem presença humana.  
+3. Robô posicionando bloco amarelo sobre folha branca, com outro braço estático.  
+4. Braço ajustando bloco amarelo na folha, sem interferência externa.  
+5. Robô continuando operação com blocos amarelos em posição, ambiente controlado.  
+6. Braço movendo-se para nova posição, mantendo operação normal.  
+7. Robô interagindo com blocos amarelos, sem elementos estranhos.  
+8. Braço posicionado sobre folha com blocos, sem alterações anômalas.  
+9. Configuração final com robôs e blocos em operação contínua.  
+
+NORMAL: A sequência mostra apenas o robô manipulando blocos amarelos como parte da operação programada, sem presença de mãos, braços humanos ou objetos estranhos. Todos os elementos observados (robôs, blocos, plataforma) são parte do sistema industrial descrito, e as mudanças de posição dos blocos são consistentes com a descrição da operação normal do Kuka Robot. Nenhuma anomalia foi identificada em relação aos critérios estabelecidos.
+
+STAGE 2: not run
+
+FINAL: NORMAL

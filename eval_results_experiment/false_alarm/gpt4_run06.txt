@@ -1,0 +1,25 @@
+model: gpt4   run 6   seed 38157
+STAGE 1: 16 frames  idx=[374, 666, 2453, 2867, 4068, 4356, 5950, 7173, 7643, 9955, 10817, 11287, 11407, 11468, 12502, 12914]
+DESCRIÇÃO POR FRAME:
+1. Robô movendo peças amarelas em uma mesa.
+2. Robô ajustando posição das peças amarelas.
+3. Robô reposicionando peças na mesa.
+4. Robô continua a movimentação das peças.
+5. Robô ajusta peças em posição alinhada.
+6. Robô movendo peças para nova posição.
+7. Robô reposiciona braço para pegar peças.
+8. Robô pega peças de uma nova posição.
+9. Robô continua a movimentação das peças.
+10. Robô ajusta peças em nova posição.
+11. Robô movendo última peça para posição final.
+12. Robô ajusta peças na mesa.
+13. Robô continua a movimentação das peças.
+14. Robô reposiciona peças na mesa.
+15. Robô ajusta posição das peças.
+16. Robô finaliza movimentação das peças.
+
+NORMAL: Em todos os frames, o robô está operando dentro do seu ambiente normal, manipulando peças que fazem parte do processo de trabalho. Não há presença de objetos estranhos ou partes do corpo humano na área de trabalho do robô. A operação segue conforme esperado, sem anomalias detectadas.
+
+STAGE 2: not run
+
+FINAL: NORMAL

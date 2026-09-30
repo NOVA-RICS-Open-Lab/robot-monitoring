@@ -1,0 +1,11 @@
+Video: an8.mp4 (internal)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.98s)  -> NORMAL
+NORMAL: O log de estado do robô não indica qualquer anomalia, com transições normais entre as fases e pressão do gripper consistente com a tarefa de segurar objetos. As descrições dos frames também não mostram qualquer comportamento anormal, com o robô a realizar as tarefas de forma consistente e sem erros. Portanto, não há evidências de anomalia na execução do robô.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

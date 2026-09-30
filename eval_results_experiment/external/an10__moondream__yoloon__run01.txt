@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.11s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: ?".
+  Frame 2: ?".
+  Frame 3: !!!IMPORTANT!!! A person's hand is visible on the right side of a gray and blue striped banner with a white border.
+  Frame 4: !!!IMPORTANT!!! A gray and blue striped banner stretches across the frame from left to right.
+  Frame 5: iced tea with a yellow lemon wedge on the side of a white tray against a blue background.
+  Frame 6: urn of yellow liquid sits on a blue surface, accompanied by white cubes and a black object.
+  Frame 7: urn of yellow and white cubes on a blue surface
+  Frame 8: urn of yellow cheese cubes on a white tray with six squares and two cubes.
+  Frame 9: urn of yellow liquid sits on a blue surface, accompanied by two white cubes and a black object.
+
+Resultado:
+!!!IMPORTANT!!! A person's hand is visible on the right side of a gray and blue striped banner with a white border.

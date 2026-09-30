@@ -1,0 +1,11 @@
+Video: an9.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.91s)  -> NORMAL
+NORMAL: A sequência de imagens mostra a área de trabalho do robô Kuka Robot, que opera em uma estação de carga, realizando tarefas de solda com um pistola de solda. Durante a sequência, não há presença de partes do corpo humano ou objetos estranhos na área de trabalho. As imagens mostram a presença de microscópios, uma garrafa de água, papel com desenhos e blocos de cor, que são todos objetos normais e pertencentes ao ambiente de trabalho do robô. Portanto, a sequência é considerada normal.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

@@ -1,0 +1,25 @@
+model: gpt4   run 5   seed 38156
+STAGE 1: 16 frames  idx=[738, 953, 1334, 1651, 2242, 3147, 5108, 5847, 5853, 5894, 7138, 9263, 10365, 12542, 12972, 13563]
+DESCRIÇÃO POR FRAME:
+1. Robô operando com blocos amarelos sobre a mesa.
+2. Robô movendo-se, sem objetos ou pessoas externas visíveis.
+3. Robô ajustando posição sobre os blocos amarelos.
+4. Robô em operação normal, sem intrusões.
+5. Robô movendo blocos, área de trabalho limpa.
+6. Robô continua a manipular blocos, sem anomalias.
+7. Robô reposicionando blocos, sem interferências externas.
+8. Robô organizando blocos, operação normal.
+9. Robô ainda manipulando blocos, sem objetos estranhos.
+10. Robô ajustando blocos, área de trabalho segura.
+11. Robô movendo-se sobre a mesa, sem intrusões.
+12. Robô operando normalmente, sem presença externa.
+13. Robô reposicionando blocos, sem anomalias.
+14. Robô movendo-se, área de trabalho limpa.
+15. Robô ajustando blocos, sem interferências.
+16. Robô em operação normal, sem objetos ou pessoas externas.
+
+NORMAL: A sequência de frames mostra o robô operando dentro de seu ambiente normal, manipulando blocos amarelos sobre a mesa. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho do robô. Todas as operações observadas são consistentes com o funcionamento esperado do robô, sem sinais de anomalias ou intrusões externas.
+
+STAGE 2: not run
+
+FINAL: NORMAL

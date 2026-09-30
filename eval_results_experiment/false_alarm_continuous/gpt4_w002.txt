@@ -1,0 +1,19 @@
+model: gpt4   window 2   15-30 s   idx=[360, 404, 449, 494, 539, 584, 629, 674, 719]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Robô com blocos amarelos na mesa, sem alterações visíveis.
+2. Robô com blocos amarelos na mesa, sem alterações visíveis.
+3. Robô com blocos amarelos na mesa, sem alterações visíveis.
+4. Robô com blocos amarelos na mesa, sem alterações visíveis.
+5. Robô com blocos amarelos na mesa, sem alterações visíveis.
+6. Robô com blocos amarelos na mesa, sem alterações visíveis.
+7. Robô com blocos amarelos na mesa, sem alterações visíveis.
+8. Robô com blocos amarelos na mesa, sem alterações visíveis.
+9. Robô com blocos amarelos na mesa, sem alterações visíveis.
+
+NORMAL: Em todos os frames, o robô e os blocos amarelos permanecem inalterados e não há presença de objetos ou pessoas externas. A operação do robô parece seguir seu curso normal sem interferências.
+
+STAGE 2: not run
+
+FINAL: NORMAL

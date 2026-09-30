@@ -1,0 +1,37 @@
+Video: an5.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.71s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com peças amarelas.
+2. Uma bola amarela aparece em movimento no ar.
+3. A bola amarela está pousada na mesa.
+4. A bola amarela permanece na mesa.
+5. A bola amarela ainda está na mesa.
+6. A bola amarela continua na mesma posição.
+7. A bola amarela não se moveu.
+8. A bola amarela permanece imóvel.
+9. A bola amarela está na mesma posição.
+
+ANOMALIA: A presença de uma bola amarela, que não faz parte do ambiente normal de operação do robô, constitui uma anomalia. Este objeto estranho pode interferir com o funcionamento seguro do robô, pois não é um componente esperado na área de trabalho. A introdução de objetos não autorizados pode causar falhas ou riscos de segurança.
+
+STAGE 2  (12 dense frames around src [0, 23], 3.57s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos e peças amarelas sobre a mesa.
+2. Dois braços robóticos e peças amarelas sobre a mesa.
+3. Dois braços robóticos e peças amarelas sobre a mesa.
+4. Bola amarela aparece na área de trabalho.
+5. Bola amarela movendo-se na área de trabalho.
+6. Bola amarela ainda presente na área de trabalho.
+7. Bola amarela movendo-se para a esquerda.
+8. Bola amarela próxima ao braço robótico esquerdo.
+9. Bola amarela não está mais visível.
+10. Dois braços robóticos e peças amarelas sobre a mesa.
+11. Dois braços robóticos e peças amarelas sobre a mesa.
+12. Dois braços robóticos e peças amarelas sobre a mesa.
+
+ANOMALIA: Uma bola amarela, que não faz parte da operação normal do robô, entrou na área de trabalho nos frames 4 a 8. A presença de um objeto estranho pode interferir na operação segura do robô, representando um risco potencial de colisão ou mau funcionamento. É necessário investigar a origem da bola e garantir que o ambiente de trabalho esteja livre de objetos não autorizados.
+
+Result:
+ANOMALY   anomaly window ~ 0.00s .. 0.92s

@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.36s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 2: The image is a blank, empty space with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 5: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 6: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 7: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 8: The image is empty, with no people, hands, or objects.
+  Frame 9: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+
+Resultado:
+ANOMALIA: A sequência de imagens não mostra a operação normal do robô, mas sim uma série de imagens de uma pessoa com o rosto muito borrado, sem qualquer contexto ou relação com a área de trabalho do robô. A presença de uma pessoa na área de trabalho do robô, mesmo que com o rosto borrado, é considerada uma anomalia, pois não há evidência de que a pessoa esteja realizando uma tarefa específica ou estando em uma posição segura. Além disso, a falta de contexto e a ausência de imagens de objetos ou ferramentas relacionados à operação do robô reforça a ideia de que a sequência de imagens é anormal.

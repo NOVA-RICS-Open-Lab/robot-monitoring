@@ -1,0 +1,18 @@
+Vídeo: an2.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 4.11s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Braço robótico em operação com peças no ambiente de trabalho.
+2. Imagem desfocada, difícil de identificar detalhes.
+3. Imagem desfocada, difícil de identificar detalhes.
+4. Imagem desfocada, difícil de identificar detalhes.
+5. Imagem desfocada, difícil de identificar detalhes.
+6. Imagem desfocada, difícil de identificar detalhes.
+7. Braço robótico próximo a uma peça amarela no ambiente de trabalho.
+8. Braço robótico próximo a uma peça amarela no ambiente de trabalho.
+9. Braço robótico próximo a uma peça amarela no ambiente de trabalho.
+
+NORMAL: Em todos os frames analisados, não há presença de objetos ou pessoas externas invadindo a área de trabalho do robô. O ambiente parece estar dentro dos parâmetros normais de operação, com o robô interagindo apenas com as peças e ferramentas esperadas. Não há indícios de anomalias ou riscos de segurança.

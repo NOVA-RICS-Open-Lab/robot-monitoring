@@ -1,0 +1,18 @@
+Vídeo: an5.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.73s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green sign reading "30%".
+  Frame 2: urns of yellow and white cubes on a blue table with a robot arm reaching for it.
+  Frame 3: urns of yellow and white cubes rest on a blue table with a white baseboard, accompanied by a green sign reading "30".
+  Frame 4: urns of yellow and blue cubes rest on a blue table with white text, accompanied by a green sign reading "30".
+  Frame 5: urns of yellow and white cubes rest on a blue table with a white background, accompanied by a green sign reading "30".
+  Frame 6: urns of yellow and blue cubes rest on a blue table with white squares, accompanied by a green sign reading "30".
+  Frame 7: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a sign reading "30% OFF".
+  Frame 8: urns of yellow and white cubes rest on a blue table with two gray robotic arms, accompanied by a green sign reading "30%".
+  Frame 9: urns of yellow and white cubes rest on a blue table with two gray robots, one with a camera attached to its head.
+
+Resultado:
+ANOMALIA: urns of yellow and white cubes rest on a blue table with a white base, accompanied by a green sign reading "30% OFF".

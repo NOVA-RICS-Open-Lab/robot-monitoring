@@ -1,0 +1,18 @@
+model: qwen3_vl   window 11   150-165 s   idx=[3600, 3644, 3689, 3734, 3779, 3824, 3869, 3914, 3959]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô com braço azul posicionado sobre blocos amarelos em grade branca, sem elementos externos.  
+2. Robô mantém posição sobre blocos amarelos, sem alterações visíveis.  
+3. Robô ajusta braço próximo aos blocos, sem presença humana.  
+4. Robô posiciona braço sobre blocos, movimento normal.  
+5. Robô mantém braço sobre blocos, operação contínua.  
+6. Robô move braço para ajustar blocos, sem interferência.  
+7. Robô posiciona braço próximo aos blocos, operação estável.  
+8. Robô mantém braço sobre blocos, sem alterações.  
+9. Robô posiciona braço sobre blocos, movimento consistente.  
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos em nenhum frame. Os blocos amarelos são manipulados normalmente pelo robô como parte da operação de soldagem. A área de trabalho permanece livre de interferências externas, conforme especificado nos critérios.
+
+STAGE 2: not run
+
+FINAL: NORMAL

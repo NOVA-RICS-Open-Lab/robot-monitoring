@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.05s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white squares for counting.
+  Frame 2: urns of water sit on a blue table with white squares and yellow cubes, accompanied by two gray robots.
+  Frame 3: urns of water and yellow cubes on a blue table with white text.
+  Frame 4: urns of water and yellow cubes on a blue table with white text.
+  Frame 5: urns of water and yellow cubes on a blue table with white text.
+  Frame 6: urns of water and yellow cubes on a blue table with white text.
+  Frame 7: urns of water and a white egg sit on a blue table with yellow squares, accompanied by two gray robots.
+  Frame 8: urns of water and a white egg sit on a blue table with yellow squares, accompanied by two gray robots.
+  Frame 9: urns of water and yellow cubes on a blue table with white text.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white squares for counting.

@@ -1,0 +1,121 @@
+% ======================================================================
+% Example section for the thesis: hardware and software environment.
+% Same style as RESULTS_REPORT.tex (prose, no ";", no em dash).
+% Drop this in as its own section or fold it into the Methodology.
+% ======================================================================
+
+\section{Experimental setup}
+\label{sec:setup}
+
+All experiments in this chapter were run on a single desktop workstation.
+The purpose of describing it in detail is reproducibility. The two local
+vision language models and the YOLO baselines are sensitive to the
+inference backend and to the amount of graphics memory available, so the
+numbers reported here, in particular the latencies, are tied to this
+specific configuration. The GPT-4o results are the exception, because that
+model was accessed through a hosted interface and its response times
+depend on the provider rather than on the local machine.
+
+\subsection{Hardware}
+
+The workstation is built around an AMD Ryzen 9 9950X processor with
+sixteen physical cores and thirty two threads, paired with 128 gigabytes
+of DDR5 memory running at 5200 mega transfers per second. Local model
+inference used a single NVIDIA GeForce RTX 5070 Ti graphics card with
+sixteen gigabytes of GDDR7 memory. The integrated graphics of the Ryzen
+processor were present but were not used for any inference. Storage was a
+two terabyte WD\_BLACK SN770 NVMe solid state drive, which matters only
+because every test reads video frames from disk, and the mainboard was a
+Gigabyte X870 GAMING WIFI6. Table~\ref{tab:setup-hw} lists the
+configuration in full.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{8pt}
+\begin{tabular}{@{}l l@{}}
+\toprule
+Component & Specification \\
+\midrule
+CPU              & AMD Ryzen 9 9950X, 16 cores, 32 threads \\
+GPU             & NVIDIA GeForce RTX 5070 Ti, 16 GB GDDR7 \\
+System memory   & 128 GB DDR5-5200 (4 $\times$ 32 GB) \\
+Storage         & WD\_BLACK SN770 NVMe SSD, 2 TB \\
+Mainboard       & Gigabyte X870 GAMING WIFI6 (AMD X870) \\
+Operating system & Windows 11 Pro, version 24H2, build 26200 \\
+GPU driver      & NVIDIA 591.86, CUDA 13.1 \\
+\bottomrule
+\end{tabular}
+\caption{Workstation used for all experiments. The local vision language
+models and the YOLO baselines ran on the RTX 5070 Ti. GPT-4o ran remotely
+through the OpenAI interface.}
+\label{tab:setup-hw}
+\end{table}
+\FloatBarrier
+
+\subsection{Software and model serving}
+
+The evaluation scripts are written in Python 3.14. Video decoding and
+frame extraction use OpenCV 5.0. The YOLO baselines use Ultralytics 8.4
+with the stock \texttt{yolo11n} and \texttt{yolo11n-pose} weights, run on
+the graphics card. The two local vision language models are served by
+Ollama 0.24. The Qwen3-VL model is the eight billion parameter build,
+about six gigabytes on disk, and the Llama 3.2 Vision model is the eleven
+billion parameter build quantised to four bits, about eight gigabytes on
+disk. Both fit comfortably in the sixteen gigabytes of graphics memory,
+so neither spilled to system memory during the runs. GPT-4o was called
+through the OpenAI Python client version 2.4 against the \texttt{gpt-4o}
+model. The same model was used as the Stage~3 judge.
+
+A few backend settings were fixed for the whole battery and are worth
+recording because they affect the outputs. The Stage~3 judge was called
+with temperature zero so that its grades are stable across repeated runs
+on identical text. Qwen3-VL is a reasoning model, and it was forced into a
+non-thinking mode with an explicit instruction to answer tersely and with
+its output token budget raised to two thousand tokens, because with the
+default budget its answer was sometimes cut off before it reached the
+verdict line. Llama 3.2 Vision accepts only one image per call, so its
+pipeline captions each frame separately and then asks the model to
+synthesise a verdict from the captions, which is the reason it makes one
+model call per frame and is the slowest of the three. The OpenAI API key
+is read from a local environment file and is never sent anywhere other
+than to the OpenAI interface.
+
+\subsection{Reproducibility}
+
+The frame sampling is deterministic. Stage~1 selects nine indices spread
+evenly across the analysed span, and Stage~2 selects a dense set around
+the anchor frame using a fixed stride and a fixed count, so two runs of
+the same test on the same video see the same frames. The variation between
+repeated runs, which the anomaly tests deliberately expose by repeating
+every clip ten times, comes from the models themselves and not from the
+sampling. The YOLO baselines are fully deterministic, which is why they
+were run once per clip and the row was duplicated to line up with the ten
+language model runs rather than being executed ten times. Every run writes
+its full Stage~1 and Stage~2 text to disk, and the summary tables in this
+chapter are regenerated from four comma separated files by the analysis
+scripts, so the path from raw output to reported number can be retraced.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{8pt}
+\begin{tabular}{@{}l l@{}}
+\toprule
+Software & Version and role \\
+\midrule
+Python              & 3.14, evaluation and analysis scripts \\
+OpenCV             & 5.0, video decoding and frame extraction \\
+Ultralytics YOLO   & 8.4, \texttt{yolo11n} and \texttt{yolo11n-pose} baselines \\
+Ollama             & 0.24, local serving of Qwen3-VL and Llama Vision \\
+Qwen3-VL           & 8B build, non-thinking mode, 2000 output tokens \\
+Llama 3.2 Vision   & 11B build, 4-bit quantised, one image per call \\
+OpenAI client      & 2.4, \texttt{gpt-4o} for detection and for the Stage~3 judge \\
+\bottomrule
+\end{tabular}
+\caption{Software stack. Local models ran on the GPU through Ollama and
+Ultralytics. GPT-4o and the Stage~3 judge ran through the OpenAI
+interface.}
+\label{tab:setup-sw}
+\end{table}
+\FloatBarrier

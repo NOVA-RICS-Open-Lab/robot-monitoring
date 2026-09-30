@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.46s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 2: The image is a close-up of a person's face, with their eyes and mouth obscured by a dark, shadowy area, making it difficult to make out any features.
+  Frame 3: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 4: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 5: The image is a close-up of a person's face, with their eyes and mouth obscured by a dark, shadowy area, making it difficult to make out any features.
+  Frame 6: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 7: The image is a close-up of a person's face, with their eyes and nose visible, but the rest of their face is out of focus.
+  Frame 8: The image is a close-up of a person's face, with their eyes and mouth obscured by a dark, shadowy area, making it difficult to make out any features.
+  Frame 9: The image is a close-up of a person's face, with their eyes and nose visible, but the rest of their face is out of focus.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por uma pessoa, com a presença de uma mão e braços visíveis em várias imagens, indicando uma anomalia na operação do robô.

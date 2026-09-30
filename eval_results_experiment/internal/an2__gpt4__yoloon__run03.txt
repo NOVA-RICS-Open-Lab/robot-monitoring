@@ -1,0 +1,19 @@
+Vídeo: an2.mp4 (interna)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 4.06s
+Linhas de log usadas: 8
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, segurando os blocos.
+3. Nenhuma mudança visível nos robôs ou blocos.
+4. Os robôs continuam na mesma posição, sem alterações.
+5. Uma mão humana aparece, interagindo com um dos blocos.
+6. A mão humana está a mover um bloco, enquanto os robôs permanecem imóveis.
+7. A mão já não está visível; os robôs e blocos estão na mesma posição.
+8. Nenhuma alteração visível nos robôs ou blocos.
+9. Os robôs continuam na mesma posição, sem mudanças.
+
+ANOMALIA: O log indica que houve uma queda repentina da pressão do gripper de 520 para 0 no timestamp 00:05, com um erro associado ao gripper. Isso coincide com a presença de uma mão humana nos frames 5 e 6, sugerindo que o objeto foi largado ou nunca foi agarrado corretamente. Além disso, o estado do robô mudou para "idle" inesperadamente, indicando uma falha interna.

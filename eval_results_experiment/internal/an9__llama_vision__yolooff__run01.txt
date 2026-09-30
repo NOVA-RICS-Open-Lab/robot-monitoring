@@ -1,0 +1,11 @@
+Video: an9.mp4 (internal)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 35.02s)  -> NORMAL
+NORMAL: O log de estado do robô não apresenta erros ou estados inesperados, e as descrições dos frames sequenciais mostram uma execução normal do ciclo de tarefas, com a pressão do gripper consistente com a fase da tarefa e transições normais entre as fases. Não há evidências de anomalias internas ou falhas na execução do robô.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

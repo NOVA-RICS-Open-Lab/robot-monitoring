@@ -1,0 +1,19 @@
+Video: an3.mp4 (internal)
+Model: yolo_coco (yolo11n.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> NORMAL
+  src#0     t=  0.00s : (nothing)
+  src#58    t=  0.97s : (nothing)
+  src#116   t=  1.93s : (nothing)
+  src#174   t=  2.90s : (nothing)
+  src#232   t=  3.87s : (nothing)
+  src#290   t=  4.83s : (nothing)
+  src#348   t=  5.80s : (nothing)
+  src#406   t=  6.77s : (nothing)
+  src#465   t=  7.75s : (nothing)
+  basis: no person detected
+
+STAGE 2  : not run (stage 1 not ANOMALY, or no anchor frame)
+
+Result:
+NORMAL

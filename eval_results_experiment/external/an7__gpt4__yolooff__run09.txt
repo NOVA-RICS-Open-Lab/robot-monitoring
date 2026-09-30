@@ -1,0 +1,37 @@
+Video: an7.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.31s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e peças amarelas sobre a mesa.
+2. Mão humana entra na área de trabalho com um objeto branco.
+3. Mão humana coloca o objeto branco na mesa.
+4. Mão humana ainda visível na área de trabalho.
+5. Mão humana saiu da área de trabalho.
+6. Apenas robôs e objetos na mesa.
+7. Apenas robôs e objetos na mesa.
+8. Apenas robôs e objetos na mesa.
+9. Apenas robôs e objetos na mesa.
+
+ANOMALIA: Nos frames 2 a 4, uma mão humana entra na área de trabalho do robô, colocando um objeto branco na mesa. A presença de qualquer parte do corpo humano na área de trabalho é sempre considerada uma anomalia, pois representa um risco de segurança. Além disso, o objeto branco introduzido pode não pertencer à operação normal do robô, aumentando o potencial de risco.
+
+STAGE 2  (12 dense frames around src [30], 3.50s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e peças amarelas sobre a mesa.
+2. Dois robôs e peças amarelas sobre a mesa.
+3. Mão humana entrando na área de trabalho com um objeto branco.
+4. Mão humana mais próxima da área central com o objeto branco.
+5. Mão humana segurando o objeto branco sobre a mesa.
+6. Mão humana ainda segurando o objeto branco sobre a mesa.
+7. Mão humana movendo o objeto branco sobre a mesa.
+8. Mão humana ainda presente com o objeto branco.
+9. Mão humana ainda presente com o objeto branco.
+10. Mão humana colocando o objeto branco sobre a mesa.
+11. Mão humana retirando-se da área de trabalho.
+12. Mão humana quase fora da área de trabalho.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação dos protocolos de segurança. Qualquer parte do corpo humano na área de operação do robô é considerada uma anomalia devido ao risco de acidentes e interferência no funcionamento do robô. Além disso, o objeto branco introduzido não parece ser parte do ambiente normal de operação, o que também constitui uma anomalia.
+
+Result:
+ANOMALY   anomaly window ~ 0.03s .. 1.10s

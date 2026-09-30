@@ -1,0 +1,9 @@
+Vídeo: an4.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.08s
+
+Resultado:
+Não consigo analisar o conteúdo das imagens fornecidas. Parece que todas as imagens são uniformemente azuis, sem detalhes visíveis. 
+
+NORMAL: Com base na descrição fornecida, não há evidência de invasão ou contato de objetos ou pessoas externas na área de trabalho do robô. As imagens não mostram nenhuma anomalia visível, portanto, presume-se que a operação do robô está ocorrendo dentro dos parâmetros normais de segurança.

@@ -1,0 +1,37 @@
+Video: an4.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.64s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e peças amarelas sobre a mesa.
+2. Mão humana entra na área de trabalho.
+3. Mão humana move uma peça amarela.
+4. Mão humana continua a mover a peça.
+5. Mão humana ainda em contato com a peça.
+6. Mão humana toca em outra peça amarela.
+7. Mão humana sai da área de trabalho.
+8. Área de trabalho sem presença humana.
+9. Área de trabalho permanece sem presença humana.
+
+ANOMALIA: A presença de uma mão humana nos frames 2 a 6 constitui uma anomalia. Qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. A intervenção manual pode causar riscos operacionais e comprometer a segurança do sistema.
+
+STAGE 2  (12 dense frames around src [65], 2.72s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com peças amarelas.
+2. Dois braços robóticos sobre a mesa, sem alterações.
+3. Mão humana aparece no canto inferior esquerdo.
+4. Mão humana se aproxima das peças amarelas.
+5. Mão humana toca nas peças amarelas.
+6. Mão humana ainda em contato com as peças.
+7. Mão humana ainda em contato com as peças.
+8. Mão humana ainda em contato com as peças.
+9. Mão humana ainda em contato com as peças.
+10. Mão humana ainda em contato com as peças.
+11. Mão humana ainda em contato com as peças.
+12. Mão humana ainda em contato com as peças.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualquer parte do corpo humano na área de operação do robô representa um risco de segurança significativo. A mão interagindo com as peças pode interferir na operação do robô e comprometer a segurança do ambiente de trabalho.
+
+Result:
+ANOMALY   anomaly window ~ 0.42s .. 1.68s

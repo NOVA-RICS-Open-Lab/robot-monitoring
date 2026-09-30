@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.05s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white text.
+  Frame 2: urns of water and a black wallet rest on a blue tablecloth, accompanied by two gray robot arms with blue eyes.
+  Frame 3: urn of water and a black wallet on a blue table with white squares, accompanied by two gray robots.
+  Frame 4: urns of water and a black wallet rest on a blue tablecloth-covered table, with two gray robots nearby.
+  Frame 5: urns of water and yellow blocks on a blue table with white legs, accompanied by a green sign reading "water" above the table.
+  Frame 6: urn of water and a blue tray with yellow cubes on a black tablecloth-covered table.
+  Frame 7: urn of water and a blue tray with yellow squares on a white tablecloth-covered table.
+  Frame 8: urn of water and a blue tray with yellow cubes on a table labeled "DETECTOR"
+  Frame 9: urn of water and a blue tray with white squares on a black tablecloth-covered table.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white text.

@@ -1,0 +1,37 @@
+Video: an5.mp4 (internal)
+Model: gpt4 (gpt-4o)
+Log lines used: 6
+
+STAGE 1  (9 frames, 2.57s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre peças amarelas.
+2. O robô mantém a posição sobre as peças amarelas.
+3. O robô continua sobre as peças amarelas, sem movimento aparente.
+4. O robô ainda está sobre as peças amarelas.
+5. O robô permanece na mesma posição sobre as peças amarelas.
+6. O robô move-se para uma posição sobre peças verdes e amarelas.
+7. O robô está sobre as peças verdes e amarelas, sem movimento.
+8. O robô continua sobre as peças verdes e amarelas.
+9. O robô permanece sobre as peças verdes e amarelas.
+
+ANOMALIA: O log indica que houve um erro relacionado com o gripper às 00:05, com o estado mudando para "idle" e "last_error" indicando "gripper". Isso sugere que o gripper falhou ao segurar um objeto, o que é consistente com a ausência de movimento significativo nos frames e a mudança de estado inesperada.
+
+STAGE 2  (12 dense frames around src [149], 3.79s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre os blocos amarelos.
+2. O robô permanece na mesma posição sobre os blocos amarelos.
+3. O robô continua na mesma posição, sem movimento aparente.
+4. O robô ainda está sobre os blocos amarelos, sem alteração visível.
+5. O robô mantém a posição sobre os blocos amarelos.
+6. O robô não mostra movimento, permanecendo sobre os blocos amarelos.
+7. O robô continua na mesma posição sobre os blocos amarelos.
+8. O robô está na mesma posição, sem mudanças visíveis.
+9. O robô começa a mover-se ligeiramente para a esquerda.
+10. O robô move-se mais para a esquerda, revelando um bloco verde.
+11. O robô continua a mover-se, expondo mais do bloco verde.
+12. O robô está completamente sobre o bloco verde, com os blocos amarelos visíveis à direita.
+
+ANOMALIA: O log indica um erro de gripper às 00:05, com o estado mudando para "idle" e "last_error" não nulo, o que é sempre uma anomalia. Além disso, a pressão do gripper permanece a 0 durante todo o ciclo, o que é inconsistente com a tarefa de PickAndPlace, sugerindo que o robô não conseguiu agarrar ou manter o objeto.
+
+Result:
+ANOMALY   anomaly window ~ 1.82s .. 3.08s

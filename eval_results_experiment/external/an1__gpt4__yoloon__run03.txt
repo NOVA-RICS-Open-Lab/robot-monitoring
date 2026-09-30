@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.27s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem azul uniforme, sem detalhes visíveis.
+2. Imagem azul uniforme, sem detalhes visíveis.
+3. Imagem azul uniforme, sem detalhes visíveis.
+4. Transição de azul para uma área cinza e azul.
+5. Imagem cinza uniforme, sem detalhes visíveis.
+6. Braço robótico com peças e base azul, sem objetos estranhos.
+7. Imagem cinza uniforme, sem detalhes visíveis.
+8. Braço robótico com peças e base azul, sem objetos estranhos.
+9. Braço robótico com peças e base azul, sem objetos estranhos.
+
+NORMAL: A sequência de frames mostra principalmente imagens uniformes e transições, sem evidência de invasão por objetos ou pessoas externas. Nos frames onde o robô é visível, não há presença de elementos estranhos ou partes do corpo humano na área de trabalho. Portanto, a operação parece estar dentro dos parâmetros normais de segurança.

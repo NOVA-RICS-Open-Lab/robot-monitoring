@@ -1,0 +1,18 @@
+model: qwen3_vl   window 2   15-30 s   idx=[360, 404, 449, 494, 539, 584, 629, 674, 719]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posicionado sobre plataforma azul, manipulando blocos amarelos em folhas brancas.  
+2. Configuração idêntica ao frame anterior, com robô em posição estática.  
+3. Arranjo dos blocos amarelos mantém-se sem alterações visíveis.  
+4. Ambiente de trabalho consistente, sem elementos externos à operação do robô.  
+5. Nenhum sinal de intervenção humana ou objetos estranhos na área.  
+6. Estrutura do robô e materiais (blocos amarelos, folhas brancas) permanecem normais.  
+7. Condições de segurança (barreiras luminosas, sensores) não são visíveis, mas contexto indica operação segura.  
+8. Movimento do robô é consistente com tarefas de montagem programadas.  
+9. Todos os frames exibem apenas componentes do sistema robótico em funcionamento normal.  
+
+NORMAL: Nenhum objeto estranho ou parte humana foi observado em nenhum frame; os blocos amarelos são parte integrante da operação do robô, e a configuração permanece consistente com o contexto descrito. A ausência de elementos externos à operação confirma que a sequência representa um funcionamento normal sem anomalias.
+
+STAGE 2: not run
+
+FINAL: NORMAL

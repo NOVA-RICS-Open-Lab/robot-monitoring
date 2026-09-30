@@ -1,0 +1,18 @@
+Vídeo: an2.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.99s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com blocos amarelos.
+2. Braços robóticos movendo-se sobre a mesa.
+3. Mão humana interagindo com um dos blocos na mesa.
+4. Mão humana já não está visível; braços robóticos continuam na mesa.
+5. Braços robóticos sobre a mesa sem interferência visível.
+6. Braços robóticos continuam a operar sobre a mesa.
+7. Braços robóticos em movimento sobre a mesa.
+8. Braços robóticos posicionados sobre a mesa.
+9. Braços robóticos permanecem na mesma posição.
+
+ANOMALIA: No terceiro frame, uma mão humana entra em contato com a área de trabalho do robô, o que constitui uma anomalia. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. Nos outros frames, não há interferência externa visível.

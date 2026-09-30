@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.86s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem desfocada, cor azul predominante.
+2. Imagem desfocada, cor azul predominante.
+3. Imagem desfocada, cor azul predominante.
+4. Transição de azul para uma faixa vertical cinza.
+5. Imagem desfocada, cor cinza predominante.
+6. Braço robótico visível com peças amarelas e brancas.
+7. Imagem desfocada, cor cinza predominante.
+8. Braço robótico visível com peças amarelas e brancas.
+9. Braço robótico visível com peças amarelas e brancas.
+
+NORMAL: A sequência de frames mostra inicialmente imagens desfocadas e transições de cor, seguidas por imagens claras de um braço robótico operando com peças que parecem ser parte do ambiente de trabalho normal. Não há presença de objetos estranhos ou partes do corpo humano na área de trabalho do robô. Portanto, não há anomalias detectadas.

@@ -1,0 +1,19 @@
+Vídeo: an2.mp4 (interna)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.34s
+Linhas de log usadas: 8
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of yellow and white cubes rest on a blue table with a silver robot arm, accompanied by a black and white sign reading "STOP" above it.
+  Frame 2: urns of water and yellow blocks on a blue table with white text.
+  Frame 3: urns of water and yellow blocks on a blue table with white squares arranged in rows.
+  Frame 4: urns of water and yellow cubes on a blue table with white text.
+  Frame 5: urns of water and yellow blocks on a blue table with white text.
+  Frame 6: urns of water and yellow blocks on a blue table with white labels.
+  Frame 7: urns of water and yellow cubes on a blue table with white paper and black wire.
+  Frame 8: urns of water and yellow blocks on a blue table with white labels for "water" and "oil".
+  Frame 9: urns of water and a blue table with yellow squares on it, accompanied by a white cord and a black object.
+
+Resultado:
+ANOMALIA: [0.2, 0.61, 0.38, 0.74]

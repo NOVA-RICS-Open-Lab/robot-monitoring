@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 4.05s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Fundo azul sem objetos visíveis.
+2. Fundo azul sem objetos visíveis.
+3. Fundo azul sem objetos visíveis.
+4. Parte de um objeto ou corpo humano aparece no canto superior.
+5. Objeto ou corpo humano mais visível, com detalhes em vermelho.
+6. Movimento do objeto ou corpo humano, ainda visível.
+7. Fundo azul sem objetos visíveis.
+8. Fundo azul sem objetos visíveis.
+9. Fundo azul sem objetos visíveis.
+
+ANOMALIA: Nos frames 4, 5 e 6, é visível a presença de um objeto ou parte do corpo humano que não pertence ao ambiente normal de operação do robô. A presença de um corpo humano na área de trabalho do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. A intrusão pode causar acidentes e interromper o funcionamento seguro do robô.

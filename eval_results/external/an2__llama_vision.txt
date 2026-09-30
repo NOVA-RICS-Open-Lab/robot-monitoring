@@ -1,0 +1,18 @@
+Vídeo: an2.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 38.07s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes on it, likely used for scientific or educational purposes.
+  Frame 2: The image shows a blue table with a microscope on it, featuring a white and yellow object in the center.
+  Frame 3: The image shows a person's arm holding a yellow object over a blue table with a microscope on it.
+  Frame 4: The image shows a blue table with a microscope on it, featuring two pieces of paper with yellow squares on them.
+  Frame 5: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+  Frame 6: The image shows a blue table with a microscope on it, which appears to be used for scientific or educational purposes.
+  Frame 7: The image shows a blue table with a microscope on it, but there is no one in the image.
+  Frame 8: The image shows a blue table with a microscope on it, but there is no one or anything else in the image.
+  Frame 9: The image shows a blue table with a white paper and a yellow object on it, possibly a piece of equipment or a tool, but the exact nature of the object is unclear.
+
+Resultado:
+ANOMALIA: A mão e o braço do operador estão presentes na área de trabalho do robô, o que indica uma anomalia.

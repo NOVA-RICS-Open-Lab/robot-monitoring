@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 38.78s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: This image is a blank, dark blue rectangle with no visible objects or features.
+  Frame 2: This image is a blank, dark blue rectangle with no visible objects, people, or hands.
+  Frame 3: This image is a blank, dark blue rectangle with no visible objects or features.
+  Frame 4: This image is a blurry, pixelated, and distorted representation of a person's face, with no discernible features or details.
+  Frame 5: This image is a blank, solid gray background with no people, hands, or unusual objects.
+  Frame 6: This image features a microscope with a light blue top and a white and yellow base, situated on a blue table. The microscope is positioned at an angle, with its base facing the bottom left corner of the image. The table is partially visible, with a white object in the top left corner and a
+  Frame 7: This image is a blank, gradient background with a subtle color transition from light to dark.
+  Frame 8: This image features a microscope with a light blue cap on the lens, situated on a blue table with a white and yellow object in the foreground.
+  Frame 9: This image features a close-up view of a microscope's eyepiece and objective lens, with a white and yellow object in the background.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por uma pessoa, identificada pela imagem distorcida de uma face no Frame 4, indicando uma anomalia na operação do robô. Além disso, a presença de um microscópio em alguns frames, que não faz parte da operação do robô, também é considerada uma anomalia. A entrada de objetos estranhos na área de trabalho do robô é um risco significativo para a segurança e eficiência da operação.

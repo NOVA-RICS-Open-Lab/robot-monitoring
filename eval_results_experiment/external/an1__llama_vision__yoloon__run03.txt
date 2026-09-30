@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.18s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: This image is a blank, dark blue background with no discernible features, objects, or people.
+  Frame 2: This image is a blank, dark blue background with no discernible features, objects, or people.
+  Frame 3: This image is a blank, solid blue background with no people, hands, or unusual objects.
+  Frame 4: The image is a blank, black screen with no visible objects, people, or hands.
+  Frame 5: This image is a blank, gradient background with no people, hands, or objects.
+  Frame 6: This image features a gray and white device with a light blue cap on a blue table, with a white and yellow object in the background.
+  Frame 7: This image is a blank, gradient background with no people, hands, or objects.
+  Frame 8: This image features a gray and white device with a light blue cap on a blue table, with a white and yellow object in the background.
+  Frame 9: This image features a close-up view of a gray and white industrial-style object with a light blue cap on top, possibly a piece of equipment or machinery.
+
+Resultado:
+NORMAL: A sequência de frames não apresenta nenhuma anomalia externa, como partes do corpo humano ou objetos estranhos, invadindo a área de trabalho do robô. As imagens mostram apenas o robô e seus componentes, como o dispositivo com a light blue cap e o objeto em segundo plano, sem qualquer elemento externo que possa interferir na operação.

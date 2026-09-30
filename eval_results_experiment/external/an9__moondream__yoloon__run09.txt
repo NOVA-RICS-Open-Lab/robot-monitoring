@@ -1,0 +1,18 @@
+Vídeo: an9.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 21.80s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urn of water with a blue lid and green handle rests on a table against a light brown background.
+  Frame 2: 
+  Frame 3: urn of water sits on a gray surface with a black rim and handle.
+  Frame 4: urn of water with a silver rim and a light gray interior.
+  Frame 5: ?".
+  Frame 6: urn of water sits on a blue tablecloth, accompanied by yellow and white cubes arranged in a grid pattern.
+  Frame 7: 
+  Frame 8: 
+  Frame 9: 
+
+Resultado:
+ANOMALIA: urn of water with a blue lid and green handle rests on a table against a light brown background.

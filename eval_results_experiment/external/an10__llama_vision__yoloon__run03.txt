@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.09s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: This image is a blank, empty space with no people, hands, or objects.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image shows a white and yellow plastic block with six squares, but there are no people, hands, or unusual objects in the image.
+  Frame 6: The image shows a block of white and yellow blocks on a blue background.
+  Frame 7: The image shows a white and yellow block of plastic or plastic-like material with a grid-like structure, but it does not contain any people, hands, or unusual objects.
+  Frame 8: The image shows a white and yellow block of chocolate or candy, but it is too small to make out any details.
+  Frame 9: The image shows a white and yellow block of cheese, likely a block of cheddar or similar cheese, with a block of cheese on top.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que, em Frame 1, não há objetos ou pessoas, mas a partir do Frame 5, objetos estranhos começam a aparecer, como blocos de plástico, chocolate e queijo, que não fazem parte da operação do robô, indicando uma anomalia na área de trabalho.

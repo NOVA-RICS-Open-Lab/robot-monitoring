@@ -1,0 +1,37 @@
+Video: an8.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 12.02s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e objetos normais na mesa.
+2. Um objeto estranho (bolsa preta) aparece na mesa.
+3. Uma mão humana segurando uma garrafa entra na área de trabalho.
+4. A garrafa é deixada na mesa, mão ainda visível.
+5. A mão humana volta a pegar na garrafa.
+6. A garrafa permanece na mesa, mão não visível.
+7. Nenhuma mudança, garrafa ainda na mesa.
+8. Nenhuma mudança, garrafa ainda na mesa.
+9. Nenhuma mudança, garrafa ainda na mesa.
+
+ANOMALIA: A presença de uma mão humana nos frames 3 e 5 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é sempre considerada uma invasão. Além disso, a introdução de objetos estranhos, como a bolsa preta e a garrafa, que não pertencem à operação normal do robô, também caracteriza uma anomalia. Esses fatores comprometem a segurança e a integridade do ambiente de trabalho do robô.
+
+STAGE 2  (12 dense frames around src [273], 2.74s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Área de trabalho do robô sem alterações visíveis.
+2. Área de trabalho do robô sem alterações visíveis.
+3. Área de trabalho do robô sem alterações visíveis.
+4. Área de trabalho do robô sem alterações visíveis.
+5. Mão humana segurando uma garrafa de água entra na área de trabalho.
+6. Mão humana com garrafa de água mais próxima do robô.
+7. Mão humana com garrafa de água ainda presente na área de trabalho.
+8. Mão humana com garrafa de água continua na área de trabalho.
+9. Mão humana com garrafa de água permanece na área de trabalho.
+10. Mão humana com garrafa de água ainda na área de trabalho.
+11. Mão humana com garrafa de água próxima ao robô.
+12. Mão humana com garrafa de água ainda visível na área de trabalho.
+
+ANOMALIA: A presença de uma mão humana segurando uma garrafa de água na área de trabalho do robô é uma anomalia. Qualquer parte do corpo humano na área de operação do robô representa um risco de segurança significativo. A intervenção humana não programada pode causar acidentes ou interferir no funcionamento seguro do robô.
+
+Result:
+ANOMALY   anomaly window ~ 3.88s .. 5.15s

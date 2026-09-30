@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.73s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos sobre uma mesa com blocos amarelos.
+2. Presença de um pé humano visível no canto inferior esquerdo.
+3. Um braço humano aparece na parte superior esquerda.
+4. Um vaso com plantas é colocado na mesa por uma mão humana.
+5. O vaso e uma mão humana permanecem na mesa.
+6. O vaso é removido pela mão humana.
+7. A mesa está novamente apenas com os blocos amarelos.
+8. Um braço humano ainda visível no canto inferior esquerdo.
+9. O braço humano permanece visível no canto inferior esquerdo.
+
+ANOMALIA: A presença de partes do corpo humano, como pés e braços, na área de trabalho do robô constitui uma anomalia. Além disso, a introdução de um vaso com plantas, que claramente não pertence à operação do robô, também é uma anomalia. A segurança do espaço de trabalho foi comprometida pela invasão de objetos e partes do corpo humano.

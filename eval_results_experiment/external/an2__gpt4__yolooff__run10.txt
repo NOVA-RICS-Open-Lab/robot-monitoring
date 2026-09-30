@@ -1,0 +1,37 @@
+Video: an2.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.77s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente com peças no ambiente de trabalho.
+2. O robô continua a operação sem interferências externas.
+3. Uma mão humana aparece no ambiente de trabalho, tocando uma peça.
+4. A mão humana não está mais visível; o robô retoma a operação.
+5. O robô continua a operação sem interferências externas.
+6. O robô está operando normalmente com peças no ambiente de trabalho.
+7. O robô continua a operação sem interferências externas.
+8. O robô está operando normalmente com peças no ambiente de trabalho.
+9. O robô continua a operação sem interferências externas.
+
+ANOMALIA: A presença de uma mão humana no frame 3 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. Isso pode representar um risco significativo para a segurança operacional e para a integridade física do operador. É crucial garantir que a área de trabalho do robô esteja livre de interferências humanas durante a operação.
+
+STAGE 2  (12 dense frames around src [172], 4.08s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Mão humana se aproximando da área de trabalho do robô.
+2. Mão humana mais próxima do objeto na área de trabalho.
+3. Mão humana tocando o objeto na área de trabalho.
+4. Mão humana ainda em contato com o objeto.
+5. Mão humana segurando o objeto na área de trabalho.
+6. Mão humana ainda segurando o objeto.
+7. Mão humana começando a se afastar com o objeto.
+8. Mão humana se afastando da área de trabalho.
+9. Mão humana quase fora da área de trabalho.
+10. Mão humana se afastando completamente.
+11. Mão humana fora da área de trabalho.
+12. Área de trabalho sem presença humana.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação dos protocolos de segurança. Em vários frames, a mão interage diretamente com os objetos na área de trabalho, o que pode causar riscos de segurança tanto para o operador quanto para o equipamento. A invasão da área de trabalho por parte do corpo humano é sempre considerada uma anomalia, pois compromete a segurança operacional do sistema.
+
+Result:
+ANOMALY   anomaly window ~ 2.20s .. 3.47s

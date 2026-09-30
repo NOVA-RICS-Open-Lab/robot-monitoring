@@ -1,0 +1,12 @@
+Video: an6.mp4 (internal)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 35.18s)  -> ANOMALY
+ANOMALIA: O log de estado do robô indica uma queda repentina da pressão do gripper durante a fase de segurar o objeto, sugerindo que o objeto foi largado ou nunca foi agarrado, o que é inesperado e indica uma falha interna na execução da tarefa. Além disso, o estado do robô permaneceu em "running" após a conclusão da tarefa, o que é um estado inesperado e indica uma possível falha na transição para o estado "idle". A análise das descrições dos frames também não revela nenhuma explicação para a divergência entre a pressão do gripper e a fase da tarefa, reforçando a hipótese de uma anomalia interna.
+
+STAGE 2  (12 dense frames around src [345], 45.15s)  -> NORMAL
+NORMAL: O log de estado do robô não registra nenhuma anomalia, e as descrições dos frames sequenciais mostram uma execução normal do ciclo de tarefa, com a garra exercendo pressão consistente e as fases de tarefa transicionando de forma esperada. Não há erros registrados no log e as descrições dos frames não indicam nenhuma falha interna ou anomalia durante a execução do robô.
+
+Result:
+NORMAL   anomaly window ~ 5.08s .. 6.35s

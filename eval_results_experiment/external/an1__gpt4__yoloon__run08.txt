@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.45s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem desfocada, sem detalhes visíveis.
+2. Imagem desfocada, sem detalhes visíveis.
+3. Imagem desfocada, sem detalhes visíveis.
+4. Imagem desfocada, com uma linha vertical visível.
+5. Imagem desfocada, sem detalhes visíveis.
+6. Robô industrial com componentes e peças no ambiente de trabalho.
+7. Imagem desfocada, sem detalhes visíveis.
+8. Robô industrial com componentes e peças no ambiente de trabalho.
+9. Robô industrial com componentes e peças no ambiente de trabalho.
+
+NORMAL: Nos frames analisados, não há evidência de invasão por objetos ou pessoas externas na área de trabalho do robô. As imagens claras mostram apenas o robô e os componentes que parecem ser parte do seu ambiente operacional normal. As imagens desfocadas não fornecem informações suficientes para indicar qualquer anomalia.

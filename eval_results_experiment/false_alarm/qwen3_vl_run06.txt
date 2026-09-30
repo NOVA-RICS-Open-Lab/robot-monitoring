@@ -1,0 +1,19 @@
+model: qwen3_vl   run 6   seed 80061
+STAGE 1: 10 frames  idx=[1694, 2604, 4057, 4430, 9033, 10137, 11968, 12420, 12508, 14086]
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 10 linhas no total, não saltes nenhum):
+1. Robô posicionado sobre placa azul, manipulando blocos amarelos em placa branca.
+2. Robô movendo braço para placa com dois blocos amarelos.
+3. Robô com braço estendido sobre placa com dois blocos amarelos.
+4. Robô posicionado sobre placa com um bloco amarelo.
+5. Robô movendo braço para placa com três blocos amarelos.
+6. Robô posicionado sobre placa com dois blocos amarelos.
+7. Robô movendo braço para placa com três blocos amarelos.
+8. Visão próxima do robô manipulando bloco amarelo.
+9. Visão próxima do robô com braço estendido sobre placa.
+10. Robô posicionado sobre placa com dois blocos amarelos.
+
+NORMAL: Não há presença de partes humanas ou objetos estranhos na área de trabalho. Todos os elementos observados (robô, blocos amarelos, placas brancas) são componentes da operação simulada do robô, alinhando-se com o contexto de tarefas de montagem. As ações do robô, como movimentar os blocos, são parte do processo programado sem interferência externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

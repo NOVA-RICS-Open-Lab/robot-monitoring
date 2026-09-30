@@ -1,0 +1,18 @@
+Vídeo: an4.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 38.99s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes and a small tray of yellow and white cubes on it.
+  Frame 2: The image shows a person's hand holding a yellow object on a blue table with two microscopes, possibly in a laboratory setting.
+  Frame 3: The image shows a hand holding a yellow object on a blue table with two microscopes, likely used for a science experiment or demonstration.
+  Frame 4: The image shows a person's hand using a yellow and white object on a blue table with two microscopes.
+  Frame 5: The image shows a person's hand using a computer mouse on a blue desk with two computer monitors, with a white and yellow object on the desk in front of the monitors.
+  Frame 6: The image shows a person's hand using a yellow mouse on a blue desk with two microscopes, suggesting a scientific or educational setting.
+  Frame 7: The image shows a blue table with two microscopes and a piece of paper with a yellow square on it, likely used for a science experiment or demonstration.
+  Frame 8: The image shows a blue table with two microscopes and two pieces of paper with yellow and white squares on them.
+  Frame 9: The image shows a blue table with two microscopes and a piece of paper with a grid on it, likely used for a science experiment or demonstration.
+
+Resultado:
+ANOMALIA: A mão e o braço da pessoa estão presentes na área de trabalho do robô, invadindo o espaço de operação.

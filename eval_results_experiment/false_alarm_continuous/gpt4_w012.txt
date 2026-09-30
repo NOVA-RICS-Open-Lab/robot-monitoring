@@ -1,0 +1,19 @@
+model: gpt4   window 12   165-180 s   idx=[3960, 4004, 4049, 4094, 4139, 4184, 4229, 4274, 4319]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos com blocos amarelos na mesa.
+2. Blocos amarelos na mesma posição, braços robóticos imóveis.
+3. Nenhuma mudança visível, braços robóticos e blocos estáveis.
+4. Blocos e braços robóticos permanecem na mesma posição.
+5. Nenhuma alteração nos blocos ou nos braços robóticos.
+6. Um braço robótico move um bloco amarelo.
+7. Bloco amarelo movido, braços robóticos em operação.
+8. Bloco amarelo reposicionado, braços robóticos continuam a operação.
+9. Blocos e braços robóticos em posição final, operação concluída.
+
+NORMAL: A sequência de frames mostra apenas a operação normal dos braços robóticos movendo blocos amarelos. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho. O movimento dos blocos é parte da operação esperada do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

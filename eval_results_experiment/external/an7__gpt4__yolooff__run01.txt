@@ -1,0 +1,37 @@
+Video: an7.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 9.35s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e peças amarelas sobre a mesa.
+2. Mão humana introduzida na área de trabalho, segurando um objeto branco.
+3. Mão humana ainda presente, objeto branco colocado na mesa.
+4. Mão humana retirada, objeto branco permanece na mesa.
+5. Área de trabalho sem presença humana, objeto branco ainda na mesa.
+6. Sem alterações, apenas robôs e objetos na mesa.
+7. Sem alterações, apenas robôs e objetos na mesa.
+8. Sem alterações, apenas robôs e objetos na mesa.
+9. Sem alterações, apenas robôs e objetos na mesa.
+
+ANOMALIA: A presença de uma mão humana nos frames 2 e 3 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. Além disso, o objeto branco introduzido não parece fazer parte do ambiente normal de operação, o que também caracteriza uma anomalia.
+
+STAGE 2  (12 dense frames around src [30], 3.01s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e peças amarelas sobre a mesa.
+2. Dois robôs e peças amarelas sobre a mesa.
+3. Mão humana entrando na área de trabalho com um objeto branco.
+4. Mão humana mais próxima da área de trabalho com o objeto branco.
+5. Mão humana dentro da área de trabalho segurando o objeto branco.
+6. Mão humana ainda dentro da área de trabalho com o objeto branco.
+7. Mão humana movendo o objeto branco dentro da área de trabalho.
+8. Mão humana ainda presente na área de trabalho.
+9. Mão humana ainda presente na área de trabalho.
+10. Mão humana ainda presente na área de trabalho.
+11. Mão humana ainda presente na área de trabalho.
+12. Mão humana ainda presente na área de trabalho.
+
+ANOMALIA: A presença de uma mão humana dentro da área de trabalho do robô é uma anomalia. Qualquer parte do corpo humano na área de operação do robô representa um risco de segurança significativo. A mão está presente em múltiplos frames, indicando uma invasão contínua da área de trabalho, o que pode causar acidentes ou interferir na operação do robô.
+
+Result:
+ANOMALY   anomaly window ~ 0.03s .. 1.10s

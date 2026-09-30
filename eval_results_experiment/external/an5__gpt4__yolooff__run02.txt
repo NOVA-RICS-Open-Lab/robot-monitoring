@@ -1,0 +1,37 @@
+Video: an5.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.81s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente com peças no ambiente de trabalho.
+2. Objeto esférico amarelo em movimento no ar, não pertencente ao ambiente.
+3. Objeto esférico amarelo pousado na mesa, próximo ao robô.
+4. Objeto esférico amarelo permanece na mesa, sem movimento.
+5. Objeto esférico amarelo ainda presente, sem alterações.
+6. Objeto esférico amarelo continua na mesma posição.
+7. Objeto esférico amarelo permanece imóvel na mesa.
+8. Objeto esférico amarelo ainda visível, sem mudanças.
+9. Objeto esférico amarelo permanece no local.
+
+ANOMALIA: Um objeto esférico amarelo, que claramente não faz parte da operação normal do robô, entrou na área de trabalho. Este objeto foi visto em movimento e depois permaneceu na mesa, o que representa uma anomalia, pois pode interferir com a operação segura do robô. A presença de objetos estranhos pode causar falhas ou acidentes, justificando a classificação como anomalia.
+
+STAGE 2  (12 dense frames around src [92], 2.73s)  -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos e peças amarelas sobre a mesa.
+2. Dois braços robóticos e peças amarelas sobre a mesa.
+3. Dois braços robóticos e peças amarelas sobre a mesa.
+4. Dois braços robóticos e peças amarelas sobre a mesa.
+5. Dois braços robóticos e peças amarelas sobre a mesa.
+6. Dois braços robóticos e peças amarelas sobre a mesa.
+7. Dois braços robóticos e peças amarelas sobre a mesa.
+8. Dois braços robóticos e peças amarelas sobre a mesa.
+9. Dois braços robóticos e peças amarelas sobre a mesa.
+10. Dois braços robóticos e peças amarelas sobre a mesa.
+11. Dois braços robóticos e peças amarelas sobre a mesa.
+12. Dois braços robóticos e peças amarelas sobre a mesa.
+
+NORMAL: Em todos os frames, apenas os braços robóticos e as peças amarelas são visíveis na área de trabalho. Não há presença de partes do corpo humano ou objetos estranhos que não pertençam à operação do robô. A cena permanece consistente e segura ao longo da sequência.
+
+Result:
+NORMAL   anomaly window ~ 0.87s .. 2.13s

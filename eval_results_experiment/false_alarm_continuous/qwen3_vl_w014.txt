@@ -1,0 +1,32 @@
+model: qwen3_vl   window 14   195-210 s   idx=[4680, 4724, 4769, 4814, 4859, 4904, 4949, 4994, 5039]
+
+STAGE 1 (9 frames) -> ANOMALY
+1. Robô posicionado sobre placa com blocos amarelos, sem presença humana.  
+2. Apresenta mão humana no canto inferior direito, próximo à placa.  
+3. Robô mantém posição, placa com blocos amarelos visível.  
+4. Robô posicionado sobre placa com blocos amarelos, sem presença humana.  
+5. Robô mantém posição, placa com blocos amarelos visível.  
+6. Robô posicionado sobre placa com blocos amarelos, sem presença humana.  
+7. Robô mantém posição, placa com blocos amarelos visível.  
+8. Robô posicionado sobre placa com blocos amarelos, sem presença humana.  
+9. Robô mantém posição, placa com blocos amarelos visível.  
+
+ANOMALIA: No segundo frame é claramente visível uma mão humana na área de trabalho do robô, o que viola a regra de segurança estabelecida. A presença de qualquer parte do corpo humano na zona operacional é sempre considerada anomalia, independentemente da ação realizada. O restante dos frames não apresenta elementos externos ou humanos, confirmando que a anomalia ocorre exclusivamente no segundo quadro.
+
+STAGE 2 (12 frames) -> ANOMALY
+1. Robô posicionado sobre blocos amarelos, sem presença humana.  
+2. Robô posicionado sobre blocos amarelos, sem presença humana.  
+3. Robô posicionado sobre blocos amarelos, sem presença humana.  
+4. Robô posicionado sobre blocos amarelos, sem presença humana.  
+5. Robô posicionado sobre blocos amarelos, sem presença humana.  
+6. Robô posicionado sobre blocos amarelos, sem presença humana.  
+7. Robô posicionado sobre blocos amarelos, sem presença humana.  
+8. Robô posicionado sobre blocos amarelos, sem presença humana.  
+9. Robô posicionado sobre blocos amarelos, sem presença humana.  
+10. Mão humana manipulando bloco amarelo, invadindo área de trabalho.  
+11. Mão humana segurando bloco amarelo, invadindo área de trabalho.  
+12. Mão humana movendo bloco amarelo, invadindo área de trabalho.  
+
+ANOMALIA: Nas imagens 10, 11 e 12, uma mão humana é claramente visível manipulando os blocos amarelos, invadindo a área de trabalho do robô. Isso representa uma violação das normas de segurança, já que a presença de partes humanas na zona operacional é proibida. O robô não está realizando sua operação normal, pois a intervenção humana não faz parte do processo programado.
+
+FINAL: ANOMALY

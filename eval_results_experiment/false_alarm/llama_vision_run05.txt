@@ -1,0 +1,7 @@
+model: llama_vision   run 5   seed 124971
+STAGE 1: 10 frames  idx=[223, 1511, 2530, 3923, 5358, 6559, 8956, 11580, 12043, 12428]
+NORMAL: A análise da sequência de frames não revela a entrada de objetos ou pessoas externas na área de trabalho do robô, mantendo-se a operação dentro dos parâmetros normais.
+
+STAGE 2: not run
+
+FINAL: NORMAL

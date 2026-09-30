@@ -1,0 +1,11 @@
+Video: an5.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 35.46s)  -> NORMAL
+NORMAL: A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios, objetos amarelos e brancos, e uma superfície de trabalho plana, sem qualquer presença de pessoas, mãos ou objetos estranhos. A operação do robô parece normal e dentro dos parâmetros esperados, com a presença de objetos e equipamentos relacionados à tarefa de solda. Não há evidências de anomalias ou invasões externas na área de trabalho do robô.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

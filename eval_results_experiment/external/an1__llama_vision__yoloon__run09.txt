@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 33.94s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: This image is a blank, empty space with no people, hands, or objects.
+  Frame 2: This image is a blank, dark blue background with no discernible features, objects, or people.
+  Frame 3: This image is a blank, solid blue background with no people, hands, or unusual objects.
+  Frame 4: The image is a blank, black screen with no discernible features, objects, or people.
+  Frame 5: This image is a blank, gradient background with no people, hands, or objects.
+  Frame 6: The image shows a piece of equipment with a gray and white body, a silver metal piece, and a yellow piece of equipment on a blue table.
+  Frame 7: This image is a blank, gradient background with no people, hands, or objects.
+  Frame 8: The image shows a piece of equipment with a gray and blue cylindrical body, a white and yellow base, and a black cord, but it does not contain any people, hands, or unusual objects.
+  Frame 9: The image shows a close-up view of a piece of equipment with a gray and white body and a yellow and white base, but it does not contain any people, hands, or unusual objects.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por objetos estranhos, incluindo uma mão (Frame 1) e objetos não relacionados à operação do robô (Frames 2, 3, 4, 5, 7 e 9), o que indica uma anomalia na área de trabalho.

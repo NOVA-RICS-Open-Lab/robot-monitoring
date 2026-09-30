@@ -1,0 +1,12 @@
+Video: an9.mp4 (internal)
+Model: qwen3_vl (qwen3-vl:8b)
+
+
+STAGE 1  (9 frames, 22.85s)  -> UNKNOWN
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô posicionado sobre
+
+STAGE 2  : not run
+
+Result:
+UNKNOWN

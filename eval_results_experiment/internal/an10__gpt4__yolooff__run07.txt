@@ -1,0 +1,11 @@
+Video: an10.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 26.93s)  -> ERROR
+[ERRO: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-x2Psnp87U0VQ1SugXffVp8z2 on tokens per min (TPM): Limit 30000, Used 27961, Requested 7439. Please try again in 10.8s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}]
+
+STAGE 2  : not run
+
+Result:
+ERROR

@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 5.98s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+3. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+4. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+5. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+6. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+7. Mão humana visível na área de trabalho do robô.
+8. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+9. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho do robô, o que representa uma anomalia. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. É crucial garantir que a área de trabalho esteja livre de interferências humanas para evitar acidentes.

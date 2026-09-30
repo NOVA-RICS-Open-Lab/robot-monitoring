@@ -1,0 +1,19 @@
+model: qwen3_vl   window 38   555-570 s   idx=[13320, 13364, 13409, 13454, 13499, 13544, 13589, 13634, 13679]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô posicionado sobre placa azul com blocos amarelos e papel branco, sem elementos externos.
+2. Robô mantém posição inicial, blocos amarelos visíveis na placa.
+3. Robô manipula blocos amarelos em arranjo quadrado, parte da operação normal.
+4. Robô ajusta posição, blocos amarelos permanecem no local designado.
+5. Robô move braço, placa azul exibe furo central, sem interferência.
+6. Robô continua operação, blocos amarelos e papel branco em posição fixa.
+7. Robô se afasta, blocos amarelos e papel branco mantêm-se estáveis.
+8. Robô posiciona-se sobre placa azul, sem alterações nos elementos.
+9. Robô move braço em direção ao papel branco, operação contínua.
+
+NORMAL: Nenhum elemento humano (mão, braço, pessoa) ou objeto estranho (garrafa, bola, planta) é observado em nenhum frame. Os blocos amarelos são parte da operação normal do robô, conforme descrito no contexto, e o ambiente mantém-se consistente com a descrição do workspace industrial. Todas as mudanças entre frames correspondem a movimentos do próprio robô, sem intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

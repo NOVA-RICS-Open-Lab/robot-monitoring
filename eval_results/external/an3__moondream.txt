@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 24.05s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow blocks on a blue tablecloth with white text.
+  Frame 2: urns of water and a blue table with white paper on it are present in the scene.
+  Frame 3: urns of water on a blue table with a white paper and yellow block, accompanied by a green plant and a sign reading "30%".
+  Frame 4: urns of water and yellow blocks on a blue tablecloth with white text.
+  Frame 5: urns of water and a blue table with white paper on it, accompanied by a green plant and a gray wall.
+  Frame 6: urns of water and a blue table with white text are present on a gray background.
+  Frame 7: urns of water and a yellow cord on a blue tablecloth, with a white sign reading "30" above them.
+  Frame 8: urns of water and yellow blocks on a blue tablecloth with white circles and numbers.
+  Frame 9: urns of water and yellow blocks on a blue table with white text reading "30" and "30%".
+
+Resultado:
+ANOMALIA: urns of water and yellow blocks on a blue tablecloth with white text.

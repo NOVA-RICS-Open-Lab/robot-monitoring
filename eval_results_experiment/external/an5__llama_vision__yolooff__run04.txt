@@ -1,0 +1,11 @@
+Video: an5.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.90s)  -> NORMAL
+NORMAL: A sequência de frames mostra a área de trabalho do robô Kuka, com microscópios, objetos e materiais relacionados à operação de solda, sem qualquer presença de pessoas ou objetos externos anormais. A área de trabalho permanece estável e sem alterações inesperadas ao longo da sequência, indicando que não há anomalias.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

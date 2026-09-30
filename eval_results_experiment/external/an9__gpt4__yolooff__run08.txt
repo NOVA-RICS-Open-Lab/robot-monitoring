@@ -1,0 +1,37 @@
+Video: an9.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.68s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô e mesa com garrafa de plástico e blocos amarelos.
+2. Robô e mesa com garrafa de plástico e blocos amarelos.
+3. Robô segurando a garrafa de plástico sobre a mesa.
+4. Robô movendo a garrafa de plástico sobre a mesa.
+5. Robô ainda segurando a garrafa de plástico sobre a mesa.
+6. Robô coloca a garrafa de plástico deitada sobre a mesa.
+7. Garrafa de plástico deitada na mesa, robô em posição inicial.
+8. Garrafa de plástico deitada na mesa, robô em posição inicial.
+9. Garrafa de plástico deitada na mesa, robô em posição inicial.
+
+ANOMALIA: A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia. Este objeto não faz parte do ambiente normal de operação do robô, que deveria lidar apenas com peças específicas para soldagem e montagem. A garrafa pode interferir na operação segura e eficiente do robô, representando um risco potencial.
+
+STAGE 2  (12 dense frames around src [0, 74], 2.65s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos e uma garrafa de plástico na mesa.
+2. Dois braços robóticos e uma garrafa de plástico na mesa.
+3. Dois braços robóticos e uma garrafa de plástico na mesa.
+4. Dois braços robóticos e uma garrafa de plástico na mesa.
+5. Dois braços robóticos e uma garrafa de plástico na mesa.
+6. Dois braços robóticos e uma garrafa de plástico na mesa.
+7. Dois braços robóticos e uma garrafa de plástico na mesa.
+8. Dois braços robóticos e uma garrafa de plástico na mesa.
+9. Dois braços robóticos e uma garrafa de plástico na mesa.
+10. Dois braços robóticos e uma garrafa de plástico na mesa.
+11. Dois braços robóticos e uma garrafa de plástico na mesa.
+12. Dois braços robóticos e uma garrafa de plástico na mesa.
+
+ANOMALIA: A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia. Este objeto não faz parte do ambiente operacional normal do robô e pode interferir nas suas funções, representando um risco de segurança. É essencial remover objetos estranhos para garantir a operação segura e eficiente do robô.
+
+Result:
+ANOMALY   anomaly window ~ 0.00s .. 1.77s

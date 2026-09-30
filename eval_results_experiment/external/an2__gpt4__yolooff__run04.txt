@@ -1,0 +1,37 @@
+Video: an2.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 16.69s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente com peças no local de trabalho.
+2. O robô continua a operação sem interferências externas.
+3. Uma mão humana aparece no espaço de trabalho, tocando uma peça.
+4. A mão humana não está mais visível; o robô retoma a operação.
+5. O robô continua a operação sem interferências.
+6. O robô está operando normalmente.
+7. O robô continua a operação sem interferências externas.
+8. O robô está operando normalmente.
+9. O robô continua a operação sem interferências.
+
+ANOMALIA: Uma mão humana invadiu a área de trabalho do robô no frame 3. A presença de qualquer parte do corpo humano na área de trabalho é sempre considerada uma anomalia, pois representa um risco de segurança significativo. A operação do robô deve ser interrompida imediatamente para garantir a segurança do operador e do equipamento.
+
+STAGE 2  (12 dense frames around src [172], 2.83s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Mão humana visível perto do robô.
+2. Mão humana se aproximando do objeto na mesa.
+3. Mão humana tocando o objeto na mesa.
+4. Mão humana ainda em contato com o objeto.
+5. Mão humana ainda em contato com o objeto.
+6. Mão humana ainda em contato com o objeto.
+7. Mão humana ainda em contato com o objeto.
+8. Mão humana ainda em contato com o objeto.
+9. Mão humana começando a se afastar do objeto.
+10. Mão humana se afastando do objeto.
+11. Mão humana se afastando do objeto.
+12. Mão humana fora da área de trabalho.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em todos os frames, a mão está em contato ou muito próxima dos objetos que o robô manipula. Isso representa um risco de segurança significativo, pois qualquer parte do corpo humano na área de trabalho do robô deve ser evitada para prevenir acidentes.
+
+Result:
+ANOMALY   anomaly window ~ 2.20s .. 3.47s

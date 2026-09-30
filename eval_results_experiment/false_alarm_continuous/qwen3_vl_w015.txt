@@ -1,0 +1,18 @@
+model: qwen3_vl   window 15   210-225 s   idx=[5040, 5084, 5129, 5174, 5219, 5264, 5309, 5354, 5399]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posicionado sobre blocos amarelos em plataforma azul, sem elementos externos visíveis.  
+2. Robô se movendo para interagir com blocos amarelos, sem presença humana.  
+3. Robô segurando bloco amarelo, com braço mecânico operando normalmente.  
+4. Robô posicionando bloco amarelo na plataforma, sem interferência externa.  
+5. Robô ajustando posição dos blocos amarelos, movimento contínuo do braço.  
+6. Robô mantendo contato com blocos amarelos, operação sem alterações.  
+7. Robô movendo bloco amarelo para nova posição, ambiente estável.  
+8. Robô finalizando manipulação dos blocos, sem elementos estranhos.  
+9. Robô em posição de espera, com área de trabalho intacta.  
+
+NORMAL: A sequência mostra apenas o robô manipulando blocos amarelos como parte da operação normal, sem presença de mãos, braços humanos ou objetos estranhos. Todos os elementos observados (blocos, plataforma, braço robótico) são parte integrante do processo descrito, e não há indícios de intervenção externa ou anomalias na área de trabalho.
+
+STAGE 2: not run
+
+FINAL: NORMAL

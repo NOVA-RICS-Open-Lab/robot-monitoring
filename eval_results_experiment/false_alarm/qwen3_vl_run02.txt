@@ -1,0 +1,47 @@
+model: qwen3_vl   run 2   seed 80057
+STAGE 1: 12 frames  idx=[98, 867, 1895, 1897, 2392, 4069, 5778, 5969, 9127, 9551, 11076, 11588]
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes nenhum):
+1. Dois robôs posicionados sobre placa azul, um com garra azul próximo a blocos amarelos em grade branca.
+2. Vista próxima do braço do robô, sem presença de pessoas ou objetos externos.
+3. Robô esquerdo movendo-se para blocos amarelos, robô direito estático.
+4. Robô esquerdo próximo a blocos amarelos, robô direito imóvel.
+5. Robô esquerdo se afastando, robô direito permanece na posição.
+6. Robô esquerdo se aproximando dos blocos amarelos.
+7. Robô esquerdo posicionando bloco amarelo, robô direito imóvel.
+8. Robô esquerdo se movendo para grade branca vazia.
+9. Robô esquerdo se aproximando da grade branca.
+10. Vista próxima do braço do robô, com bloco amarelo na grade.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+STAGE 2: not run
+
+FINAL: UNKNOWN

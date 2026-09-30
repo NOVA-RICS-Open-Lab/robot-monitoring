@@ -1,0 +1,41 @@
+Video: an9.mp4 (external)
+Model: yolo_pose (yolo11n-pose.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> ANOMALY
+  src#0     t=  0.00s : 1 person(s)
+  src#74    t=  1.23s : 1 person(s); wrists left_wrist(0.37)
+  src#148   t=  2.47s : 0 person(s)
+  src#222   t=  3.70s : 0 person(s)
+  src#296   t=  4.93s : 0 person(s)
+  src#370   t=  6.17s : 0 person(s)
+  src#444   t=  7.40s : 0 person(s)
+  src#518   t=  8.63s : 0 person(s)
+  src#593   t=  9.88s : 0 person(s)
+  basis: wrist keypoint in 1 frame(s)
+
+STAGE 2  (21 dense frames around src [74])  -> ANOMALY
+  src#34    t=  0.57s : 1 person(s)
+  src#38    t=  0.63s : 1 person(s)
+  src#42    t=  0.70s : 0 person(s)
+  src#46    t=  0.77s : 1 person(s)
+  src#50    t=  0.83s : 0 person(s)
+  src#54    t=  0.90s : 0 person(s)
+  src#58    t=  0.97s : 0 person(s)
+  src#62    t=  1.03s : 0 person(s)
+  src#66    t=  1.10s : 0 person(s)
+  src#70    t=  1.17s : 0 person(s)
+  src#74    t=  1.23s : 1 person(s); wrists left_wrist(0.37)
+  src#78    t=  1.30s : 0 person(s)
+  src#82    t=  1.37s : 0 person(s)
+  src#86    t=  1.43s : 0 person(s)
+  src#90    t=  1.50s : 0 person(s)
+  src#94    t=  1.57s : 1 person(s); wrists left_wrist(0.50), right_wrist(0.43)
+  src#98    t=  1.63s : 0 person(s)
+  src#102   t=  1.70s : 0 person(s)
+  src#106   t=  1.77s : 0 person(s)
+  src#110   t=  1.83s : 0 person(s)
+  src#114   t=  1.90s : 0 person(s)
+  basis: wrist keypoint in 2 frame(s)
+
+Result:
+ANOMALY   anomaly window ~ 1.23s .. 1.57s

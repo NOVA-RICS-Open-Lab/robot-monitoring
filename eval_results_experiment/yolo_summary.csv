@@ -1,0 +1,201 @@
+video,kind,model,repeat,conf,two_stage,s1_status,s2_status,status,elapsed_s,s1_frames,s2_frames,frames,anomaly_start_s,anomaly_end_s,basis
+an1,external,yolo_coco,1,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,2,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,3,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,4,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,5,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,6,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,7,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,8,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,9,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_coco,10,0.35,1,NORMAL,,NORMAL,1.27,9,0,9,,,no person detected
+an1,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an1,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.37,9,21,30,8.42,9.15,wrist keypoint in 11 frame(s)
+an10,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.33,9,42,51,3.33,4.83,person in 27 frame(s); also: cup
+an10,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an10,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.26,9,21,30,3.47,4.53,wrist keypoint in 17 frame(s)
+an2,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.14,9,21,30,2.20,3.33,person in 18 frame(s); also: cup
+an2,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an2,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.54,9,53,62,2.20,11.50,wrist keypoint in 46 frame(s)
+an3,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,1.05,6.85,person in 37 frame(s); also: cup
+an3,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an3,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.09,9,60,69,0.00,9.88,wrist keypoint in 58 frame(s)
+an4,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.08,9,60,69,0.68,4.98,person in 49 frame(s)
+an4,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an4,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.34,9,21,30,3.72,5.05,wrist keypoint in 21 frame(s)
+an5,external,yolo_coco,1,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,2,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,3,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,4,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,5,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,6,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,7,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,8,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,9,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_coco,10,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,no person detected
+an5,external,yolo_pose,1,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,2,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,3,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,4,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,5,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,6,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,7,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,8,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,9,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an5,external,yolo_pose,10,0.35,1,NORMAL,,NORMAL,0.12,9,0,9,,,no wrist keypoint above threshold
+an6,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.11,9,60,69,1.60,14.28,person in 33 frame(s); also: bowl
+an6,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an6,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,3.26,9,60,69,1.60,11.40,wrist keypoint in 24 frame(s)
+an7,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.41,9,39,48,0.23,1.17,person in 28 frame(s)
+an7,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an7,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.50,9,39,48,0.37,1.03,wrist keypoint in 16 frame(s)
+an8,external,yolo_coco,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_coco,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.17,9,42,51,4.35,9.78,"person in 33 frame(s); also: bottle, bowl, mouse"
+an8,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an8,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,2.21,9,42,51,4.42,9.78,wrist keypoint in 31 frame(s)
+an9,external,yolo_coco,1,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,2,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,3,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,4,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,5,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,6,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,7,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,8,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,9,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_coco,10,0.35,1,NORMAL,,NORMAL,0.11,9,0,9,,,"no person detected (foreign seen, not counted: bottle, bowl, cup)"
+an9,external,yolo_pose,1,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,2,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,3,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,4,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,5,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,6,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,7,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,8,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,9,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)
+an9,external,yolo_pose,10,0.35,1,ANOMALY,ANOMALY,ANOMALY,1.31,9,21,30,1.23,1.57,wrist keypoint in 2 frame(s)

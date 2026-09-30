@@ -1,0 +1,18 @@
+Vídeo: an4.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.59s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e blocos amarelos na mesa.
+2. Mão humana se aproximando dos blocos.
+3. Mão humana tocando nos blocos.
+4. Mão humana movendo um bloco.
+5. Mão humana ainda em contato com o bloco.
+6. Mão humana sobre o bloco.
+7. Mão não está mais visível, apenas robôs e blocos.
+8. Cena permanece sem a mão, apenas robôs e blocos.
+9. Cena permanece sem a mão, apenas robôs e blocos.
+
+ANOMALIA: A presença de uma mão humana nos frames 2 a 6 representa uma invasão da área de trabalho do robô. Qualquer parte do corpo humano na área de operação é considerada uma anomalia devido aos riscos de segurança associados. A intervenção humana pode causar acidentes ou interferir no funcionamento do robô, justificando a classificação como anomalia.

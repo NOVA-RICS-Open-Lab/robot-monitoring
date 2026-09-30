@@ -1,0 +1,19 @@
+model: gpt4   window 10   135-150 s   idx=[3240, 3284, 3329, 3374, 3419, 3464, 3509, 3554, 3599]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Robô com dois blocos amarelos na mesa.
+2. Robô com dois blocos amarelos na mesa.
+3. Robô com dois blocos amarelos na mesa.
+4. Robô com dois blocos amarelos na mesa.
+5. Robô com dois blocos amarelos na mesa.
+6. Robô com dois blocos amarelos na mesa.
+7. Robô com dois blocos amarelos na mesa.
+8. Robô com dois blocos amarelos na mesa.
+9. Robô com dois blocos amarelos na mesa.
+
+NORMAL: Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho do robô em nenhum dos frames. O ambiente permanece consistente com a operação normal do robô, sem sinais de invasão ou interferência externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

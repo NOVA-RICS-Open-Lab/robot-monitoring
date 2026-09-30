@@ -1,0 +1,12 @@
+Video: an2.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.44s)  -> ANOMALY
+ANOMALIA: A análise da sequência de frames revela que a mão de uma pessoa (Frame 3) e objetos estranhos (Frame 1, Frame 2, Frame 4, Frame 5, Frame 6, Frame 8 e Frame 9) invadiram a área de trabalho do robô, indicando uma anomalia na operação.
+
+STAGE 2  (12 dense frames around src [0, 86], 44.77s)  -> ANOMALY
+ANOMALIA: A partir do Frame 11, uma mão humana entra na área de trabalho do robô, indicando uma anomalia. Além disso, a presença de papel e blocos amarelos em Frame 12 não está relacionada à operação do robô, o que também indica uma anomalia.
+
+Result:
+ANOMALY   anomaly window ~ 0.00s .. 1.97s

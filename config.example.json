@@ -1,0 +1,19 @@
+{
+  "vision_model": "gpt-4o",
+  "yolo_enabled": true,
+  "camera": 0,
+  "cooldown": 5.0,
+  "aas_filename": "",
+  "robot_operation": "",
+  "aas_context": "",
+  "prompt_visao": "",
+  "prompt_texto": "",
+  "external_enabled": true,
+  "internal_enabled": false,
+  "robot_api_url": "http://192.168.1.100:8000/api/status",
+  "robot_api_interval": 3.0,
+  "source_type": "video",
+  "video_path": "sample_media/sample_external_anomaly.mp4",
+  "video_loop": true,
+  "internal_log_path": ""
+}

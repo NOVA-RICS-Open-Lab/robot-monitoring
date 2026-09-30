@@ -1,0 +1,1135 @@
+% ======================================================================
+%  Anomaly detection in an industrial robot cell
+%  A three-stage evaluation of Vision--Language Models against an
+%  off-the-shelf object detector
+% ======================================================================
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{placeins}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.2}
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\title{Anomaly Detection in an Industrial Robot Cell:\\[4pt]
+       A Three-Stage Evaluation of Vision--Language Models\\
+       against an Off-the-Shelf Object Detector}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+This report evaluates whether a vision--language model (VLM) can serve as
+the anomaly-detection component of a monitoring system for an industrial
+robot cell, and how it compares with a small, off-the-shelf object
+detector used for the same purpose. Two categories of anomaly are
+considered: \emph{common} anomalies, in which a person or a foreign object
+enters the work area, and \emph{operational} anomalies, in which the robot
+itself fails to complete its task. Three detectors are compared --- GPT-4o,
+Qwen3-VL~8B and Llama~3.2~Vision~11B --- against two rule-based variants of
+YOLO11n. Each detector is run through a two-stage procedure (a coarse pass
+over the whole clip followed by a dense re-check around the suspected
+event) and each of its positive verdicts is then adjudicated by a separate
+language model that judges whether the anomaly the detector described is
+the one that actually occurred. Every clip is analysed ten times to expose
+run-to-run instability, and a further ten-minute recording of normal
+operation is used to probe false alarms. The main findings are that all
+strong models detect human intrusions reliably but differ sharply on
+foreign objects and on operational faults observed without a machine-state
+log; that the dense re-check, as currently configured, removes more
+correct detections than it adds; and that when a model does raise a false
+alarm it is almost always because it has hallucinated a human hand
+manipulating the workpieces.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% ======================================================================
+\section{Introduction}
+% ======================================================================
+
+An automated safety monitor for a robot cell must answer one question
+continuously: is the current situation normal, or is something wrong? Two
+kinds of ``wrong'' matter in this setting. The first is an
+\textbf{external} or \emph{common} anomaly: a human hand, arm or whole
+person has entered the robot's work envelope, or an object that has no
+business being there --- a tool left behind, a bottle, a ball --- is
+sitting in the workspace. These are detectable from the camera alone. The
+second is an \textbf{internal} or \emph{operational} anomaly: the robot is
+physically intact and unobstructed, but its process has failed --- it
+closed its gripper on nothing, it dropped the part, it skipped a pick.
+These are only partly visible; in a real installation they are usually
+confirmed from the controller's own state log.
+
+The conventional tool for the first category is an object detector such as
+YOLO. It is fast, deterministic and cheap, but it is a closed-vocabulary
+classifier: it can only report the categories it was trained on, and it
+has no notion of ``this object does not belong here''. A vision--language
+model is the opposite trade-off. It reasons in open vocabulary, it can be
+told the operational context in words, and it can read a state log
+alongside the images; but it is slow, non-deterministic, and it can
+hallucinate.
+
+This report presents a controlled comparison of the two approaches across
+three tests: detection of common anomalies (Section~\ref{sec:test1}),
+detection of operational anomalies with and without the state log
+(Section~\ref{sec:test2}), and false-alarm behaviour on a long recording
+of normal operation (Section~\ref{sec:test3}). Section~\ref{sec:method}
+describes the detection pipeline, the semantic-adjudication step, the
+detectors and the test material. Section~\ref{sec:discussion} draws the
+comparison together.
+
+% ======================================================================
+\section{Evaluation methodology}
+\label{sec:method}
+% ======================================================================
+
+\subsection{The two-stage detection pipeline}
+
+Every detector produces its verdict in two stages.
+
+\textbf{Stage~1 --- coarse pass.} The clip is sampled at nine points
+spaced evenly across its full duration (frame $\lfloor i(N-1)/8\rfloor$
+for $i = 0,\dots,8$, where $N$ is the clip's frame count). Each of the
+nine frames is cropped to the work surface using a colour heuristic,
+scaled so that its longer side is at most 560 pixels, and JPEG-encoded.
+For operational-anomaly clips the machine-state log, when one is
+available, is appended to the prompt as plain text. The detector receives
+all nine frames together and must return a short description of each frame
+followed by a single verdict line, either
+\texttt{ANOMALY:}~\emph{justification} or \texttt{NORMAL:}~\emph{justification}.
+From the justification the pipeline extracts the \emph{anchor}: the frame
+number, or numbers, the detector says the anomaly is in. If the detector
+produces no parseable verdict line at all --- which happens when a model
+refuses or drifts into an unstructured monologue --- the verdict is
+recorded as \texttt{UNKNOWN}.
+
+The nine-frame coarse pass is deliberately sparse. A brief event --- a
+hand that enters and withdraws within a second, a ball that crosses the
+frame --- can fall between two of the nine samples, or be caught in only
+one, motion-blurred frame. Stage~1 is therefore expected to be sensitive
+but imprecise about \emph{when} the anomaly occurs.
+
+\textbf{Stage~2 --- dense re-check.} Stage~2 runs only when Stage~1
+returned \texttt{ANOMALY} and an anchor frame could be identified; a
+Stage~1 verdict of \texttt{NORMAL} or \texttt{UNKNOWN} is never revisited.
+Around each anchor the pipeline builds a dense window of frames --- the
+anchor plus and minus multiples of four source frames, up to ten steps in
+each direction, then de-duplicated and capped at twelve frames for the
+language models. These frames are prepared exactly as in Stage~1, the log
+is appended again, and the \emph{same} detector is called afresh with the
+\emph{same} prompt. Crucially, the model is not shown its own Stage~1
+answer; Stage~2 is an independent second opinion on a tighter, denser view
+of the same moment.
+
+The Stage~2 verdict is taken as the \textbf{final} verdict. It can
+therefore \emph{overturn} Stage~1, turning an \texttt{ANOMALY} into a
+\texttt{NORMAL}. The reverse cannot happen, because Stage~2 never runs on
+a Stage~1 \texttt{NORMAL}. If Stage~2 itself returns \texttt{UNKNOWN} or
+errors, the Stage~1 \texttt{ANOMALY} is retained. Stage~2 also produces
+the localised time window of the anomaly --- the first and last timestamps
+in the dense window at which the detector still reports the event.
+
+The design intent of Stage~2 is twofold: to confirm a suspected event
+against evidence the sparse pass could not have seen, and to pin down its
+timing. On a test set in which every clip genuinely contains an anomaly,
+an overturning Stage~2 can only lower recall; its benefit is expected to
+appear instead on normal footage, where it has the opportunity to retract
+a false alarm.
+
+\subsection{Semantic adjudication (Stage~3)}
+
+A verdict of \texttt{ANOMALY} can be correct as a label while being wrong
+in substance: the model may have flagged the right clip for the wrong
+reason, or described a plausible-sounding anomaly that is not the one
+present. To separate these cases we add a third stage that does not affect
+any verdict and is applied only after all runs are complete.
+
+For every run whose \emph{final} verdict is \texttt{ANOMALY}, an
+independent language model (GPT-4o at temperature zero) is given two short
+texts: a one-sentence reference description of the true anomaly for that
+clip, and the detector's own final justification. It returns exactly one
+of three labels. \textbf{MATCH} means the justification identifies the
+same anomaly type and the same agent as the reference --- a human
+hand or arm, a specific foreign object such as a ball, bottle, plant or
+wallet, or the same operational fault such as the gripper closing on
+nothing. Different wording or a missing minor detail does not prevent a
+MATCH. \textbf{PARTIAL} means the core is right but the account is
+incomplete or vague, or it is right but padded with a clearly false extra
+claim. \textbf{MISMATCH} means the justification describes a different
+anomaly, one that was hallucinated, or --- on the normal video --- any
+anomaly at all. Runs whose final verdict is \texttt{NORMAL} or
+\texttt{UNKNOWN} are treated as ``no detection'' and are not sent to the
+judge. Identical justifications are judged once and the result reused; the
+618 positive runs reduce to 362 distinct texts.
+
+Stage~3 lets us report not only \emph{how often} a detector fires on a
+real anomaly, but \emph{how often its explanation is trustworthy}.
+
+\subsection{Detectors under evaluation}
+
+\textbf{GPT-4o} is used through the OpenAI API at temperature zero. It
+accepts all nine (or twelve) frames in a single request and returns the
+description and verdict directly.
+
+\textbf{Qwen3-VL~8B} is run locally through Ollama, also receiving all
+frames in one request. It is a ``thinking'' model: left to itself it
+prefixes its answer with an extended internal monologue. It is therefore
+forced into non-thinking mode and given a generous output budget, but even
+so it occasionally produces an essay with no verdict line, which the
+pipeline records as \texttt{UNKNOWN}.
+
+\textbf{Llama~3.2~Vision~11B} is run locally through Ollama in a
+four-bit quantisation. Unlike the other two it accepts only one image per
+request, so it cannot be given the frames together. Instead each frame is
+captioned individually and the nine captions are then passed as text to a
+final synthesis call that produces the verdict. This indirection is the
+model's main handicap: fine visual detail that is not mentioned in a
+caption is lost before the decision is made.
+
+\textbf{YOLO11n} and \textbf{YOLO11n-pose} are the two rule-based
+baselines. The detection variant runs the standard 80-class model on each
+frame and declares an anomaly if the class \texttt{person} is found at
+confidence at least $0.35$ in any frame. The pose variant declares an
+anomaly if a wrist keypoint is visible at the same confidence in any
+frame, which is a finer proxy for a hand reaching into the cell. Both are
+deterministic; their ten repeats per clip are identical by construction
+and are reported at $n=10$ only so that the tables line up with the
+language models. In this system YOLO is normally used only to crop the
+region of interest; here it is pressed into service as an actual anomaly
+detector through the rules above.
+
+\subsection{Test material}
+
+The common-anomaly set consists of ten short clips (three to eighteen
+seconds, recorded at 60\,fps). Seven contain a human hand or arm entering
+the workspace; three contain a foreign object only --- a thrown tennis
+ball, a potted plant, and a plastic bottle that the robot arm then
+collides with; one contains both a hand and the removal of a workpiece.
+
+The operational-anomaly set is built to isolate the contribution of the
+state log. Five clips (an1--an5) show a process fault --- the robot picks
+a piece that is not there, picks nothing, or fails to grasp --- and are
+accompanied by the controller's state log, which records the gripper
+error explicitly. The other five clips (an6--an10) are \emph{the same five
+recordings, byte for byte, with the log removed}. The difference between
+the two halves is therefore purely the presence of the log, and it
+measures how much of the operational-anomaly detection depends on that
+text rather than on the images.
+
+Neither anomaly set contains any clip of normal operation. All reported
+figures on those sets are therefore \emph{recall} --- the fraction of
+anomalies detected --- and cannot speak to precision. To probe the
+false-positive side we use a separate ten-minute recording
+(\texttt{teste\_falso\_alarm.mp4}, 14\,412 frames at 24\,fps) of
+uninterrupted normal operation, in which every \texttt{ANOMALY} verdict is
+by definition an error.
+
+\subsection{Protocol and run counts}
+
+Each of the three language models was run ten times on each of the twenty
+anomaly clips, giving 600 language-model runs; the two YOLO variants were
+run (deterministically) on the ten external clips, giving 200 rows. On the
+false-alarm video each language model was run six times, and each of those
+runs drew a fresh random set of frames: a random count between nine and
+eighteen, at random timestamps across the whole recording, with a distinct
+set per model and run, so that the same recording is never analysed twice
+through the same frames. This yields 18 false-alarm runs. Stage~3 produced
+618 judgements. Repeating every anomaly clip ten times is what makes the
+run-to-run instability of the language models visible; a model that
+detects a clip in six runs out of ten is reported as ``6/10'', not simply
+as ``detected''.
+
+% ======================================================================
+\section{Test 1 --- Common (external) anomalies}
+\label{sec:test1}
+% ======================================================================
+
+\subsection{Anomalies Test Results}
+
+The ten common-anomaly clips were analysed by all five detectors, ten
+times each. For the language models we report, per clip, how many of the
+ten runs raised an anomaly at Stage~1 and how many still did after the
+Stage~2 re-check. For YOLO the two numbers are always equal. Across the
+whole set we then report the Stage~1 recall, the final recall, the
+fraction of clips in which the correct agent was named (the coarse
+right-reason check), and the Stage~3 verdict on the justifications.
+
+\subsection{Stage 1: Coarse Detection}
+
+The ten common-anomaly clips were analysed by all five detectors, ten
+times each. For the language models we report, per clip, how many of the
+ten runs raised an anomaly at Stage~1. The results can be seen on
+Table~\ref{tab:test1-stage1}.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}l ccc cc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V & YOLO-coco & YOLO-pose \\
+\midrule
+an1  & 10 & 10 & 10 & 0  & 10 \\
+an2  & 10 & 10 & 10 & 10 & 10 \\
+an3  & 10 & 10 & 10 & 10 & 10 \\
+an4  & 10 & 10 & 10 & 10 & 10 \\
+an5  & 10 & 10 & 0  & 0  & 0 \\
+an6  & 10 & 10 & 10 & 10 & 10 \\
+an7  & 10 & 10 & 10 & 10 & 10 \\
+an8  & 10 & 10 & 10 & 10 & 10 \\
+an9  & 10 & 0  & 0  & 0  & 10 \\
+an10 & 10 & 10 & 10 & 10 & 10 \\
+\midrule
+\textbf{recall} & \textbf{100\,\%} & \textbf{90\,\%} & \textbf{80\,\%}
+                & \textbf{70\,\%} & \textbf{90\,\%} \\
+\midrule
+mean time (s)   & 8.8 & 36.2 & 71.1 & $\approx$2 & $\approx$2 \\
+median time (s) & 6.3 & 35.7 & 80.0 & $\approx$1.5 & $\approx$1.5 \\
+\bottomrule
+\end{tabular}
+\caption{Test~1 (common / external anomalies), Stage~1 coarse pass:
+number of \texttt{ANOMALY} verdicts out of ten runs per clip, for each
+detector, with per-run wall-clock time (Stage~1 and Stage~2 combined).}
+\label{tab:test1-stage1}
+\end{table}
+\FloatBarrier
+
+At Stage 1, GPT-4o raised an anomaly in every one of its hundred runs
+(ten out of ten on all ten clips). Qwen3-VL matched this on nine of the
+ten clips and missed the plastic-bottle clip (an9) entirely, giving 90 of
+100. YOLO's pose variant also reached 90 of 100, failing only on the
+tennis-ball clip (an5), where there is no person and no visible wrist.
+Llama reached 80 of 100, since like Qwen it never fired on the bottle and
+it additionally never fired on the ball. YOLO's plain detection variant
+reached 70 of 100, missing the ball, the bottle, and, because the hand
+never forms a full human silhouette, the brief hand in an1.
+
+The pattern at this stage is that human intrusions are easy to detect. On
+the seven clips that contain a hand or arm (an1 to an4, an6 to an8, an10),
+every detector fired in all ten runs, with the single exception of YOLO's
+detection variant on the one-frame hand in an1. The difficulty is
+concentrated in the three object-only clips. The thrown tennis ball (an5)
+was detected by GPT-4o and Qwen in all ten runs, but by neither YOLO
+variant and never by Llama. The static plastic bottle (an9) was detected
+only by GPT-4o, in all ten Stage-1 runs, and spuriously by YOLO-pose,
+which fired a wrist keypoint on a scene that contains only the bottle and
+the robot arm. The potted plant (an6) was detected by all three language
+models in every run, and also by both YOLO variants, but YOLO fired for
+the wrong reason, reading the cluttered scene as containing a person
+rather than recognizing the plant as a foreign object.
+
+\subsection{Stage 2: the dense re-check}
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}l ccc cc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V & YOLO-coco & YOLO-pose \\
+\midrule
+an1  & 10 & 10 & \textbf{5} & 0  & 10 \\
+an2  & 10 & 10 & 10 & 10 & 10 \\
+an3  & 10 & 10 & 10 & 10 & 10 \\
+an4  & 10 & 10 & 10 & 10 & 10 \\
+an5  & \textbf{6} & 10 & 0 & 0 & 0 \\
+an6  & 10 & 10 & 10 & 10 & 10 \\
+an7  & 10 & 10 & \textbf{8} & 10 & 10 \\
+an8  & 10 & 10 & 10 & 10 & 10 \\
+an9  & \textbf{3} & 0 & 0 & 0 & 10 \\
+an10 & 10 & \textbf{0} & 10 & 10 & 10 \\
+\midrule
+\textbf{final recall} & \textbf{89\,\%} & \textbf{80\,\%} & \textbf{73\,\%}
+                      & \textbf{70\,\%} & \textbf{90\,\%} \\
+\midrule
+Stage-1 recall (ref.) & 100\,\% & 90\,\% & 80\,\% & 70\,\% & 90\,\% \\
+runs overturned & 11 & 10 & 7 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Test~1, Stage 2 results.}
+\label{tab:test1-stage2}
+\end{table}
+\FloatBarrier
+
+On this test set every clip is an anomaly, so any change Stage~2 makes to
+the verdict is a change for the worse. Stage~2 changed the verdict in 23
+of the 300 language-model runs, and every one of those 23 changes was an
+\texttt{ANOMALY} turned into a \texttt{NORMAL}, resulting in twenty-three
+lost detections.
+
+The losses were not spread evenly. They clustered on a handful of
+clip--model combinations, each with an identifiable mechanism. GPT-4o lost
+seven of its ten runs on the bottle clip (an9) because Stage~2, shown the
+bottle clearly in every frame of the dense window, re-reasoned about it
+and concluded that the bottle does not interfere with the operation and
+does not represent a safety anomaly, a defensible-sounding judgment that
+nonetheless contradicts the task definition, under which any object that
+does not belong is an anomaly. It lost a further four of ten on the ball
+clip (an5) for a different reason. The anchor extracted from Stage~1
+pointed at the middle of the clip, so the dense window covered roughly
+0.9 to 2.1 seconds, which is after the ball has crossed the frame (0.4 to
+0.8 seconds). Stage~2 then truthfully reported that it saw only the robot
+arms and the yellow blocks, and returned \texttt{NORMAL}. This second case
+is not a reasoning failure at all, therefore it is a sampling failure in
+how the dense window is placed.
+
+Qwen3-VL lost all ten of its runs on the mixed clip an10 to a generation
+failure. On every one of those runs its Stage~2 output was the unfilled
+prompt template itself, the literal string
+``\texttt{NORMAL: <factual and elaborate explanation\ldots>}'', which the
+parser dutifully read as a \texttt{NORMAL} verdict. This single failure is
+the entire difference between Qwen's 90\,\% Stage-1 recall and its 80\,\%
+final recall on this test. On a further ten runs, all on clip an2, Qwen's
+Stage~2 returned an unstructured monologue with no verdict line. Here the
+guard did its job, the Stage~1 \texttt{ANOMALY} was kept, and the only
+cost was ten wasted Stage-2 calls.
+
+Llama lost five of ten runs on the one-frame hand in an1, since it was not
+capable of detecting the frame containing the hand, and Stage~2, working
+from captions of frames that show only the workbench, described ``two
+microscopes on a blue table'' and returned \texttt{NORMAL}. It lost two
+more on an7 to a scene-hallucination flip, in which Stage~1 reported ``a
+hand in frame $X$'' and Stage~2, re-describing the same scene, asserted
+that ``no people are present and welding proceeds normally''.
+
+\subsection{Stage 3: quality of the justifications}
+
+Of the runs that ended as \texttt{ANOMALY}, Stage~3 asked how many
+actually described the anomaly that was present. The references for this
+comparison can be seen in Table~\ref{tab:test1-stage3-start}.
+
+\begin{table}[htbp]
+\centering
+\caption{External anomaly test scenarios.}
+\label{tab:external_anomaly_scenarios}
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Test} & \textbf{Anomaly type} & \textbf{Scenario description} \\
+\midrule
+AN1 & External & A human hand places a white object in the workspace and then withdraws. \\
+AN2 & External & A human hand briefly enters the workspace and then withdraws. \\
+AN3 & External & A human hand enters the workspace and touches the robot. \\
+AN4 & External & A human hand enters the workspace and rearranges the yellow parts. \\
+AN5 & External & A tennis ball is thrown into the workspace. \\
+AN6 & External & A plant is placed in the workspace. \\
+AN7 & External & A human hand places a white object in the workspace. \\
+AN8 & External & A human hand throws a black wallet into the workspace while a white object is also present. \\
+AN9 & External & A plastic bottle is present in the workspace. \\
+AN10 & External & A human hand forcibly removes a part from the robot. \\
+\bottomrule
+\label{tab:test1-stage3-start}
+\end{tabularx}
+\end{table}
+\FloatBarrier
+
+The most striking result is a positive one: not a single run on this test
+set was graded MISMATCH. When a language model fired on a clip that
+genuinely contained an anomaly, it never invented a different anomaly. At
+worst, it simply under-described the real one.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l ccc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V \\
+\midrule
+an1  & 1/10  & 8/10  & 0/5  \\
+an2  & 8/10  & 0/10  & 1/10 \\
+an3  & 10/10 & 10/10 & 0/10 \\
+an4  & 10/10 & 10/10 & 2/10 \\
+an5  & 6/6   & 10/10 & ---  \\
+an6  & 10/10 & 10/10 & 7/10 \\
+an7  & 9/10  & 0/10  & 0/8  \\
+an8  & 10/10 & 0/10  & 3/10 \\
+an9  & 3/3   & ---   & ---  \\
+an10 & 0/10  & ---   & 0/10 \\
+\midrule
+\textbf{MATCH (of fired)} & \textbf{67/89 (75\,\%)} & \textbf{48/80 (60\,\%)}
+                          & \textbf{13/73 (18\,\%)} \\
+\midrule
+PARTIAL   & 22 & 32 & 60 \\
+MISMATCH  & 0  & 0  & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Test 1 Stage 3 Results.}
+\label{tab:test1-stage3}
+\end{table}
+\FloatBarrier
+
+Within the positives, however, the models separate widely. GPT-4o's
+justifications were graded MATCH on 67 of its 89 positive runs. The
+remainder were PARTIAL, concentrated on the composite clip an10, where GPT
+consistently reported ``a hand in the work area'' but never mentioned that
+the hand was removing a workpiece, so the action that makes an10 distinct.
+Qwen3-VL reached MATCH on 48 of 80. It is reliable on hands and on the
+plant, but it describes the specific objects generically. On the
+white-object clip (an7) and the wallet clip (an8) it fired in all ten runs
+yet was graded MATCH in none, because it said only ``an object'' where the
+reference names a particular one. Llama reached MATCH on just 13 of its 73
+positive runs. It almost always mentions ``a hand'' somewhere, but that
+mention is embedded in a wholesale hallucination of the scene, by stating
+there were recurring ``microscopes on a blue table''. The judge grades the
+account PARTIAL, since the model has noticed that something is wrong
+without describing the situation.
+
+The YOLO variants provide no free-text justification, so their detections
+were checked manually. Human-intrusion detections were consistent with the
+scene, but an6 and an9 produced false person or wrist detections,
+classified as \texttt{MISMATCH}. These cases show that detecting an anomaly
+does not necessarily mean correctly identifying its cause.
+
+\subsection{Conclusion for Test 1}
+
+The entire results of Test 1 can be seen in Table~\ref{tab:test1}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+Detector & Stage-1 recall & Final recall & Right-reason & Stage-3 MATCH$^{\ast}$ \\
+\midrule
+GPT-4o          & 100/100 (100\,\%) & 89/100 (89\,\%) & 8.9/10 & 67/89 (75\,\%) \\
+Qwen3-VL 8B     & 90/100  (90\,\%)  & 80/100 (80\,\%) & 8.0/10 & 48/80 (60\,\%) \\
+Llama-V 11B     & 80/100  (80\,\%)  & 73/100 (73\,\%) & 7.0/10 & 13/73 (18\,\%) \\
+YOLO11n-pose    & 90/100  (90\,\%)  & 90/100 (90\,\%) & 7.0/10 & --- \\
+YOLO11n-coco    & 70/100  (70\,\%)  & 70/100 (70\,\%) & 6.0/10 & --- \\
+\bottomrule
+\end{tabular}
+\caption{Test~1, Final Results.}
+\label{tab:test1}
+\end{table}
+\FloatBarrier
+
+On common anomalies the camera-only task divides cleanly into two regimes.
+Human intrusions are effectively solved. Every detector, including both
+YOLO variants, catches them in almost every run, and the only lapse is
+YOLO's detection variant on a hand too small and too brief to register as
+a person. Foreign objects are where the approaches diverge. Only GPT-4o
+detected the static bottle, and only GPT-4o and Qwen3-VL detected the
+thrown ball. The YOLO rules cannot see objects at all unless a person
+happens to be in frame, and Llama's caption pipeline discards them before
+the decision. This is the expected consequence of open- versus
+closed-vocabulary reasoning, and it is the main argument for a language
+model in this role.
+
+The two-stage design did not help here and cost real detections.
+Twenty-three correct anomalies were retracted at Stage~2 and none were
+gained, because the test set has no normal clips on which a retraction
+could be correct. Roughly half of the retractions were genuine
+re-judgements, with the model looking again and talking itself out of a
+correct call, while the rest were mechanical, a broken model output parsed
+as \texttt{NORMAL}, or a dense window placed over the wrong part of the
+clip.
+
+According to Test 1, the GPT-4o-based configuration of \textit{Robot
+Monitor} achieved a right-reason score of 8.9/10 (89\,\%), outperforming
+YOLO11n-pose at 7.0/10 (70\,\%) and YOLO11n-coco at 6.0/10 (60\,\%).
+Although YOLO11n-pose achieved a slightly higher final recall (90\,\%
+versus 89\,\%), its detections were less consistently associated with the
+actual cause of the anomaly.
+
+Furthermore, GPT-4o provided contextual explanations of the detected
+events, whereas YOLO outputs were limited to object classes or keypoints.
+The GPT-4o configuration therefore offered both stronger identification of
+the correct anomaly cause and richer information for interpreting the
+event. However, explanation quality was not uniform, since 67 of its 89
+positive outputs (75\,\%) received a Stage-3 \texttt{MATCH}.
+
+Detecting an anomaly and describing it correctly are different abilities.
+GPT-4o did both on three quarters of its positive runs, while Qwen3-VL
+described roughly three fifths of its positives adequately but tends to
+name objects only as ``an object''. Llama, although it fired on most
+clips, produced a trustworthy account on fewer than one positive run in
+five, because its detections are wrapped in a hallucinated scene.
+
+% ======================================================================
+\section{Test 2: Operational Internal Anomalies}
+\label{sec:test2}
+% ======================================================================
+
+\subsection{Anomalies Test Results}
+
+The ten operational-anomaly clips were analysed by the three language
+models, ten times each. YOLO was not run here, because the faults have no
+visual signature that its rules could key on and it has no way to read the
+robot state log. Five of the clips (an1 to an5) were presented with the
+state log, and the other five (an6 to an10) are the same five recordings
+with the log removed. For each model we report, per clip, how many of the
+ten runs raised an anomaly at Stage~1 and how many still did after the
+Stage~2 re-check. Across the whole set we then report the Stage~1 recall,
+the final recall, the fraction of clips in which the correct cause was
+named (the coarse right-reason check), and the Stage~3 verdict on the
+justifications.
+
+\subsection{Stage 1: Coarse Detection}
+
+The ten operational-anomaly clips were analysed by the three language
+models, ten times each. For each model we report, per clip, how many of
+the ten runs raised an anomaly at Stage~1. The results can be seen on
+Table~\ref{tab:test2-stage1}.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l ccc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V \\
+\midrule
+an1  & 10 & 10 & 10 \\
+an2  & 10 & 10 & 10 \\
+an3  & 10 & 10 & 10 \\
+an4  & 10 & 10 & 10 \\
+an5  & 10 & 10 & 10 \\
+an6  & 7  & 10 & 10 \\
+an7  & 10 & 10 & 10 \\
+an8  & 10 & 10 & 0 \\
+an9  & 10 & 0  & 0 \\
+an10 & 9  & 10 & 1 \\
+\midrule
+\textbf{recall} & \textbf{96\,\%} & \textbf{90\,\%} & \textbf{71\,\%} \\
+\midrule
+mean time (s)   & 10.4 & 41.1 & 68.2 \\
+median time (s) & 6.7  & 44.6 & 81.4 \\
+\bottomrule
+\end{tabular}
+\caption{Test~2 (operational / internal anomalies), Stage~1 coarse pass:
+number of \texttt{ANOMALY} verdicts out of ten runs per clip, for each
+model, with per-run wall-clock time (Stage~1 and Stage~2 combined). an1 to
+an5 include the state log, an6 to an10 do not.}
+\label{tab:test2-stage1}
+\end{table}
+\FloatBarrier
+
+At Stage 1, every model raised an anomaly in all ten runs of the five
+clips that include the state log, so on that half of the set GPT-4o,
+Qwen3-VL and Llama all reached 50 of 50. This is expected, since the log
+contains an explicit gripper error and the prompt tells the model that a
+non-null error is always an anomaly. On the five clips without the log the
+models separate. GPT-4o reached 46 of 50, missing three runs on an6 and
+one on an10, and the an10 miss was an API error rather than a real
+\texttt{NORMAL}. Qwen3-VL reached 40 of 50, catching an6, an7, an8 and
+an10 in every run but returning \texttt{UNKNOWN} on all ten runs of an9.
+Llama reached only 21 of 50, since it never fired on an8 or an9 and fired
+only once on an10. Over the whole ten-clip set this gives GPT-4o 96 of
+100, Qwen3-VL 90 of 100, and Llama 71 of 100.
+
+The pattern at this stage is that the state log makes the task almost
+trivial. When the decisive evidence is handed to the model in text, all
+three detect the fault in every run. The difficulty is concentrated in the
+five clips where nothing but the robot's own motion is visible. Clip an7
+(no log) shows a person visibly reaching in and removing the workpiece,
+and every model fired on it in all ten runs, exactly as if it were a
+common anomaly, because the human hand is plainly in frame. The genuine
+test is the three clips in which only the robot moves, an6 and an8 (the
+robot closes on a piece that is not there) and an9 (the robot skips the
+pick entirely). GPT-4o and Qwen handled an6 and an8 well but diverged on
+an9, where GPT fired in six of ten runs and Qwen in none. Llama fired on
+an8 in zero runs and on an10 in one, so without the log it recovers barely
+a fifth of the faults.
+
+\subsection{Stage 2: the dense re-check}
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l ccc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V \\
+\midrule
+an1  & 10 & 10 & 10 \\
+an2  & 10 & 10 & 10 \\
+an3  & 10 & 10 & 10 \\
+an4  & 10 & 10 & 10 \\
+an5  & 10 & 10 & 10 \\
+an6  & \textbf{5} & 10 & \textbf{0} \\
+an7  & 10 & 10 & 10 \\
+an8  & 10 & 10 & 0 \\
+an9  & \textbf{6} & 0 & 0 \\
+an10 & 9 & 10 & 1 \\
+\midrule
+\textbf{final recall} & \textbf{90\,\%} & \textbf{90\,\%} & \textbf{61\,\%} \\
+\midrule
+Stage-1 recall (ref.) & 96\,\% & 90\,\% & 71\,\% \\
+runs overturned & 6 & 0 & 10 \\
+\bottomrule
+\end{tabular}
+\caption{Test~2, Stage 2 results.}
+\label{tab:test2-stage2}
+\end{table}
+\FloatBarrier
+
+On this test set every clip is an anomaly, so any change Stage~2 makes to
+the verdict is a change for the worse. Stage~2 changed the verdict in 16
+of the 300 language-model runs, and every one of those 16 changes was an
+\texttt{ANOMALY} turned into a \texttt{NORMAL}, resulting in sixteen lost
+detections. All sixteen fall on the clips without the log, so with the log
+Stage~2 never disturbed a correct verdict.
+
+The losses were not spread evenly. They clustered on a handful of
+clip--model combinations, each with an identifiable mechanism. Llama lost
+all ten of its runs on the phantom-pick clip an6 because its Stage~2
+synthesis fabricated a state log, asserting that the state log records no
+anomaly and the gripper exerts consistent pressure, for a clip that has no
+log at all, and then used that invention to justify \texttt{NORMAL}. This
+single failure is the entire difference between Llama's 71\,\% Stage-1
+recall and its 61\,\% final recall on this test.
+
+GPT-4o lost four of its ten runs on the no-pick clip an9 and two of its
+ten runs on an6 to a visual flip-flop on ambiguous footage. On those runs
+Stage~1 reported that the robot grips nothing, which suggests a fault, and
+Stage~2, looking again at the same frames, decided that the robot appears
+to operate normally and grips the object, and returned \texttt{NORMAL}.
+This is not a mechanical failure, therefore it is a genuine second-thought
+that talked the model out of a correct call. On a further nine runs, five
+on an10 and four on an2, GPT-4o's Stage~2 returned an unstructured
+monologue with no verdict line. Here the guard did its job, the Stage~1
+\texttt{ANOMALY} was kept, and the only cost was nine wasted Stage-2
+calls.
+
+Qwen3-VL produced no internal overturns at all. On the ninety runs where
+it raised an anomaly at Stage~1, Stage~2 confirmed the verdict every time.
+
+\subsection{Stage 3: quality of the justifications}
+
+Of the runs that ended as \texttt{ANOMALY}, Stage~3 asked how many
+actually described the anomaly that was present. The references for this
+comparison can be seen in Table~\ref{tab:test2-stage3-start}.
+
+\begin{table}[htbp]
+\centering
+\caption{Internal anomaly test scenarios.}
+\label{tab:internal_anomaly_scenarios}
+\begin{tabularx}{\textwidth}{@{}l l X@{}}
+\toprule
+\textbf{Test} & \textbf{Anomaly type} & \textbf{Scenario description} \\
+\midrule
+AN1 & Internal & The robot picks a part that is not present. The state log is available. \\
+AN2 & Internal & A human hand forcibly removes a part from the robot. The state log is available. \\
+AN3 & Internal & The robot picks a part that is not present. The state log is available. \\
+AN4 & Internal & The robot does not pick any part. The state log is available. \\
+AN5 & Internal & The robot fails to grasp the part. The state log is available. \\
+AN6 & Internal & The robot picks a part that is not present. No state log is provided. \\
+AN7 & Internal & A human hand forcibly removes a part from the robot. No state log is provided. \\
+AN8 & Internal & The robot picks a part that is not present. No state log is provided. \\
+AN9 & Internal & The robot does not pick any part. No state log is provided. \\
+AN10 & Internal & The robot fails to grasp the part. No state log is provided. \\
+\bottomrule
+\label{tab:test2-stage3-start}
+\end{tabularx}
+\end{table}
+\FloatBarrier
+
+The most striking result is a positive one: not a single run on this test
+set was graded MISMATCH. When a language model fired on a clip that
+genuinely contained an anomaly, it never invented a different anomaly. At
+worst, it simply under-described the real one.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l ccc@{}}
+\toprule
+Clip & GPT-4o & Qwen3-VL & Llama-V \\
+\midrule
+an1  & 9/10  & 10/10 & 8/10 \\
+an2  & 8/10  & 10/10 & 2/10 \\
+an3  & 10/10 & 10/10 & 9/10 \\
+an4  & 10/10 & 10/10 & 7/10 \\
+an5  & 10/10 & 10/10 & 7/10 \\
+an6  & 0/5   & 10/10 & ---  \\
+an7  & 1/10  & 10/10 & 1/10 \\
+an8  & 9/10  & 10/10 & ---  \\
+an9  & 5/6   & ---   & ---  \\
+an10 & 8/9   & 10/10 & 0/1  \\
+\midrule
+\textbf{MATCH (of fired)} & \textbf{70/90 (78\,\%)} & \textbf{90/90 (100\,\%)}
+                          & \textbf{34/61 (56\,\%)} \\
+\midrule
+PARTIAL   & 20 & 0 & 27 \\
+MISMATCH  & 0  & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Test 2 Stage 3 Results.}
+\label{tab:test2-stage3}
+\end{table}
+\FloatBarrier
+
+Within the positives, however, the models separate widely. Qwen3-VL's
+justifications were graded MATCH on all 90 of its 90 positive runs, with
+no PARTIAL and no MISMATCH, including the no-log clips an6, an8 and an10,
+on which it consistently stated that the robot completed its motion but
+the gripper never closed on a part. GPT-4o reached MATCH on 70 of 90. It
+is strong on the clips with the log, but its no-log positives are often
+PARTIAL, because on an7 it reports the visible hand rather than the fault,
+and because its wording on the phantom-pick clips is frequently vague.
+Llama reached MATCH on 34 of 61. With the log it merely echoes the error
+text without connecting it to the frames, and without the log it rarely
+fires at all.
+
+YOLO was not part of this test, since the operational faults have no
+visual signature it could detect and it cannot read the state log. The
+comparison here is therefore between the three language models only.
+
+\subsection{Conclusion for Test 2}
+
+The entire results of Test 2 can be seen in Table~\ref{tab:test2}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+Detector & Stage-1 recall & Final recall & Right-reason & Stage-3 MATCH$^{\ast}$ \\
+\midrule
+GPT-4o          & 96/100 (96\,\%) & 90/100 (90\,\%) & 6.8/10 & 70/90 (78\,\%) \\
+Qwen3-VL 8B     & 90/100 (90\,\%) & 90/100 (90\,\%) & 7.0/10 & 90/90 (100\,\%) \\
+Llama-V 11B     & 71/100 (71\,\%) & 61/100 (61\,\%) & 6.0/10 & 34/61 (56\,\%) \\
+\bottomrule
+\end{tabular}
+\caption{Test~2, Final Results.}
+\label{tab:test2}
+\end{table}
+\FloatBarrier
+
+On operational anomalies the task divides cleanly into two regimes. With
+the state log the problem is effectively solved. Every model detects the
+fault in all ten runs of all five clips, so the with-log half does not
+separate the detectors at all. Without the log the approaches diverge.
+GPT-4o and Qwen3-VL both recover about four fifths of the faults from the
+images alone, while Llama recovers barely a fifth, since its
+caption-then-synthesise pipeline loses the fine cue that the gripper is
+open and empty at the end of a motion. The single fault that no model
+detects without the log is the one in which the robot skips the pick
+entirely, because it produces almost no visual evidence, which is the
+point at which the state log stops being a convenience and becomes a
+requirement.
+
+The two-stage design did not help here and cost real detections. Sixteen
+correct anomalies were retracted at Stage~2 and none were gained, because
+the test set has no normal clips on which a retraction could be correct.
+Ten of the retractions were Llama on a single clip, where its Stage~2 step
+invented a clean log and reasoned from it, while the other six were GPT-4o
+flip-flopping on the two hardest no-log clips. Qwen3-VL made no
+retractions at all.
+
+According to Test 2, the Qwen3-VL-based configuration of \textit{Robot
+Monitor} achieved a right-reason score of 7.0/10 (70\,\%), slightly ahead
+of GPT-4o at 6.8/10 (68\,\%) and Llama at 6.0/10 (60\,\%). GPT-4o and
+Qwen3-VL reached the same 90\,\% final recall, but Qwen's detections were
+more consistently associated with the actual cause of the fault.
+
+Furthermore, when Qwen3-VL raised an alarm its description of the fault
+was correct on every single run, 90 of 90 Stage-3 \texttt{MATCH}, and it
+never retracted a correct alarm at Stage~2. Its one weakness is a tendency
+to fall silent with an \texttt{UNKNOWN} verdict on the hardest clip rather
+than guess. Llama's behaviour is the concerning one, since on the log-less
+clips its Stage~2 step does not merely mis-judge, it fabricates the
+telemetry it was not given and then reasons from the fabrication, and a
+monitor that invents a clean log to justify a \texttt{NORMAL} verdict is
+worse than one that simply misses the fault.
+
+Detecting an anomaly and describing it correctly are different abilities.
+Qwen3-VL did both on every one of its positive runs, while GPT-4o did both
+on about three quarters of its positive runs but tends to report a visible
+hand instead of the underlying fault. Llama, although it fires on the
+clips that include the log, produced a trustworthy account on a little
+over half of its positive runs and collapses once the log is removed.
+
+% ======================================================================
+\section{Test 3: False-Alarm Behaviour}
+\label{sec:test3}
+% ======================================================================
+
+\subsection{False-Alarm Test Results}
+
+Unlike the first two tests, this one uses no anomaly clips at all. It
+simulates the live monitor running against a single ten-minute recording
+of normal robot operation. A window slides across the whole recording, one
+analysis per window, and each analysis samples nine frames from inside its
+window and runs the full two-stage pipeline. The window is fifteen seconds
+long and advances fifteen seconds at a time, so the forty windows cover
+the ten minutes without overlap and every second of the recording is seen
+by exactly one analysis. Each of the three language models therefore
+performs forty analyses over three hundred and sixty Stage-1 frames, which
+is a realistic monitoring cadence of one analysis every fifteen seconds,
+or two hundred and forty analyses per hour. On this material a verdict of
+\texttt{NORMAL} is the correct one and every \texttt{ANOMALY} is, in
+principle, a false alarm.
+
+An earlier version of this test, which sampled a few random batches of
+frames rather than sweeping the recording, showed all three models
+inventing a human hand whenever the robot moved the yellow blocks. For the
+run reported here an anti-hallucination clause was prepended to the
+prompt. It tells the model that the robot itself picks and places the
+yellow blocks as part of normal operation, that blocks changing position
+between frames is not evidence of a human hand, and that an anomaly should
+be reported only if a hand, finger, arm, person, or a clearly foreign
+object is actually visible in one of the frames. YOLO was not included,
+because a person-detecting rule would fire on any operator who walked
+through the background, which is not the behaviour under study here.
+
+\subsection{Results}
+
+The results are summarised in Table~\ref{tab:test3}. GPT-4o and Qwen3-VL
+each raised exactly one alarm across their forty analyses, both on the
+same window (window~14, covering 195 to 210 seconds). Llama raised no
+alarm at all. No model produced an \texttt{UNKNOWN} verdict, which is a
+change from the earlier random-batch run where Qwen3-VL had degenerated
+into unparseable output twice. On the two alarms that were raised, the
+Stage~2 dense re-check confirmed the verdict rather than retracting it.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}l c c c c c@{}}
+\toprule
+Model & Analyses & Stage-1 frames & Alarms raised & \texttt{UNKNOWN}
+      & Mean time / analysis \\
+\midrule
+GPT-4o      & 40 & 360 & 1 (window 14) & 0 & 3\,s \\
+Qwen3-VL 8B & 40 & 360 & 1 (window 14) & 0 & 11\,s \\
+Llama-V 11B & 40 & 360 & 0             & 0 & 36\,s \\
+\bottomrule
+\end{tabular}
+\caption{Test~3, continuous monitoring of ten minutes of normal operation.
+Forty non-overlapping fifteen-second windows per model, nine frames
+sampled per window, anti-hallucination clause in the prompt.}
+\label{tab:test3}
+\end{table}
+\FloatBarrier
+
+\subsection{The one alarm is a real hand}
+
+The single window that GPT-4o and Qwen3-VL both flagged is not a
+hallucination. A frame-by-frame look at window~14 shows a human hand and
+forearm reaching into the workspace from the lower left between roughly
+197 and 202 seconds, picking up and moving one of the yellow blocks, and
+then withdrawing. The recording labelled as normal operation is therefore
+not completely clean. It contains one brief human intrusion, and window~14
+is the only window that overlaps it.
+
+All three models saw the hand. GPT-4o's Stage-1 description reads ``a
+human hand in the work area'' in two of the nine frames, and its verdict
+is \texttt{ANOMALY}. Qwen3-VL's description reads ``a human hand in the
+lower right corner'' and its verdict is also \texttt{ANOMALY}. Llama's
+description reads ``a hand in Frame 5'', but its verdict is
+\texttt{NORMAL}, on the reasoning that the hand ``is not in contact with
+the robot or the blocks''. GPT-4o and Qwen3-VL were therefore correct on
+window~14. Llama detected the same hand and then argued itself out of
+reporting it, which on this window is a missed detection rather than a
+clean pass.
+
+\subsection{Conclusion for Test 3}
+
+Once window~14 is set aside as a genuine intrusion, there are thirty-nine
+windows of true normal operation. On those thirty-nine windows GPT-4o,
+Qwen3-VL and Llama each raised zero alarms. The effective false-positive
+rate over ten minutes of clean footage is therefore zero for all three
+models, at a monitoring cadence of one analysis every fifteen seconds.
+The anti-hallucination clause is what makes this possible. Without it, the
+earlier random-batch run produced a hallucinated hand on roughly one
+analysis in six. With it, the models correctly attribute block movement to
+the robot and reserve an anomaly verdict for a visible intruder or object.
+
+The one window that did contain a hand separates the models in a way that
+matches the anomaly tests. GPT-4o and Qwen3-VL reported it, and their
+Stage~2 re-check confirmed it. Llama saw the hand, described it, and then
+suppressed the alarm with a criterion the task does not use, that a hand
+must be touching the robot to count. For a safety monitor this is the
+worse error, since it turns a real intrusion into a \texttt{NORMAL}
+verdict.
+
+Two limitations remain. The clean sample is a single ten-minute recording,
+so the zero false-positive figure should be read as indicative rather than
+as a measured rate, and a larger set of confirmed-normal footage would be
+needed to put a real number on it. The anti-hallucination clause is
+specific to this cell, since it names the yellow blocks and the robot's
+pick-and-place operation, and it would have to be rewritten for a
+different workspace.
+
+% ======================================================================
+\section{Discussion and general conclusions}
+\label{sec:discussion}
+% ======================================================================
+
+\subsection{Ranking the detectors}
+
+\textbf{GPT-4o} is the strongest and most stable detector overall. It
+reached full Stage-1 recall on the common-anomaly set and 96\,\% on the
+operational set, produced the most trustworthy justifications on the
+external track, with three quarters of its positives graded MATCH, and was
+by a wide margin the fastest of the language models, at a median of about
+six seconds per run. Its weaknesses are specific and consistent. The
+Stage~2 re-check repeatedly talks it out of correct detections of static
+objects, and it under-describes composite anomalies, reporting the human
+hand in a mixed clip but not the workpiece removal that accompanies it.
+
+\textbf{Qwen3-VL 8B} is competitive on raw detection, level with GPT-4o at
+Stage~1 on both tracks apart from the bottle clip, and it is the best
+model at describing an operational fault. Every one of its
+operational-anomaly positives was graded MATCH, including those made from
+images alone, and it never retracted a correct operational alarm at
+Stage~2. Against this, it is a thinking model that has been coerced into a
+format it does not naturally produce, and it shows. Twelve of its runs
+across the battery ended in \texttt{UNKNOWN}, and one generation failure,
+the unfilled template, silently erased an entire clip's worth of
+detections. It is also slow, at a median of about thirty-six seconds.
+
+\textbf{Llama 3.2 Vision 11B} is the weakest of the three. It is blind to
+the two external object-only clips, it loses more than three quarters of
+its operational-anomaly recall when the state log is removed, and even
+when it does fire its account is usually a hallucinated scene with a hand
+mentioned somewhere inside it, so fewer than one external positive in five
+was graded MATCH. Its Stage~2 behaviour on log-less clips, in which it
+fabricates a clean log to justify \texttt{NORMAL}, is the most dangerous
+single behaviour observed. It is also the slowest model, at a median of
+about eighty seconds, because the caption-then-synthesise pipeline makes
+one model call per frame.
+
+\textbf{YOLO11n-pose} matched the language models' recall on human
+intrusions, at 90\,\% on the external set, at a thousandth of the latency,
+and was the only detector to recover the one-frame hand in an1. But it is
+structurally incapable of the rest of the task. It cannot see a foreign
+object, it fired spuriously on the bottle clip, and it has no access to
+and no concept of the operational channel. Counting both tracks, it
+identified the correct cause in only about half of its detections. The
+detection-only variant (\texttt{yolo\_coco}) is weaker still, at 70\,\%
+recall on the external set.
+
+\subsection{The role of the state log}
+
+The clearest quantitative result in the battery is the effect of the
+machine-state log on operational-anomaly detection. With the log, all
+three language models detected every fault in every run. Without it,
+GPT-4o and Qwen3-VL held about 80\,\% while Llama fell to 22\,\%. The log
+is a very strong prior, since it names the fault explicitly, and the
+with-log condition should be read as a control rather than as a result.
+The finding of substance is that the two stronger models degrade
+gracefully rather than catastrophically when the log is withdrawn, which
+suggests that a vision--language monitor could provide useful
+operational-anomaly coverage as a fallback when controller telemetry is
+missing or untrusted. The exception is the fault in which the robot skips
+its pick altogether, which produces essentially no visual evidence and
+was missed by every model without the log.
+
+\subsection{The two-stage pipeline}
+
+As configured for this battery, the Stage~2 re-check is a net liability on
+the anomaly sets. It retracted 39 correct detections across the two sets,
+seventeen for GPT-4o, ten for Qwen3-VL and twelve for Llama, and made
+exactly one useful correction, on the false-alarm video. This is an
+artefact of the evaluation design as much as of the pipeline, because with
+no normal clips in the anomaly sets a retraction there is always wrong, so
+any overturning mechanism can only lose. The retractions themselves fall
+into three groups. The first is genuine second-thoughts, in which the
+model looks again at a real object or a real empty gripper and reasons its
+way to \texttt{NORMAL}, and these are roughly half. The second is
+mechanical parser failures, in which a broken or templated model output is
+read as a \texttt{NORMAL} verdict. The third is localisation failures, in
+which the dense window is placed over a part of the clip that does not
+contain the transient event.
+
+The recommendation that follows is to keep Stage~2 for what it does well,
+confirming an event against denser evidence and localising it in time, but
+to disable its authority to overturn the Stage~1 verdict until the
+evaluation includes enough normal material to show that overturning is, on
+balance, beneficial. The localisation output itself remained useful. Where
+the anchor was placed correctly, the reported anomaly window overlapped
+the true window in essentially every case.
+
+\subsection{The character of the failures}
+
+A recurring theme across the three tests is that the language models fail
+by incompleteness and by hallucination, but not by confusion. Across 600
+runs on clips that genuinely contained an anomaly, Stage~3 did not grade a
+single justification MISMATCH. No model ever looked at a clip with a hand
+in it and reported a bottle, or looked at a bottle and reported a hand.
+When these models are wrong on a real anomaly, they have either described
+it too vaguely, which is PARTIAL, or not fired at all. The one place a
+fabricated anomaly appeared was the earlier random-batch version of the
+false-alarm test, where all three models invented a human hand to explain
+the robot moving its own workpieces. The anti-hallucination clause added
+for the continuous version removed that failure, and in the continuous run
+the only alarm raised on the normal recording turned out to be a real hand
+that the recording was not supposed to contain. For a monitoring
+application this is a reassuring shape of error on the detection side, and
+on the false-alarm side it shows the behaviour is controllable through the
+prompt.
+
+\subsection{Limitations}
+
+The anomaly sets contain no negative controls, so all figures on them are
+recall and no precision or F-measure can be computed. The false-alarm
+test runs on a single ten-minute recording, so its zero false-positive
+rate over thirty-nine clean windows should be treated as indicative and
+not as a measured rate. The operational no-log clips are re-used footage from the
+with-log clips, which isolates the log's contribution cleanly but means
+the no-log results are not from independent recordings. Qwen3-VL was run
+in a forced non-thinking mode that it does not natively support, and some
+of its \texttt{UNKNOWN} outcomes may be an artefact of that coercion
+rather than of the vision task. Finally, the Stage~3 judge is itself
+GPT-4o. Its grades of GPT-4o's own justifications should be read with that
+in mind, although the judge is given only the two short texts and not the
+identity of the detector.
+
+% ======================================================================
+\appendix
+\section{Latency}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}l l c c c c@{}}
+\toprule
+Model & Track & Mean (s) & Median (s) & Min (s) & Max (s) \\
+\midrule
+GPT-4o          & external & 8.8  & 6.3  & 5.3  & 26.3 \\
+GPT-4o          & internal & 10.4 & 6.7  & 3.2  & 48.7 \\
+Qwen3-VL 8B     & external & 36.2 & 35.7 & 22.8 & 46.1 \\
+Qwen3-VL 8B     & internal & 41.1 & 44.6 & 22.9 & 46.8 \\
+Llama-V 11B     & external & 71.1 & 80.0 & 34.2 & 82.7 \\
+Llama-V 11B     & internal & 68.2 & 81.4 & 34.7 & 84.4 \\
+YOLO11n (either)& external & $\approx 2$ & $\approx 1.5$ & 0.1 & 4.6 \\
+\bottomrule
+\end{tabular}
+\caption{Wall-clock time per run (Stage~1 and Stage~2 combined). GPT-4o
+over the API is four to twelve times faster than the local language
+models, and YOLO is two to three orders of magnitude faster than any of
+them. The complete battery took approximately GPT-4o 34~min, Qwen3-VL
+131~min, Llama 234~min, YOLO under a minute, and the false-alarm test
+9~min.}
+\label{tab:latency}
+\end{table}
+
+\section{Data and reproduction}
+
+All results are derived from four comma-separated files and the per-run
+transcripts. The file \texttt{summary.csv} holds the 600 language-model
+runs, with per-run Stage-1 and Stage-2 verdicts, the final verdict, the
+localised window and the latency. The file \texttt{yolo\_summary.csv}
+holds the 200 YOLO rows. The file \texttt{false\_alarm.csv} holds the 18
+false-alarm runs, each recording the exact frame indices that were
+sampled. The file \texttt{stage3.csv} holds the 618 semantic judgements.
+The full Stage-1 and Stage-2 text of every run is kept under
+\texttt{eval\_results\_experiment/}. The reference anomaly for each clip
+is defined in \texttt{ground\_truth.py}. The whole battery is reproduced
+by \texttt{run\_battery.sh}, and the tables in this report are regenerated
+by \texttt{report\_battery.py}, \texttt{score\_vs\_truth.py} and
+\texttt{stage3\_match.py}.
+
+\end{document}

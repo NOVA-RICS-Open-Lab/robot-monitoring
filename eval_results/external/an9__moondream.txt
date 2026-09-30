@@ -1,0 +1,18 @@
+Vídeo: an9.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.96s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urn of water and a blue table with white squares for a game board are present on a gray floor.
+  Frame 2: urn of water and a blue table with white squares for a game are present on the floor.
+  Frame 3: ursa and a robot arm collaborate on an experiment involving a blue table with yellow squares, a white block, and a green plant.
+  Frame 4: ursine robots with gray and white bodies and blue arms interact with a yellow and white paper on a blue tablecloth-covered table.
+  Frame 5: urns of water and yellow squares on a blue tablecloth with white text.
+  Frame 6: urns of water and a white block with yellow squares on a blue tablecloth, accompanied by a sign reading "30%".
+  Frame 7: urns of water and yellow cubes on a blue tablecloth, with a white sign reading "30%".
+  Frame 8: urn of water and yellow cubes on a blue tablecloth, with a white sign reading "30%".
+  Frame 9: urns of water and yellow cubes on a blue tablecloth with white squares, accompanied by a sign reading "30%".
+
+Resultado:
+ANOMALIA: urns of water and a blue table with white squares for a game board are present on a gray floor.

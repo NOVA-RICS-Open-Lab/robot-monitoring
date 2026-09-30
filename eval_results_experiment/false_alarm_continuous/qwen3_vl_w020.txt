@@ -1,0 +1,18 @@
+model: qwen3_vl   window 20   285-300 s   idx=[6840, 6884, 6929, 6974, 7019, 7064, 7109, 7154, 7199]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posicionado sobre placa branca com bloco amarelo, operação de soldagem em andamento.  
+2. Configuração idêntica ao frame 1, sem alterações visíveis na área de trabalho.  
+3. Robô movendo-se para a placa com blocos amarelos, mantendo operação dentro do ambiente pré-definido.  
+4. Robô interagindo com blocos amarelos, manipulação normal conforme descrição do processo.  
+5. Posição do robô ajustada para manuseio dos blocos, sem elementos externos à operação.  
+6. Continuação da operação com blocos amarelos, movimento consistente com a tarefa programada.  
+7. Robô posicionando-se sobre os blocos, sem interferência de objetos ou partes humanas.  
+8. Ajuste final na manipulação dos blocos, dentro do escopo da operação do robô.  
+9. Bloco amarelo sendo reorganizado, parte integrante do processo normal de carga.  
+
+NORMAL: Nenhum elemento humano (mão, braço, pessoa) ou objeto estranho (garrafa, bola, planta) foi observado em qualquer frame. Todos os movimentos e objetos presentes (robô, blocos amarelos, placa branca) são parte integrante da operação programada do robô, conforme descrito no contexto. A sequência mostra exclusivamente ações do robô dentro de sua área de trabalho, sem violação de segurança ou intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.93s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of yellow and white cubes rest on a blue table with two gray robots, one with a camera attached to its head.
+  Frame 2: urns of water and a blue table with white squares for a game board are present on a green wall.
+  Frame 3: urns of yellow and white cubes rest on a blue table with two arms reaching out from the top left corner.
+  Frame 4: urn of liquid and robot arm on blue table with white squares, accompanied by a green sign reading "30%".
+  Frame 5: urn of soil with a plant and white squares on blue tablecloth, accompanied by two gray robots and a green sign.
+  Frame 6: urn of food on a blue table with white squares and yellow cubes, accompanied by a person's hand holding a red object.
+  Frame 7: urns of water and yellow cubes on a blue tablecloth with white text.
+  Frame 8: urns of water and yellow cubes on a blue table with white text reading "30%".
+  Frame 9: urns of water and a blue table with yellow squares on it, accompanied by a white sign reading "30%".
+
+Resultado:
+ANOMALIA: urns of yellow and white cubes rest on a blue table with two gray robots, one with a camera attached to its head.

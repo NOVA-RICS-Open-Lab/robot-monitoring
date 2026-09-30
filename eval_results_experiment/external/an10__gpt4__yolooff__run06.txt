@@ -1,0 +1,37 @@
+Video: an10.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.54s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs operando sobre uma mesa com blocos amarelos.
+2. Robôs continuam operando sem alterações visíveis.
+3. Robôs ainda operando normalmente, sem intrusões.
+4. Nenhuma mudança, operação dos robôs continua normal.
+5. Mão humana visível na área de trabalho, tocando um bloco.
+6. Mão humana ainda presente, movendo-se na área de trabalho.
+7. Mão humana não está mais visível, robôs operando.
+8. Robôs continuam operando sem presença humana.
+9. Operação dos robôs segue normal, sem intrusões.
+
+ANOMALIA: A presença de uma mão humana nos frames 5 e 6 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma intrusão. Isso representa um risco de segurança significativo, interrompendo a operação segura do robô.
+
+STAGE 2  (12 dense frames around src [232], 3.36s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com blocos amarelos.
+2. Dois robôs em operação com blocos amarelos.
+3. Mão humana se aproximando do robô esquerdo.
+4. Mão humana tocando o bloco amarelo do robô esquerdo.
+5. Mão humana movendo o bloco amarelo do robô esquerdo.
+6. Mão humana ainda em contato com o bloco amarelo.
+7. Mão humana segurando o bloco amarelo.
+8. Mão humana ainda segurando o bloco amarelo.
+9. Mão humana começando a retirar o bloco amarelo.
+10. Mão humana ainda em contato com o bloco amarelo.
+11. Mão humana se afastando do robô esquerdo.
+12. Mão humana ainda visível perto do robô esquerdo.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação dos protocolos de segurança. Em vários frames, a mão interage diretamente com o bloco que o robô está manipulando, o que pode causar interrupções na operação e representar um risco de segurança. A intervenção humana em um ambiente automatizado deve ser evitada para prevenir acidentes e garantir a eficiência do processo.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 4.47s

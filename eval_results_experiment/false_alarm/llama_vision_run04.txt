@@ -1,0 +1,7 @@
+model: llama_vision   run 4   seed 124970
+STAGE 1: 18 frames  idx=[878, 1057, 2102, 3038, 4098, 4194, 5077, 6602, 6897, 9081, 9599, 10451, 10455, 11358, 11405, 13478, 13700, 14023]
+NORMAL: A sequência de imagens não apresenta qualquer parte do corpo humano ou objetos estranhos invadindo a área de trabalho do robô, mantendo-se dentro do contexto da operação de solda com o Kuka Robot.
+
+STAGE 2: not run
+
+FINAL: NORMAL

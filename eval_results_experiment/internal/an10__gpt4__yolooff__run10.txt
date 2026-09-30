@@ -1,0 +1,37 @@
+Video: an10.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 13.80s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre uma superfície azul com peças amarelas.
+2. O robô mantém a mesma posição sobre as peças amarelas.
+3. O robô continua na mesma posição, sem alterações visíveis.
+4. O robô permanece estático sobre as peças amarelas.
+5. O robô ainda está na mesma posição, sem movimento aparente.
+6. O robô move-se ligeiramente, revelando uma peça verde.
+7. O robô está agora sobre a peça verde, com as peças amarelas ao lado.
+8. O robô mantém a posição sobre a peça verde.
+9. O robô continua sobre a peça verde, sem alterações.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A ausência de dados de estado é uma anomalia, pois não é possível confirmar se o robô está operando conforme esperado.
+
+STAGE 2  (12 dense frames around src [149], 3.38s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre uma superfície azul com blocos amarelos.
+2. O robô mantém a mesma posição sobre os blocos amarelos.
+3. O robô continua na mesma posição, sem alterações visíveis.
+4. O robô permanece estático sobre os blocos amarelos.
+5. O robô ainda está na mesma posição, sem movimento aparente.
+6. O robô não apresenta mudanças na posição ou nos blocos.
+7. O robô continua estático sobre os blocos amarelos.
+8. O robô mantém a mesma posição, sem alterações visíveis.
+9. O robô permanece na mesma posição sobre os blocos amarelos.
+10. O robô não apresenta mudanças na posição ou nos blocos.
+11. O robô continua estático sobre os blocos amarelos.
+12. O robô mantém a mesma posição, sem alterações visíveis.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A ausência de dados no log é uma anomalia em si, pois não permite confirmar se o robô está operando conforme esperado. Além disso, a falta de movimento nos frames sugere que o robô pode estar parado ou inativo, o que pode indicar um estado de erro ou falha não registrado.
+
+Result:
+ANOMALY   anomaly window ~ 1.82s .. 3.08s

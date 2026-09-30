@@ -1,0 +1,19 @@
+Vídeo: an1.mp4 (interna)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 6.46s
+Linhas de log usadas: 6
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre a mesa, sem segurar nenhum objeto.
+2. O robô move-se para uma nova posição, ainda sem segurar nada.
+3. Uma mão humana aproxima-se para ajustar um bloco amarelo.
+4. O robô permanece na mesma posição, sem segurar nada.
+5. O robô continua na mesma posição, sem alterações visíveis.
+6. O robô move-se novamente, ainda sem segurar nenhum objeto.
+7. O robô aproxima-se de um bloco amarelo, mas não o segura.
+8. O robô permanece próximo ao bloco, sem agarrá-lo.
+9. O robô continua na mesma posição, sem segurar o bloco.
+
+ANOMALIA: O log indica um erro de gripper às 00:05, e o estado do robô muda para "idle" com um erro de gripper. Durante os frames, o robô nunca segura um objeto, apesar de estar em fases de movimento onde deveria estar a realizar tarefas de pick and place. A pressão do gripper permanece a 0, indicando que o objeto não foi agarrado, o que é consistente com o erro reportado no log.

@@ -1,0 +1,18 @@
+model: qwen3_vl   window 27   390-405 s   idx=[9360, 9404, 9449, 9494, 9539, 9584, 9629, 9674, 9719]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posiciona bloco amarelo sobre folha branca na área de trabalho.  
+2. Robô ajusta bloco amarelo em posição na folha branca.  
+3. Robô mantém contato com bloco amarelo na folha branca.  
+4. Robô move braço para área com folha branca e bloco amarelo.  
+5. Robô posiciona braço sobre folha branca com bloco amarelo.  
+6. Robô ajusta posição do braço sobre folha branca.  
+7. Robô mantém braço estacionário sobre folha branca.  
+8. Robô move braço para área com folha branca e bloco amarelo.  
+9. Robô posiciona bloco amarelo em folha branca.  
+
+NORMAL: A sequência mostra apenas o robô manipulando blocos amarelos em sua área de trabalho, sem presença de mãos, braços humanos ou objetos estranhos. Todas as ações estão alinhadas com a operação normal do robô (movimentação de peças conforme descrito no contexto), e não há elementos externos invadindo o espaço. O ambiente é consistente com o cenário industrial descrito, com componentes do robô e materiais de operação.
+
+STAGE 2: not run
+
+FINAL: NORMAL

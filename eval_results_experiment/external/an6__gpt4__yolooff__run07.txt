@@ -1,0 +1,37 @@
+Video: an6.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.69s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com peças amarelas na mesa.
+2. Presença de uma pessoa com parte do corpo visível na área de trabalho.
+3. Pessoa ainda visível, mais próxima dos robôs.
+4. Pessoa coloca um vaso com plantas na mesa.
+5. Vaso e plantas permanecem na mesa, pessoa ainda visível.
+6. Pessoa remove o vaso da mesa.
+7. Área de trabalho sem objetos estranhos, pessoa ainda visível.
+8. Pessoa ainda próxima, mas sem interação com a mesa.
+9. Pessoa ainda visível, mas sem objetos estranhos na mesa.
+
+ANOMALIA: A presença de uma pessoa na área de trabalho do robô é uma anomalia, pois qualquer parte do corpo humano na área de trabalho representa um risco de segurança. Além disso, a introdução de um vaso com plantas, que claramente não pertence à operação do robô, também constitui uma anomalia. Esses fatores comprometem a segurança e a integridade da operação.
+
+STAGE 2  (12 dense frames around src [136, 273], 3.26s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Presença de um braço humano próximo à área de trabalho.
+2. Braço humano ainda visível, próximo ao robô.
+3. Braço humano continua na área, sem contato direto com o robô.
+4. Braço humano permanece próximo, sem interferência direta.
+5. Braço humano ainda visível, sem contato com o robô.
+6. Braço humano próximo, mas sem tocar no robô.
+7. Braço humano continua na área, sem contato direto.
+8. Braço humano visível, sem interferência direta.
+9. Braço humano ainda próximo, sem contato com o robô.
+10. Braço humano permanece na área, sem interferência.
+11. Braço humano visível, sem contato direto.
+12. Braço humano ainda próximo, sem interferência direta.
+
+ANOMALIA: A presença contínua de um braço humano próximo à área de trabalho do robô em todos os frames representa uma anomalia. Qualquer parte do corpo humano na área de trabalho é considerada uma violação das normas de segurança, pois pode resultar em riscos de segurança para o operador e para o funcionamento do robô.
+
+Result:
+ANOMALY   anomaly window ~ 1.60s .. 5.02s

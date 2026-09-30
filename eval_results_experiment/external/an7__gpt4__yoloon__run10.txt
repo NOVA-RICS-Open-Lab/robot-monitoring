@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.53s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem azul uniforme, sem objetos visíveis.
+2. Imagem azul uniforme, sem objetos visíveis.
+3. Imagem azul uniforme, sem objetos visíveis.
+4. Imagem azul uniforme, sem objetos visíveis.
+5. Imagem azul uniforme, sem objetos visíveis.
+6. Imagem azul uniforme, sem objetos visíveis.
+7. Imagem azul uniforme, sem objetos visíveis.
+8. Imagem azul uniforme, sem objetos visíveis.
+9. Imagem azul uniforme, sem objetos visíveis.
+
+NORMAL: Todos os frames apresentam uma imagem azul uniforme, sem qualquer indicação de objetos ou pessoas na área de trabalho do robô. Não há evidência de invasão ou contato externo com o espaço operacional do robô.

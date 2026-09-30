@@ -1,0 +1,8 @@
+model: llama_vision   run 1   seed 124967
+STAGE 1: 14 frames  idx=[1755, 3147, 3561, 3829, 4231, 4755, 6386, 6559, 7075, 8437, 10753, 11485, 11620, 11723]
+ANOMALIA: A análise da sequência de frames revela que, em Frame 6, uma mão está a segurar um objeto amarelo sobre um papel branco sobre uma mesa azul, o que indica a presença de uma pessoa externa na área de trabalho do robô, classificando essa anomalia como uma ameaça à segurança operacional.
+
+STAGE 2: 12 frames
+ANOMALIA: A análise da sequência de frames revela que uma mão humana está presente na área de trabalho do robô em várias ocasiões, incluindo Frames 3, 4, 7, 8 e 10, o que indica uma invasão anormal da área de trabalho. Além disso, objetos estranhos, como o papel com blocos amarelos, também estão presentes em várias frames, o que sugere uma anomalia. A presença de uma mão humana e objetos estranhos na área de trabalho do robô indica uma anomalia.
+
+FINAL: ANOMALY

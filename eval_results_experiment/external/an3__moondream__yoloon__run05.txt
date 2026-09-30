@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 21.86s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urn of water on a blue surface
+  Frame 2: urn of water on a blue surface with white lines and a yellow block on the right side.
+  Frame 3: urn of water is being poured onto a white board with yellow squares and a blue handle.
+  Frame 4: urn of water on a blue tablecloth
+  Frame 5: urn of water on a blue tablecloth with white lines and a yellow block on the right side.
+  Frame 6: urn of yellow liquid on a blue surface, with a white and black keyboard nearby.
+  Frame 7: urn of water and yellow sponge on a blue surface
+  Frame 8: urn of water on a blue tablecloth with white lines and a yellow block on the right side.
+  Frame 9: urn of water on a blue surface with white lines and a yellow block on the right side.
+
+Resultado:
+ANOMALIA: urn of water on a blue surface with white lines and a yellow block on the right side.

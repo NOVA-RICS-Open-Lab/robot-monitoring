@@ -1,0 +1,37 @@
+Video: an10.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.16s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs operando sobre uma mesa com blocos amarelos.
+2. Situação idêntica ao frame 1.
+3. Situação idêntica ao frame 1.
+4. Situação idêntica ao frame 1.
+5. Mão humana visível na área de trabalho, tocando um bloco.
+6. Mão humana ainda visível, movendo-se para fora da área de trabalho.
+7. Mão humana não mais visível, robôs continuam operando.
+8. Situação idêntica ao frame 7.
+9. Situação idêntica ao frame 7.
+
+ANOMALIA: A presença de uma mão humana no frame 5 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. A mão interagiu diretamente com os blocos, o que pode causar riscos operacionais e de segurança. A situação normalizou-se nos frames seguintes, mas a invasão inicial é suficiente para classificar o evento como anômalo.
+
+STAGE 2  (12 dense frames around src [232], 3.30s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com blocos amarelos.
+2. Robôs continuam a operar sem interferências.
+3. Mão humana aparece no canto inferior esquerdo.
+4. Mão humana se aproxima do robô esquerdo.
+5. Mão humana toca no bloco amarelo do robô esquerdo.
+6. Mão humana ainda em contato com o bloco.
+7. Mão humana continua a segurar o bloco.
+8. Mão humana permanece na área de trabalho.
+9. Mão humana ainda em contato com o bloco.
+10. Mão humana não se afasta da área de trabalho.
+11. Mão humana ainda visível perto do robô.
+12. Mão humana permanece na área de trabalho.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação dos protocolos de segurança. Em vários frames, a mão interage diretamente com o bloco que o robô está manipulando, o que pode causar riscos de segurança tanto para o operador quanto para o equipamento. A invasão da área de trabalho por parte do corpo humano é sempre considerada uma anomalia.
+
+Result:
+ANOMALY   anomaly window ~ 3.20s .. 4.47s

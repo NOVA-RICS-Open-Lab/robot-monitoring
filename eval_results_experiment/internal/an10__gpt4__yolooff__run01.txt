@@ -1,0 +1,37 @@
+Video: an10.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.55s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre uma superfície azul com peças amarelas.
+2. O robô mantém a mesma posição sobre as peças amarelas.
+3. O robô continua na mesma posição, sem alterações visíveis.
+4. O robô permanece estático sobre as peças amarelas.
+5. O robô ainda está na mesma posição, sem movimento aparente.
+6. O robô move-se ligeiramente, revelando uma peça verde.
+7. O robô está agora sobre a peça verde e amarela.
+8. O robô mantém a posição sobre as peças verde e amarela.
+9. O robô continua na mesma posição, sem alterações.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A ausência de dados de pressão do gripper e de estado do robô impossibilita a confirmação de operação normal ou anômala.
+
+STAGE 2  (12 dense frames around src [149], 3.65s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre uma superfície azul com blocos coloridos.
+2. O robô mantém a mesma posição, sem alterações visíveis.
+3. O robô continua na mesma posição, sem movimento aparente.
+4. O robô permanece estático sobre os blocos.
+5. Não há mudanças na posição do robô.
+6. O robô ainda está na mesma posição inicial.
+7. O robô continua sem movimento visível.
+8. O robô permanece estático sobre os blocos.
+9. Não há alterações na posição do robô.
+10. O robô continua na mesma posição.
+11. O robô permanece estático.
+12. O robô ainda está na mesma posição inicial.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A ausência de movimento nos frames sugere que o robô pode estar parado ou inativo, mas sem dados de estado, não é possível confirmar se isso é esperado ou uma falha.
+
+Result:
+ANOMALY   anomaly window ~ 1.82s .. 3.08s

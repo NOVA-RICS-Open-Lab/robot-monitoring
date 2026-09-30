@@ -1,0 +1,18 @@
+Vídeo: an9.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.34s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urn of water and a blue tray with yellow squares on a white tablecloth-covered table.
+  Frame 2: urn of water and a blue tray with white squares on a black tablecloth-covered table.
+  Frame 3: ursa robot arm with a blue and white head and gray body holds a green water bottle on a blue table, accompanied by yellow and white blocks.
+  Frame 4: ursa robot with blue arms and gray head stands on a blue table, holding a white paper with black text.
+  Frame 5: ursa robot with blue and gray arms on a blue table, holding a white paper and yellow box, with a green plant nearby.
+  Frame 6: urns of water and a blue table with white squares on it, accompanied by two gray robots.
+  Frame 7: urns of water and yellow blocks on a blue table with white squares, accompanied by a computer monitor and speaker.
+  Frame 8: urns of water and yellow cubes on a blue tablecloth with white text.
+  Frame 9: urn of water and yellow cubes on a blue table with white squares, accompanied by a robot arm and a computer monitor.
+
+Resultado:
+ANOMALIA: urn of water and a blue tray with yellow squares on a white tablecloth-covered table.

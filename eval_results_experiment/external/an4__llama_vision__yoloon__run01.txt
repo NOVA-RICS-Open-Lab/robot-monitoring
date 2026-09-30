@@ -1,0 +1,18 @@
+Vídeo: an4.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 32.07s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is blank, with no people, hands, or objects.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is empty, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image is blank, with no people, hands, or objects.
+  Frame 6: The image is blank, with no people, hands, or objects.
+  Frame 7: The image is blank, with no people, hands, or objects.
+  Frame 8: The image is blank, with no people, hands, or objects.
+  Frame 9: The image is blank, with no people, hands, or objects.
+
+Resultado:
+NORMAL: A sequência de frames não apresenta qualquer objeto ou pessoa externa invadindo a área de trabalho do robô, mantendo-se dentro dos critérios de normalidade para a operação do Kuka Robot.

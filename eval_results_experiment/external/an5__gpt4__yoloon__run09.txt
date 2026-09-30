@@ -1,0 +1,18 @@
+Vídeo: an5.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.94s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem azul uniforme.
+2. Mancha amarela aparece sobre o fundo azul.
+3. Imagem azul uniforme.
+4. Imagem azul uniforme.
+5. Imagem azul uniforme.
+6. Imagem azul uniforme.
+7. Imagem azul uniforme.
+8. Imagem azul uniforme.
+9. Imagem azul uniforme.
+
+ANOMALIA: No segundo frame, uma mancha amarela aparece sobre o fundo azul, o que pode indicar a presença de um objeto estranho na área de trabalho do robô. Como não é possível identificar claramente o que é, e considerando que qualquer objeto não pertencente à operação do robô é considerado uma anomalia, é necessário investigar mais a fundo para garantir a segurança do ambiente.

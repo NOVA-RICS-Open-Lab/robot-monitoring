@@ -1,0 +1,12 @@
+Video: an1.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 33.37s)  -> ANOMALY
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por uma mão, indicando uma anomalia, pois a presença de partes do corpo humano é considerada um evento anormal.
+
+STAGE 2  (12 dense frames around src [345], 44.03s)  -> NORMAL
+NORMAL: A sequência de imagens mostra a área de trabalho do robô Kuka, com dois microscópios em uma mesa azul, sem qualquer objeto ou pessoa externa presente. A operação do robô parece normal, com os microscópios cobertos e sem sinais de intervenção humana ou objetos estranhos. A sequência é consistente com a descrição do contexto do robô, que opera em uma área de trabalho controlada e segura. Não há evidências de anomalias ou invasões externas.
+
+Result:
+NORMAL   anomaly window ~ 5.08s .. 6.35s

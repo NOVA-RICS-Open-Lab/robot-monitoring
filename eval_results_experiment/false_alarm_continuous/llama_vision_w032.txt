@@ -1,0 +1,8 @@
+model: llama_vision   window 32   465-480 s   idx=[11160, 11204, 11249, 11294, 11339, 11384, 11429, 11474, 11519]
+
+STAGE 1 (9 frames) -> NORMAL
+NORMAL: A sequência de frames mostra a operação normal do robô, com a manipulação de blocos amarelos e a presença de componentes do robô e do ambiente de trabalho, sem evidências de objetos ou pessoas externas invadindo a área de trabalho. A única exceção é o frame 8, que mostra a mão do robô, mas isso é parte da operação normal e não uma anomalia. Portanto, a sequência é classificada como normal.
+
+STAGE 2: not run
+
+FINAL: NORMAL

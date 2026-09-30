@@ -1,0 +1,18 @@
+model: qwen3_vl   window 12   165-180 s   idx=[3960, 4004, 4049, 4094, 4139, 4184, 4229, 4274, 4319]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô esquerdo manipula blocos amarelos na placa branca (posição inicial).  
+2. Robô esquerdo posiciona bloco amarelo sobre placa branca.  
+3. Robô esquerdo ajusta bloco amarelo na placa.  
+4. Robô esquerdo move bloco amarelo para nova posição na placa.  
+5. Robô esquerdo mantém contato com bloco amarelo na placa.  
+6. Robô esquerdo solta bloco amarelo na placa.  
+7. Robô esquerdo posiciona bloco amarelo na placa.  
+8. Robô esquerdo ajusta bloco amarelo na placa.  
+9. Robô esquerdo mantém bloco amarelo na placa.  
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos (como garrafas, plantas) nas imagens. O movimento dos blocos amarelos é parte da operação normal do robô, conforme descrito no contexto. Todas as ações observadas estão alinhadas com o funcionamento esperado do sistema robótico, sem violação de segurança ou intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

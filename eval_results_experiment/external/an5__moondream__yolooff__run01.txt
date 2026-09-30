@@ -1,0 +1,18 @@
+Vídeo: an5.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 23.23s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white text.
+  Frame 2: urns of water and yellow balls on a blue tablecloth with white text.
+  Frame 3: urns of water and yellow blocks on a blue table with white squares, accompanied by a robot arm and a green box.
+  Frame 4: urns of water and yellow cubes on a blue table with white text.
+  Frame 5: urns of water and yellow cubes on a blue table with white text.
+  Frame 6: urns of water and yellow cubes on a blue table with white text.
+  Frame 7: urns of water and yellow cubes on a blue table with white text.
+  Frame 8: urns of water and a blue table with white squares for testing purposes are present on a gray floor.
+  Frame 9: urns of water and yellow cubes on a blue table with white text.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white text.

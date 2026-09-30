@@ -1,0 +1,19 @@
+model: qwen3_vl   window 24   345-360 s   idx=[8280, 8324, 8369, 8414, 8459, 8504, 8549, 8594, 8639]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô posiciona ferramenta azul sobre blocos amarelos na placa branca.
+2. Robô ajusta ferramenta azul próximo aos blocos amarelos.
+3. Robô mantém ferramenta azul sobre blocos amarelos.
+4. Robô posiciona ferramenta azul sobre blocos amarelos.
+5. Robô mantém ferramenta azul sobre blocos amarelos.
+6. Robô move ferramenta azul para placa branca inferior.
+7. Robô posiciona ferramenta azul sobre placa branca inferior.
+8. Robô ajusta ferramenta azul sobre placa branca inferior.
+9. Robô move blocos amarelos para placa branca inferior.
+
+NORMAL: Nenhum elemento humano (mão, braço, pessoa) ou objeto estranho (garrafa, bola, planta) é observado em qualquer frame. O robô manipula exclusivamente os blocos amarelos e sua ferramenta azul, conforme operação normal descrita. Todas as ações estão alinhadas com o contexto de trabalho do robô, sem violação de segurança ou presença externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

@@ -1,0 +1,19 @@
+model: qwen3_vl   window 10   135-150 s   idx=[3240, 3284, 3329, 3374, 3419, 3464, 3509, 3554, 3599]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô posiciona bloco amarelo na placa superior esquerda.
+2. Robô mantém posição sobre placa superior esquerda.
+3. Robô ajusta bloco amarelo na placa superior esquerda.
+4. Robô permanece estático sobre placa superior esquerda.
+5. Robô move braço para placa inferior direita.
+6. Robô posiciona bloco amarelo na placa inferior direita.
+7. Robô ajusta bloco amarelo na placa inferior direita.
+8. Robô mantém posição sobre placa inferior direita.
+9. Robô retorna para placa superior esquerda.
+
+NORMAL: Nenhum elemento humano (mão, braço, pessoa) ou objeto estranho (garrafa, bola, planta) foi observado nas imagens. O robô manipula os blocos amarelos conforme sua operação normal de montagem, sem interferência externa. Todas as ações estão alinhadas com o contexto descrito para o processo de soldagem e montagem do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

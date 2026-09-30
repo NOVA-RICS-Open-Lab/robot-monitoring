@@ -1,0 +1,37 @@
+Video: an6.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.52s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs em operação com peças amarelas na mesa.
+2. Presença de uma pessoa com parte do corpo visível na área de trabalho.
+3. Pessoa ainda visível, mais próxima dos robôs.
+4. Pessoa coloca um vaso com plantas na mesa.
+5. Vaso e plantas permanecem na mesa, pessoa ainda visível.
+6. Pessoa remove o vaso da mesa.
+7. Área de trabalho sem objetos estranhos, mas pessoa ainda visível.
+8. Pessoa ainda próxima, mas sem interação com a mesa.
+9. Pessoa ainda visível, mas sem objetos estranhos na mesa.
+
+ANOMALIA: A presença de uma pessoa na área de trabalho do robô é uma anomalia, pois qualquer parte do corpo humano na área de operação representa um risco de segurança. Além disso, a introdução de um vaso com plantas, que não faz parte da operação normal do robô, também constitui uma anomalia. Esses fatores comprometem a segurança e a integridade do processo automatizado.
+
+STAGE 2  (12 dense frames around src [136, 273], 3.20s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Parte de um braço humano visível na área de trabalho.
+2. Braço humano ainda presente, próximo ao robô.
+3. Braço humano continua na área, sem alteração significativa.
+4. Braço humano permanece visível, próximo ao robô.
+5. Braço humano ainda na área de trabalho.
+6. Braço humano visível, sem mudanças.
+7. Braço humano continua presente na área.
+8. Braço humano ainda visível, próximo ao robô.
+9. Braço humano permanece na área de trabalho.
+10. Braço humano ainda presente, sem alterações.
+11. Braço humano visível na área de trabalho.
+12. Braço humano continua na área, próximo ao robô.
+
+ANOMALIA: A presença contínua de um braço humano na área de trabalho do robô em todos os frames representa uma anomalia. Qualquer parte do corpo humano na área de operação do robô é considerada uma violação das normas de segurança, pois pode causar acidentes ou interferir no funcionamento do robô. É essencial garantir que a área de trabalho esteja livre de intrusões humanas para manter a segurança operacional.
+
+Result:
+ANOMALY   anomaly window ~ 1.60s .. 5.02s

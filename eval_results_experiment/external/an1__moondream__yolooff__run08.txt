@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.02s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and yellow cubes on a blue table with white legs.
+  Frame 2: urns of water and a blue table with white squares for blocks are present on the right side of the frame.
+  Frame 3: urns of water and yellow cubes on a blue table with white squares for buttons.
+  Frame 4: urns of water and a yellow block on a blue table with two gray robots.
+  Frame 5: urns of water and a yellow block on a blue table with two gray robots on either side.
+  Frame 6: ursa robot arms with blue and gray colors are attached to a blue table, holding white papers against a black background.
+  Frame 7: urns of yellow and white liquid sit on a blue tablecloth, with two gray robots nearby.
+  Frame 8: urns of a blue table with white and gray markings, accompanied by a green plant on the right side.
+  Frame 9: ursine robots with gray and white bodies and blue arms stand on a blue table, accompanied by yellow blocks and a green box.
+
+Resultado:
+ANOMALIA: urns of water and yellow cubes on a blue table with white legs.

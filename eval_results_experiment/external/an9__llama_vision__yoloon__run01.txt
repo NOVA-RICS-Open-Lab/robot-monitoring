@@ -1,0 +1,18 @@
+Vídeo: an9.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 33.73s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is a close-up of a person's face, with their eyes and nose visible, but the rest of their face is out of focus.
+  Frame 2: The image is a close-up of a person's face, with their eyes and nose visible, but the rest of their face is out of focus.
+  Frame 3: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 4: The image is a blank, empty space with no people, hands, or objects.
+  Frame 5: The image is blank, with no people, hands, or objects.
+  Frame 6: The image shows a block of cheese, likely a block of cheddar or similar, with a few blocks of cheese missing from the top left corner.
+  Frame 7: The image is a close-up of a cloud, with no people, hands, or unusual objects visible.
+  Frame 8: The image is a close-up of a cloud, with no people, hands, or unusual objects visible.
+  Frame 9: The image is a close-up of a person's face, with their eyes and mouth obscured by a cloud of fog or mist, creating a mysterious and enigmatic atmosphere.
+
+Resultado:
+ANOMALIA: A sequência de frames indica a presença de uma pessoa (Frames 1, 2, 3 e 9) e objetos estranhos (Frame 6) na área de trabalho do robô, o que indica uma anomalia.

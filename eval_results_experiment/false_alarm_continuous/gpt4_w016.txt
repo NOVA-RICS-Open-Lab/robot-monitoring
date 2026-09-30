@@ -1,0 +1,19 @@
+model: gpt4   window 16   225-240 s   idx=[5400, 5444, 5489, 5534, 5579, 5624, 5669, 5714, 5759]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Robô posicionado sobre blocos amarelos.
+2. Robô movendo um bloco amarelo.
+3. Blocos amarelos reposicionados.
+4. Robô ajustando posição sobre os blocos.
+5. Blocos amarelos alinhados.
+6. Robô continua operação sobre os blocos.
+7. Blocos permanecem na mesma posição.
+8. Robô ainda operando sobre os blocos.
+9. Nenhuma mudança visível nos blocos.
+
+NORMAL: A sequência de frames mostra o robô realizando operações normais com os blocos amarelos. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho. O movimento dos blocos é parte da operação esperada do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

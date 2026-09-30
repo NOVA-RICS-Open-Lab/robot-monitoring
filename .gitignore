@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Local runtime config (copy config.example.json -> config.json to create yours)
+config.json
+
+# Generated at runtime
+reports/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Stock YOLO weights (auto-downloaded by Ultralytics on first run)
+yolo11n.pt
+yolo11n-pose.pt
+
+# Your own footage — keep it out of git, it gets large fast.
+# The one demo clip lives in sample_media/ and IS tracked.
+videos/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db

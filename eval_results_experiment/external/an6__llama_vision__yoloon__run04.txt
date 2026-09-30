@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 33.94s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is empty, with no people, hands, or objects.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is empty, with no people, hands, or objects.
+  Frame 4: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 5: The image is a close-up of a person's face, with their eyes and mouth visible, but the rest of their face is out of focus.
+  Frame 6: The image is a close-up of a person's hand, with their fingers spread out and their palm facing the camera, but it is too blurry to make out any details.
+  Frame 7: The image is a close-up of a person's face, but it is too blurry to make out any features or details.
+  Frame 8: The image is a blank, empty space with no people, hands, or objects.
+  Frame 9: The image is empty, with no people, hands, or objects.
+
+Resultado:
+ANOMALIA: A análise da sequência de frames revela que a área de trabalho do robô foi invadida por uma pessoa, com imagens de close-up de seu rosto e mão, indicando que a anomalia ocorreu entre Frame 4 e Frame 8, quando a pessoa entrou na área de trabalho do robô, comprometendo a operação segura.

@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 17.61s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Braços robóticos continuam a operação, sem alterações visíveis.
+3. Braços robóticos ainda em operação, cenário inalterado.
+4. Braços robóticos movem-se sobre a mesa, sem interferências externas.
+5. Braços robóticos continuam a movimentação, sem objetos estranhos.
+6. Braços robóticos em operação normal, sem invasões.
+7. Mão humana visível na área de trabalho dos robôs.
+8. Braços robóticos voltam à operação normal, mão não visível.
+9. Braços robóticos continuam operação, sem presença humana.
+
+ANOMALIA: No frame 7, uma mão humana invade a área de trabalho dos robôs, o que representa uma violação clara dos critérios de segurança. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia, pois pode causar riscos de segurança e interromper o funcionamento normal do sistema.
+
+STAGE 2  (12 dense frames around src [517], 3.01s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Robô operando normalmente sobre a mesa.
+2. Robô continua operação sem interferências.
+3. Robô em movimento, sem objetos estranhos.
+4. Mão humana começa a aparecer no canto inferior esquerdo.
+5. Mão humana se aproxima do robô.
+6. Mão humana toca o robô.
+7. Mão humana ainda em contato com o robô.
+8. Mão humana permanece em contato com o robô.
+9. Mão humana continua tocando o robô.
+10. Mão humana ainda visível e em contato.
+11. Mão humana permanece na área de trabalho.
+12. Mão humana se afasta, mas ainda visível.
+
+ANOMALIA: A presença de uma mão humana na área de trabalho do robô é uma clara violação dos protocolos de segurança. O contato físico com o robô pode causar acidentes e interromper a operação segura do sistema. A invasão da área de trabalho por uma parte do corpo humano é sempre considerada uma anomalia, pois compromete a segurança operacional e pode danificar o equipamento ou ferir o operador.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

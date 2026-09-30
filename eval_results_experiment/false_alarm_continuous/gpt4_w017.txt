@@ -1,0 +1,19 @@
+model: gpt4   window 17   240-255 s   idx=[5760, 5804, 5849, 5894, 5939, 5984, 6029, 6074, 6119]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Robô com gripper sobre blocos amarelos.
+2. Gripper do robô segurando blocos amarelos.
+3. Gripper ainda segurando blocos amarelos.
+4. Blocos amarelos movidos para outra posição.
+5. Gripper do robô movendo-se sem blocos.
+6. Gripper do robô em posição de espera.
+7. Gripper do robô ainda em posição de espera.
+8. Gripper do robô sem alterações.
+9. Blocos amarelos em nova posição, gripper do robô acima.
+
+NORMAL: A sequência mostra o robô realizando operações normais de movimentação de blocos amarelos. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho. Todas as ações observadas são consistentes com a operação esperada do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

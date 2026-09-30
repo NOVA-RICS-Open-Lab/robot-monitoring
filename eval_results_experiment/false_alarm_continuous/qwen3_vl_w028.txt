@@ -1,0 +1,18 @@
+model: qwen3_vl   window 28   405-420 s   idx=[9720, 9764, 9809, 9854, 9899, 9944, 9989, 10034, 10079]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô esquerdo posiciona bloco amarelo na placa branca, robô direito está parado.  
+2. Robô esquerdo ajusta bloco amarelo na placa, robô direito permanece imóvel.  
+3. Robô esquerdo move bloco amarelo para nova posição na placa, robô direito inalterado.  
+4. Robô direito se desloca para placa inferior, robô esquerdo não visível.  
+5. Robô direito posiciona bloco amarelo na placa inferior, robô esquerdo ausente.  
+6. Robô direito se afasta da placa inferior, robô esquerdo retorna à área.  
+7. Robô esquerdo se move para placa inferior, robô direito está parado.  
+8. Robô esquerdo posiciona bloco amarelo na placa inferior, robô direito imóvel.  
+9. Robô esquerdo se afasta da placa inferior, robô direito permanece na posição.  
+
+NORMAL: Nenhum corpo humano, braço ou objeto estranho (como garrafa, bola) foi observado em nenhum frame. Todas as ações envolvem apenas os robôs manipulando blocos amarelos conforme operação normal descrita, sem intervenção externa ou elementos não pertencentes ao processo. A sequência demonstra movimentos típicos de robôs industriais em sua tarefa de posicionamento de peças.
+
+STAGE 2: not run
+
+FINAL: NORMAL

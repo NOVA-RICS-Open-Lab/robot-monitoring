@@ -1,0 +1,37 @@
+Video: an2.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.59s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente com peças no local de trabalho.
+2. O robô continua a operação sem interferências externas.
+3. Uma mão humana aparece no espaço de trabalho, tocando uma peça.
+4. A mão humana já não está visível; o robô retoma a operação.
+5. O robô continua a operação sem interferências.
+6. O robô está operando normalmente.
+7. O robô continua a operação sem interferências externas.
+8. O robô está operando normalmente.
+9. O robô continua a operação sem interferências externas.
+
+ANOMALIA: A presença de uma mão humana no terceiro frame constitui uma anomalia. Qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. Isso pode causar riscos tanto para o operador quanto para o equipamento, interrompendo o fluxo seguro e eficiente da operação.
+
+STAGE 2  (12 dense frames around src [172, 258], 13.37s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Mão humana visível na área de trabalho do robô.
+2. Mão humana ainda presente, próxima ao bloco amarelo.
+3. Mão humana continua na área, tocando o bloco.
+4. Mão humana permanece na área de trabalho.
+5. Mão humana ainda visível, movendo-se ligeiramente.
+6. Mão humana começando a se afastar da área de trabalho.
+7. Mão humana não está mais visível.
+8. Área de trabalho sem presença humana.
+9. Área de trabalho permanece sem presença humana.
+10. Nenhuma presença humana na área de trabalho.
+11. Área de trabalho continua sem presença humana.
+12. Área de trabalho sem presença humana.
+
+ANOMALIA: A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação de segurança. A mão estava em contato com o bloco, o que pode interferir na operação do robô e comprometer a segurança do ambiente de trabalho.
+
+Result:
+ANOMALY   anomaly window ~ 2.20s .. 4.77s

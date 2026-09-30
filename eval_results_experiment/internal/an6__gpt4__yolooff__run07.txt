@@ -1,0 +1,37 @@
+Video: an6.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.70s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre a mesa, aparentemente pronto para iniciar uma tarefa.
+2. O robô move-se ligeiramente, mas ainda não interage com os objetos.
+3. Uma mão humana coloca um bloco amarelo na área de trabalho do robô.
+4. O robô está próximo do bloco amarelo recém-posicionado.
+5. O robô parece estar a ajustar a sua posição em relação ao bloco.
+6. O robô aproxima-se do bloco, possivelmente para agarrá-lo.
+7. O robô está a segurar o bloco amarelo.
+8. O robô mantém o bloco na garra, sem movimento adicional.
+9. O robô continua a segurar o bloco, sem alterações visíveis.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A presença de uma mão humana no frame 3 sugere uma possível interferência externa, mas sem dados de log, não é possível determinar se houve uma falha interna no robô.
+
+STAGE 2  (12 dense frames around src [172], 2.93s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Um braço robótico está próximo de um bloco amarelo.
+2. O braço robótico move-se em direção ao bloco amarelo.
+3. O braço robótico está prestes a tocar no bloco amarelo.
+4. O braço robótico toca no bloco amarelo.
+5. O braço robótico parece estar a agarrar o bloco amarelo.
+6. O braço robótico mantém a posição com o bloco.
+7. O braço robótico ainda está em contato com o bloco.
+8. O braço robótico não mostra movimento significativo.
+9. O braço robótico começa a afastar-se do bloco.
+10. O braço robótico move-se para longe do bloco.
+11. O braço robótico está mais distante do bloco.
+12. O braço robótico está completamente afastado do bloco.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que impede a verificação de transições de estado ou pressão do gripper. A ausência de dados de estado é uma anomalia, pois não permite confirmar se o robô operou conforme esperado.
+
+Result:
+ANOMALY   anomaly window ~ 2.20s .. 3.47s

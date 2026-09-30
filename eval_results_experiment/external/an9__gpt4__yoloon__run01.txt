@@ -1,0 +1,18 @@
+Vídeo: an9.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.58s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Parte de um tecido ou roupa visível.
+2. Continuação do tecido ou roupa.
+3. Área escura, difícil de identificar.
+4. Área cinza, sem detalhes claros.
+5. Área cinza, sem detalhes claros.
+6. Objeto retangular com peças amarelas sobre uma superfície azul.
+7. Parte de um tecido ou roupa visível.
+8. Continuação do tecido ou roupa.
+9. Continuação do tecido ou roupa.
+
+ANOMALIA: Nos frames 1, 2, 7, 8 e 9, é visível o que parece ser parte de um tecido ou roupa, sugerindo a presença de uma pessoa ou objeto estranho na área de trabalho do robô. Isso representa uma anomalia, pois qualquer parte do corpo humano ou objeto não pertencente à operação do robô deve ser considerado uma invasão da área de segurança.

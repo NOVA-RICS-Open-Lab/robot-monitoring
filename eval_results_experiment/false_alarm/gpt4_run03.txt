@@ -1,0 +1,27 @@
+model: gpt4   run 3   seed 38154
+STAGE 1: 18 frames  idx=[661, 1228, 1552, 2025, 3380, 4822, 5989, 8391, 8754, 9536, 11444, 11546, 11582, 12007, 12499, 12610, 13368, 14161]
+DESCRIÇÃO POR FRAME:
+1. Robô movendo um bloco amarelo na mesa.
+2. Robô reposiciona o bloco amarelo.
+3. Robô continua a movimentação do bloco.
+4. Robô ajusta a posição do bloco.
+5. Robô levanta o bloco da mesa.
+6. Robô coloca o bloco em nova posição.
+7. Robô se prepara para pegar outro bloco.
+8. Robô levanta outro bloco.
+9. Robô reposiciona o segundo bloco.
+10. Robô ajusta a posição do segundo bloco.
+11. Robô coloca o segundo bloco na mesa.
+12. Robô se move para pegar outro bloco.
+13. Robô levanta o terceiro bloco.
+14. Robô reposiciona o terceiro bloco.
+15. Robô ajusta a posição do terceiro bloco.
+16. Robô coloca o terceiro bloco na mesa.
+17. Robô se move para pegar o último bloco.
+18. Robô levanta o último bloco.
+
+NORMAL: A sequência de frames mostra o robô industrial realizando tarefas de movimentação de blocos amarelos na mesa. Não há presença de objetos ou pessoas externas invadindo a área de trabalho do robô. Todas as ações observadas são consistentes com a operação normal do robô, sem sinais de anomalias.
+
+STAGE 2: not run
+
+FINAL: NORMAL

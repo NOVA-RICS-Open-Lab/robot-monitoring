@@ -1,0 +1,18 @@
+model: qwen3_vl   window 30   435-450 s   idx=[10440, 10484, 10529, 10574, 10619, 10664, 10709, 10754, 10799]
+
+STAGE 1 (9 frames) -> NORMAL
+1. Robô posiciona blocos amarelos sobre folha branca em plataforma azul.  
+2. Robô ajusta posição dos blocos amarelos, com braço conectado a cabo.  
+3. Robô segura bloco amarelo próximo à folha branca, outro braço estático.  
+4. Robô mantém bloco amarelo sobre folha branca, sem interação humana.  
+5. Robô posiciona bloco amarelo em folha branca, movimento contínuo.  
+6. Robô ajusta bloco amarelo, com outro braço em posição fixa.  
+7. Robô move braço para folha branca, sem elementos externos.  
+8. Robô segura bloco amarelo, com cabo visível.  
+9. Robô libera bloco amarelo na folha branca, operação contínua.  
+
+NORMAL: Não há presença de mãos, braços humanos ou objetos estranhos (como garrafas, plantas) em nenhum frame. Todos os elementos observados (robô, blocos amarelos, folhas brancas, plataforma azul) são parte da operação normal do robô, conforme descrito no contexto. As mudanças de posição dos blocos amarelos são resultado da ação programada do robô, não de intervenção externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

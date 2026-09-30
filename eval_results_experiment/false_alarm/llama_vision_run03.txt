@@ -1,0 +1,7 @@
+model: llama_vision   run 3   seed 124969
+STAGE 1: 12 frames  idx=[2676, 3484, 3805, 6648, 7549, 9026, 9154, 10814, 10890, 12610, 13912, 14095]
+NORMAL: A análise da sequência de frames não identificou nenhuma parte do corpo humano ou objeto estranho invadindo a área de trabalho do robô, mantendo-se dentro dos critérios de normalidade.
+
+STAGE 2: not run
+
+FINAL: NORMAL

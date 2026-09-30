@@ -1,0 +1,37 @@
+Video: an1.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 3.51s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos operando sobre uma mesa com blocos amarelos.
+2. Os braços robóticos continuam na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança significativa, braços robóticos ainda em operação.
+4. Braços robóticos movem-se ligeiramente, ainda sem interferências externas.
+5. Continuação do movimento dos braços robóticos, área de trabalho limpa.
+6. Braços robóticos em movimento, sem objetos ou pessoas externas.
+7. Mão humana visível na área de trabalho, interagindo com o robô.
+8. Mão humana não está mais visível, braços robóticos continuam operando.
+9. Braços robóticos em operação, sem presença de objetos ou pessoas externas.
+
+ANOMALIA: No frame 7, uma mão humana entra na área de trabalho do robô, o que constitui uma anomalia. A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia devido aos riscos de segurança envolvidos. É crucial garantir que a área de trabalho esteja livre de interferências humanas para evitar acidentes.
+
+STAGE 2  (12 dense frames around src [517], 3.22s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente sem interferências.
+2. O robô continua a operação sem alterações visíveis.
+3. O robô mantém a operação normal.
+4. Uma mão humana começa a aparecer no canto inferior esquerdo.
+5. A mão humana está mais próxima do robô.
+6. A mão humana toca o robô.
+7. A mão humana ainda está em contato com o robô.
+8. A mão humana permanece em contato com o robô.
+9. A mão humana continua em contato com o robô.
+10. A mão humana ainda está em contato com o robô.
+11. A mão humana permanece em contato com o robô.
+12. A mão humana começa a se afastar do robô.
+
+ANOMALIA: Uma mão humana entrou na área de trabalho do robô e entrou em contato direto com ele. Isso representa uma violação clara dos protocolos de segurança, pois qualquer parte do corpo humano na área de operação do robô é considerada uma anomalia. A presença da mão pode causar riscos de segurança tanto para o operador quanto para o funcionamento do robô.
+
+Result:
+ANOMALY   anomaly window ~ 7.95s .. 9.22s

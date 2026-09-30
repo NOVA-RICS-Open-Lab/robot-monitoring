@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 24.18s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: 
+  Frame 2: 
+  Frame 3: 
+  Frame 4: 
+  Frame 5: urn of water with a silver rim and a gray base.
+  Frame 6: urns of a blue table with white and yellow blocks on top, accompanied by a gray robot arm.
+  Frame 7: urn of water with a grayish hue and a white rim sits on a table against a light gray background.
+  Frame 8: urns of a blue table with white and yellow cubes on top, accompanied by a gray robot arm with a green logo.
+  Frame 9: urns of a blue table with white and yellow cubes on top, accompanied by a gray robot arm.
+
+Resultado:
+ANOMALIA: urns of a blue table with white and yellow cubes on top, accompanied by a gray robot arm.

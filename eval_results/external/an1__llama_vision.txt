@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 42.32s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image shows a blue table with two microscopes and a small white and yellow object on it, possibly a piece of paper or a slide.
+  Frame 2: The image shows a blue table with two microscopes and a small white and yellow object on it, possibly a piece of paper or a slide.
+  Frame 3: The image shows a blue table with two microscopes on it, each with a yellow and white object on the stage. The purpose of the image is to show the setup of the microscopes and the objects being examined. There are no people or hands visible in the image.
+  Frame 4: The image shows a blue table with two microscopes and a small piece of paper on it, likely used for scientific or educational purposes.
+  Frame 5: The image shows a blue table with two microscopes on it, likely used for scientific or educational purposes.
+  Frame 6: The image shows a blue table with two microscopes on it, likely used for scientific or educational purposes.
+  Frame 7: The image shows a person's hand holding a device with two white and black cylinders on a blue table, with a white and yellow object in the middle.
+  Frame 8: The image shows a blue table with two microscopes on it, likely used for scientific or educational purposes.
+  Frame 9: This image depicts a top-down view of a blue table with two microscopes and a poster on the wall behind it. The microscopes are positioned on the table, with the one on the left featuring a light blue and white body and a black cord, while the one on the right has a light
+
+Resultado:
+ANOMALIA: A mão do operador (Frame 7) invadiu a área de trabalho do robô, representando uma anomalia.

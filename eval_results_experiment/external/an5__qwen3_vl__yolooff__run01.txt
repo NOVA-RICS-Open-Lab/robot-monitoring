@@ -1,0 +1,34 @@
+Video: an5.mp4 (external)
+Model: qwen3_vl (qwen3-vl:8b)
+
+
+STAGE 1  (9 frames, 16.36s)  -> ANOMALY
+1. Robôs posicionados sobre painéis amarelos e brancos em mesa azul, sem objetos externos.  
+2. Uma bola amarela aparece no centro da área de trabalho.  
+3. A bola amarela está próxima ao braço do robô, movendo-se em direção a ele.  
+4. A bola amarela desaparece da área de trabalho.  
+5. Nenhum objeto externo visível na área de trabalho.  
+6. Nenhum objeto externo visível na área de trabalho.  
+7. Nenhum objeto externo visível na área de trabalho.  
+8. Nenhum objeto externo visível na área de trabalho.  
+9. Nenhum objeto externo visível na área de trabalho.  
+ANOMALIA: A bola amarela, não pertencente à operação de soldagem do robô, invadiu a área de trabalho nos frames 2 e 3, indicando uma anomalia por estar claramente fora do contexto operacional do sistema. O objeto não é parte do equipamento ou material normalmente utilizado, configurando risco de interferência na operação.
+
+STAGE 2  (12 dense frames around src [23], 23.15s)  -> ANOMALY
+1. Frame 1: Robótica posicionada sobre blocos amarelos na mesa azul, sem objetos externos.
+2. Frame 2: Configuração idêntica ao frame 1, sem alterações.
+3. Frame 3: Uma bola amarela aparece na superfície da mesa azul.
+4. Frame 4: A bola amarela se move em direção à área de trabalho do robô.
+5. Frame 5: A bola amarela aproxima-se do braço do robô.
+6. Frame 6: A bola amarela está próxima ao garfo do robô.
+7. Frame 7: O garfo do robô entra em contato com a bola amarela.
+8. Frame 8: O robô segura a bola amarela no garfo.
+9. Frame 9: A bola amarela permanece no garfo do robô.
+10. Frame 10: A bola amarela continua sendo segurada pelo garfo.
+11. Frame 11: A bola amarela está mantida no garfo.
+12. Frame 12: A bola amarela permanece no garfo do robô.
+
+ANOMALIA: A bola amarela, objeto externo não relacionado à operação de soldagem do robô, entra na área de trabalho e é manipulada pelo robô, violando protocolos de segurança. O item não faz parte do processo normal de operação (como ferramentas de solda ou peças específicas) e representa uma invasão não autorizada, já que sistemas industriais com scanners e barreiras luminosas devem evitar a presença de objetos estranhos. A sequência demonstra claramente a introdução de um elemento não previsto na
+
+Result:
+ANOMALY   anomaly window ~ 0.05s .. 0.98s

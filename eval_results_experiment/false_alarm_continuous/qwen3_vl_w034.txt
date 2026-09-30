@@ -1,0 +1,19 @@
+model: qwen3_vl   window 34   495-510 s   idx=[11880, 11924, 11969, 12014, 12059, 12104, 12149, 12194, 12239]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes nenhum):
+1. Robô posiciona bloco amarelo sobre placa branca com outros blocos.
+2. Robô mantém bloco amarelo próximo à placa branca.
+3. Robô move bloco amarelo para placa branca com blocos já posicionados.
+4. Robô ajusta bloco amarelo na placa branca.
+5. Robô se desloca para placa branca vazia.
+6. Robô posiciona bloco amarelo na placa branca vazia.
+7. Robô manipula bloco amarelo na placa branca com blocos.
+8. Robô posiciona bloco amarelo na placa branca vazia.
+9. Robô se afasta após posicionamento do bloco.
+
+NORMAL: Todas as ações mostram o robô manipulando blocos amarelos como parte da operação normal, sem presença de mãos, braços humanos ou objetos estranhos. Os blocos são componentes do processo e o robô age conforme sua função de montagem, respeitando os critérios de segurança do workspace. Nenhuma anomalia foi identificada em nenhum frame.
+
+STAGE 2: not run
+
+FINAL: NORMAL

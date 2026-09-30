@@ -1,0 +1,31 @@
+Video: an2.mp4 (external)
+Model: qwen3_vl (qwen3-vl:8b)
+
+
+STAGE 1  (9 frames, 9.79s)  -> ANOMALY
+1. Robô posicionado sobre mesa azul com blocos amarelos e brancos, sem presença humana.  
+2. Robô movendo braço, área de trabalho sem interferência externa.  
+3. Mão humana posicionando bloco amarelo na área do robô.  
+4. Robô retomando posição, sem contato humano visível.  
+5. Configuração sem alterações, apenas robô operando.  
+6. Braço do robô ajustando posição, ambiente normal.  
+7. Robô interagindo com blocos, sem elementos estranhos.  
+8. Posição estática do robô, área livre de interferências.  
+9. Sistema operando sem presença humana ou objetos anômalos.  
+
+ANOMALIA: No frame 3, uma mão humana entra na área de trabalho do robô para manipular os blocos, violando a regra de segurança que proíbe qualquer contato humano direto. A presença do braço humano é claramente um elemento externo não autorizado, mesmo que o objeto manipulado (bloco amarelo) seja parte do sistema. As demais imagens não mostram interferência, mas a ocorrência em um único frame já configura anomalia conforme critérios estabelecidos.
+
+STAGE 2  (12 dense frames around src [172], 29.20s)  -> UNKNOWN
+DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes nenhum):
+1. Mão humana interagindo com bloco amarelo na área de trabalho do robô.
+2. Mão humana posicionada próximo ao bloco amarelo, mantendo contato visual.
+3. Mão humana ajustando o bloco amarelo em sua posição.
+4. Mão humana movendo o bloco amarelo para a direita.
+5. Mão humana segurando o bloco amarelo com leve pressão.
+6. Mão humana soltando o bloco amarelo em uma nova posição.
+7. Mão humana retornando para a área de trabalho do robô.
+8. Mão humana posicionada sobre o bloco amarelo.
+9. Mão humana retirando o bloco amarelo da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da da
+
+Result:
+ANOMALY   anomaly window ~ 2.20s .. 3.47s

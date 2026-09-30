@@ -1,0 +1,18 @@
+Vídeo: an3.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.67s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. O robô está operando normalmente com uma peça amarela.
+2. O robô continua a operação sem alterações visíveis.
+3. Uma mão humana aparece na área de trabalho do robô.
+4. O robô retoma a operação sem a presença da mão.
+5. O robô continua a operação normalmente.
+6. Uma mão humana aparece novamente na área de trabalho do robô.
+7. O robô opera sem a presença da mão.
+8. O robô continua a operação normalmente.
+9. O robô mantém a operação sem interferências.
+
+ANOMALIA: Em dois momentos distintos, uma mão humana invadiu a área de trabalho do robô (frames 3 e 6). A presença de qualquer parte do corpo humano na área de operação do robô é sempre considerada uma anomalia, pois representa um risco de segurança significativo. É essencial garantir que a área de trabalho esteja livre de interferências humanas para evitar acidentes.

@@ -1,0 +1,19 @@
+model: gpt4   window 18   255-270 s   idx=[6120, 6164, 6209, 6254, 6299, 6344, 6389, 6434, 6479]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos com blocos amarelos em uma mesa azul.
+2. Braço esquerdo movendo um bloco amarelo.
+3. Braço esquerdo segurando um bloco amarelo.
+4. Braço esquerdo reposicionando o bloco amarelo.
+5. Braço esquerdo ainda segurando o bloco amarelo.
+6. Braço esquerdo ainda segurando o bloco amarelo.
+7. Braço esquerdo ainda segurando o bloco amarelo.
+8. Braço esquerdo ainda segurando o bloco amarelo.
+9. Braço esquerdo reposiciona o bloco amarelo na mesa.
+
+NORMAL: A sequência mostra o robô realizando operações normais de movimentação e reposicionamento de blocos amarelos. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho do robô. Todas as ações observadas são consistentes com a operação esperada do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

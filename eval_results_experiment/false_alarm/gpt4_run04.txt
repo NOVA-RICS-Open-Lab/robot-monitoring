@@ -1,0 +1,19 @@
+model: gpt4   run 4   seed 38155
+STAGE 1: 10 frames  idx=[2259, 2659, 3632, 3865, 6564, 8916, 11277, 12412, 13541, 13929]
+DESCRIÇÃO POR FRAME:
+1. Dois robôs operam sobre uma mesa com blocos amarelos.
+2. Um robô move-se em direção aos blocos.
+3. Robô posiciona-se sobre os blocos.
+4. Robô segura um bloco amarelo.
+5. Robô move o bloco para outra posição.
+6. Robô reposiciona-se sobre a mesa.
+7. Robô segura outro bloco amarelo.
+8. Robô move-se para fora do campo de visão.
+9. Robô reposiciona blocos na mesa.
+10. Robôs retornam à posição inicial.
+
+NORMAL: A sequência mostra apenas os robôs e os blocos amarelos, que são parte do ambiente de trabalho normal. Não há presença de objetos estranhos ou partes do corpo humano na área de trabalho. As operações realizadas pelos robôs são consistentes com a tarefa de manuseio de blocos, sem qualquer invasão externa.
+
+STAGE 2: not run
+
+FINAL: NORMAL

@@ -1,0 +1,147 @@
+% ======================================================================
+% Example for the thesis: one full run of the pipeline, start to finish.
+% Same style as RESULTS_REPORT.tex (prose, no ";", no em dash).
+% Meant as an appendix or as a figure-like walk-through inside the method.
+% The quoted model output is the real transcript of this run, unedited.
+% ======================================================================
+
+\section{A single run, start to finish}
+\label{sec:worked-example}
+
+This section follows one run of the pipeline from the input clip to the
+final grade. The run chosen is clip \texttt{an1} of the common anomaly
+set, analysed by GPT-4o, first of the ten repeats. It is a representative
+case rather than a best case. The detector fires correctly, the dense
+re-check agrees, and the semantic judge still finds something missing,
+which is the most common outcome in the whole battery.
+
+\subsection{Input and reference}
+
+Clip \texttt{an1} is a short recording of the two robot arms sorting
+yellow blocks on the table. The scripted anomaly is a human hand that
+enters from the left, sets down a small white object among the blocks, and
+withdraws. The event occupies roughly the last third of the clip. The
+reference description held in \texttt{ground\_truth.py} is ``human hand
+leaves a white object, then withdraws'', the anomaly channel is the
+external one, and the true time window is the interval from about seventy
+percent to about ninety percent of the clip length.
+
+\subsection{Stage 1, the coarse pass}
+
+Stage~1 sampled nine frames spread evenly across the whole clip and sent
+them to GPT-4o in a single request. The call took 4.6 seconds. The model
+returned a one line description of each frame and then a verdict line. Its
+output for this run was the following.
+
+\begin{quote}\small\ttfamily
+DESCRICAO POR FRAME:\\
+1. Dois bracos roboticos operando sobre uma mesa com blocos amarelos.\\
+2. Bracos roboticos continuam a operar, sem alteracoes visiveis.\\
+3. Bracos roboticos ainda em operacao, cenario inalterado.\\
+4. Bracos roboticos movem-se ligeiramente, sem interferencias externas.\\
+5. Bracos roboticos continuam a mover-se, area de trabalho limpa.\\
+6. Bracos roboticos em movimento, sem objetos estranhos.\\
+7. Mao humana visivel na area de trabalho, tocando um dos blocos.\\
+8. Mao humana nao esta mais visivel, bracos roboticos continuam.\\
+9. Bracos roboticos operando normalmente, sem presenca externa.\\[4pt]
+ANOMALIA: No frame 7, uma mao humana invade a area de trabalho do robo,
+tocando um dos blocos. Isso representa uma violacao clara dos criterios
+de seguranca, pois qualquer parte do corpo humano na area de trabalho e
+considerada uma anomalia.
+\end{quote}
+
+The verdict is \texttt{ANOMALY}. The model placed the event at the
+seventh of the nine frames, which corresponds to a source frame index of
+about 517, near 7.9 seconds into the clip. That frame index becomes the
+anchor for the next stage.
+
+\subsection{Stage 2, the dense re-check} 
+
+Because Stage~1 returned an anomaly and produced an anchor, Stage~2 ran.
+It sampled twelve frames packed closely around source frame 517, four
+frames apart, and sent that denser set back to the same model. This call
+took 3.5 seconds. The model again described each frame and returned a
+verdict.
+
+\begin{quote}\small\ttfamily
+DESCRICAO POR FRAME:\\
+1. Robo operando normalmente sobre a mesa.\\
+2. Robo continua operacao sem interferencias.\\
+3. Robo em movimento, sem objetos estranhos.\\
+4. Mao humana comeca a aparecer no canto inferior esquerdo.\\
+5. Mao humana se aproxima do robo.\\
+6. Mao humana toca o robo.\\
+7. Mao humana ainda em contato com o robo.\\
+8. Mao humana permanece na area de trabalho.\\
+9. Mao humana continua em contato com o robo.\\
+10. Mao humana ainda visivel na area de trabalho.\\
+11. Mao humana permanece na cena.\\
+12. Mao humana se afasta, mas ainda visivel.\\[4pt]
+ANOMALIA: A presenca de uma mao humana na area de trabalho do robo e uma
+clara violacao dos protocolos de seguranca. Em varios frames, a mao toca
+o robo, o que pode causar riscos de seguranca tanto para o operador
+quanto para o equipamento.
+\end{quote}
+
+The Stage~2 verdict is again \texttt{ANOMALY}, so the coarse verdict
+stands. The denser view lets the model track the hand across its whole
+path, entering at the lower left, reaching the arm, and pulling away,
+which it could not see from the single frame in Stage~1. The reported
+anomaly window is 7.95 to 9.22 seconds. The true window for this clip is
+the last third of its length, so the localisation overlaps the reference.
+
+\subsection{Stage 3, the semantic grade}
+
+The final justification, the Stage~2 text above, was passed to the judge
+model together with the reference description. The judge does not see the
+video and does not know which detector produced the text. It compares the
+two descriptions and returns one word. For this run it returned
+\texttt{PARTIAL}.
+
+The reason is visible on a close read. The reference anomaly is a hand
+that leaves a white object behind. The model saw the hand, described its
+path in detail, and called the anomaly correctly at the level of type and
+agent, which is a human intrusion. It never mentioned the white object
+that the hand deposits. The core of the report is right and the account
+is incomplete, which is exactly the definition of \texttt{PARTIAL}. This
+same pattern, a correct hand and a missed secondary detail, is why GPT-4o
+scores \texttt{MATCH} on about three quarters of its external positives
+rather than all of them.
+
+\subsection{The row this run produced}
+
+Table~\ref{tab:worked-row} shows the single line this run contributes to
+\texttt{summary.csv}, alongside the Stage~3 grade that
+\texttt{stage3.csv} records for it. Ten such rows exist for this clip and
+this model, one per repeat, and the per clip figures in
+Section~\ref{sec:test1} are counts over those ten.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l l@{}}
+\toprule
+Field & Value for this run \\
+\midrule
+clip                & \texttt{an1} \\
+channel             & external \\
+model               & GPT-4o \\
+repeat              & 1 of 10 \\
+Stage-1 verdict     & \texttt{ANOMALY} (9 frames, 4.6 s) \\
+Stage-2 verdict     & \texttt{ANOMALY} (12 dense frames, 3.5 s) \\
+final verdict       & \texttt{ANOMALY} \\
+localised window    & 7.95 s to 9.22 s \\
+true window         & last third of the clip (overlap) \\
+Stage-3 grade       & \texttt{PARTIAL} (hand correct, dropped object missed) \\
+total run time      & 8.0 s \\
+\bottomrule
+\end{tabular}
+\caption{The record produced by one run of the pipeline on clip
+\texttt{an1} with GPT-4o. The coarse pass detects the hand, the dense
+re-check confirms it and locates it in time, and the semantic judge marks
+the account as incomplete because the deposited white object is not
+mentioned.}
+\label{tab:worked-row}
+\end{table}
+\FloatBarrier

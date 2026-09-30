@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 3.21s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Fundo azul sem objetos visíveis.
+2. Fundo azul sem objetos visíveis.
+3. Fundo azul sem objetos visíveis.
+4. Parte de um objeto ou corpo em tons de rosa aparece.
+5. Objeto ou corpo em tons de rosa e vermelho visível.
+6. Movimento de objeto ou corpo em tons de rosa.
+7. Fundo azul sem objetos visíveis.
+8. Fundo azul sem objetos visíveis.
+9. Fundo azul sem objetos visíveis.
+
+ANOMALIA: Nos frames 4, 5 e 6, há a presença de um objeto ou parte de um corpo em tons de rosa e vermelho que não pertence ao ambiente normal de operação do robô. Isso indica uma possível invasão da área de trabalho por um objeto estranho ou parte do corpo humano, o que representa uma anomalia de segurança.

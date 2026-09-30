@@ -1,0 +1,11 @@
+Video: an9.mp4 (external)
+Model: llama_vision (llama3.2-vision)
+
+
+STAGE 1  (9 frames, 34.39s)  -> NORMAL
+NORMAL: A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estranhos invadindo a área de trabalho do robô, mantendo-se dentro do contexto da operação de solda com o Kuka Robot.
+
+STAGE 2  : not run
+
+Result:
+NORMAL

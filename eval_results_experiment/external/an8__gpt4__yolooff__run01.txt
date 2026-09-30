@@ -1,0 +1,37 @@
+Video: an8.mp4 (external)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 12.28s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs e objetos normais na mesa.
+2. Um objeto estranho (bolsa preta) aparece na mesa.
+3. Uma mão humana segurando uma garrafa entra na área de trabalho.
+4. A garrafa é deixada na mesa, mão ainda visível.
+5. A mão humana volta a pegar na garrafa.
+6. A garrafa permanece na mesa, mão não visível.
+7. Nenhuma mudança, garrafa ainda na mesa.
+8. Nenhuma mudança, garrafa ainda na mesa.
+9. Nenhuma mudança, garrafa ainda na mesa.
+
+ANOMALIA: A presença de uma mão humana nos frames 3 e 5 constitui uma anomalia, pois qualquer parte do corpo humano na área de trabalho do robô é sempre considerada uma invasão. Além disso, a introdução de objetos estranhos, como a bolsa preta e a garrafa, também representa uma anomalia, pois não pertencem à operação normal do robô.
+
+STAGE 2  (12 dense frames around src [273], 2.92s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois braços robóticos e objetos sobre a mesa.
+2. Dois braços robóticos e objetos sobre a mesa.
+3. Dois braços robóticos e objetos sobre a mesa.
+4. Dois braços robóticos e objetos sobre a mesa.
+5. Mão humana segurando uma garrafa de água.
+6. Mão humana segurando uma garrafa de água.
+7. Mão humana segurando uma garrafa de água.
+8. Mão humana segurando uma garrafa de água.
+9. Mão humana segurando uma garrafa de água.
+10. Mão humana segurando uma garrafa de água.
+11. Mão humana segurando uma garrafa de água.
+12. Mão humana segurando uma garrafa de água.
+
+ANOMALIA: A presença de uma mão humana segurando uma garrafa de água nos frames 5 a 12 constitui uma anomalia. Qualquer parte do corpo humano na área de trabalho do robô é considerada uma violação das normas de segurança, pois pode interferir na operação do robô e representar um risco de acidente.
+
+Result:
+ANOMALY   anomaly window ~ 3.88s .. 5.15s

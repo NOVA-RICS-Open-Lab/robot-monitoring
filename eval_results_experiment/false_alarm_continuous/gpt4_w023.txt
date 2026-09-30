@@ -1,0 +1,19 @@
+model: gpt4   window 23   330-345 s   idx=[7920, 7964, 8009, 8054, 8099, 8144, 8189, 8234, 8279]
+
+STAGE 1 (9 frames) -> NORMAL
+DESCRIÇÃO POR FRAME:
+1. Robô posicionado sobre a mesa com blocos amarelos.
+2. Robô movendo um bloco amarelo.
+3. Dois blocos amarelos posicionados na mesa.
+4. Blocos amarelos permanecem na mesma posição.
+5. Nenhuma alteração visível nos blocos.
+6. Robô reposiciona um bloco amarelo.
+7. Robô em movimento, sem objetos estranhos visíveis.
+8. Robô ajusta a posição dos blocos amarelos.
+9. Robô continua operação com blocos amarelos.
+
+NORMAL: A sequência de frames mostra o robô realizando operações normais com blocos amarelos. Não há presença de partes do corpo humano ou objetos estranhos na área de trabalho. As mudanças na posição dos blocos são parte da operação normal do robô.
+
+STAGE 2: not run
+
+FINAL: NORMAL

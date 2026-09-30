@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 34.23s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: This image is a blank, dark blue screen with no discernible features, objects, or people.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image shows a white and yellow plastic or plastic-like object with a grid-like structure, but it does not contain any people, hands, or unusual objects.
+  Frame 6: The image shows a block of eight white and one yellow blocks of varying sizes, but there are no people, hands, or unusual objects.
+  Frame 7: The image shows a white and yellow block of plastic or plastic-like material with a grid-like structure.
+  Frame 8: The image shows a white and yellow block of chocolate or candy, possibly a chocolate bar or a block of candy, with no people or hands visible.
+  Frame 9: The image shows a white and yellow block of chocolate or candy, but it is too blurry to determine its exact nature.
+
+Resultado:
+NORMAL: A sequência de frames não apresenta nenhuma anomalia, pois não há pessoas, mãos ou objetos estranhos presentes na área de trabalho do robô ao longo de todos os frames. O robô opera normalmente, manipulando peças e materiais de acordo com a sua função, sem qualquer interferência externa.

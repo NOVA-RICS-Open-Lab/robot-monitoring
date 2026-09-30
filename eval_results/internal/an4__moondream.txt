@@ -1,0 +1,19 @@
+Vídeo: an4.mp4 (interna)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.45s
+Linhas de log usadas: 6
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and a white paper with black text are on a blue table, accompanied by a green plant and a silver fan.
+  Frame 2: urns of water on a blue table with white paper and a black button, accompanied by a sign reading "30" and an illustration of a robot arm.
+  Frame 3: urns of water on a blue table with a white paper and green label, accompanied by a sign reading "30" and a robot arm.
+  Frame 4: urns of water and a blue table with white paper and a green label on the right side.
+  Frame 5: ursa robot with blue and gray arms on a blue table, accompanied by yellow blocks and a white sign reading "30".
+  Frame 6: urns of water and yellow cubes on a blue tablecloth with white text.
+  Frame 7: urns of water and yellow cubes on a blue table with white text.
+  Frame 8: urns of water and yellow cubes on a blue table with white text.
+  Frame 9: urns of water and yellow cubes on a blue table with white text.
+
+Resultado:
+ANOMALIA: [0.01, 0.61, 0.11, 0.72]

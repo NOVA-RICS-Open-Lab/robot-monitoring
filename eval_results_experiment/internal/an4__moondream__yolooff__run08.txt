@@ -1,0 +1,19 @@
+Vídeo: an4.mp4 (interna)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 22.13s
+Linhas de log usadas: 6
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: urns of water and a white paper on a blue table with a gray robot arm extending from it.
+  Frame 2: urns of water and a white paper with black text are on a blue tablecloth, accompanied by two gray robots.
+  Frame 3: urns of water and a white paper with black text are on a blue table, accompanied by two gray robots.
+  Frame 4: urns of water and a white paper with black text are on a blue table, accompanied by two gray robots.
+  Frame 5: urns of yellow and white cubes rest on a blue table, with a gray robot arm extending from the center.
+  Frame 6: urns of yellow and white cubes rest on a blue table, accompanied by a gray robot arm with a black head.
+  Frame 7: urns of yellow and blue cubes rest on a blue table with white edges, accompanied by a gray robot arm.
+  Frame 8: urns of water and yellow cubes on a blue tablecloth with white paper instructions.
+  Frame 9: urns of water and yellow cubes on a blue table with white paper and black wire.
+
+Resultado:
+ANOMALIA: [0.01, 0.61, 0.11, 0.72]

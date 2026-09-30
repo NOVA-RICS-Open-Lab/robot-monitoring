@@ -1,0 +1,19 @@
+Video: an5.mp4 (external)
+Model: yolo_pose (yolo11n-pose.pt)   conf>=0.35
+
+STAGE 1  (9 uniform frames)  -> NORMAL
+  src#0     t=  0.00s : 0 person(s)
+  src#23    t=  0.38s : 0 person(s)
+  src#46    t=  0.77s : 0 person(s)
+  src#69    t=  1.15s : 0 person(s)
+  src#92    t=  1.53s : 0 person(s)
+  src#115   t=  1.92s : 1 person(s)
+  src#138   t=  2.30s : 1 person(s)
+  src#161   t=  2.68s : 1 person(s)
+  src#185   t=  3.08s : 0 person(s)
+  basis: no wrist keypoint above threshold
+
+STAGE 2  : not run (stage 1 not ANOMALY, or no anchor frame)
+
+Result:
+NORMAL

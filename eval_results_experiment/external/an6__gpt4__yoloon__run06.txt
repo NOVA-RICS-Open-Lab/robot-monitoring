@@ -1,0 +1,18 @@
+Vídeo: an6.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.98s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Área de trabalho do robô visível, sem intrusões.
+2. Área de trabalho do robô visível, sem intrusões.
+3. Área de trabalho do robô visível, sem intrusões.
+4. Presença de objeto ou parte do corpo humano na área de trabalho.
+5. Parte do corpo humano claramente visível na área de trabalho.
+6. Parte do corpo humano ainda visível na área de trabalho.
+7. Área de trabalho do robô visível, sem intrusões.
+8. Área de trabalho do robô visível, sem intrusões.
+9. Área de trabalho do robô visível, sem intrusões.
+
+ANOMALIA: Nos frames 4, 5 e 6, há uma clara intrusão de uma parte do corpo humano na área de trabalho do robô. Isso representa uma violação das normas de segurança, pois qualquer presença humana na zona de operação do robô é considerada uma anomalia. A segurança operacional é comprometida, exigindo ação imediata para evitar riscos de acidentes.

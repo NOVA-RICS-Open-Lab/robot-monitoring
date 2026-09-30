@@ -1,0 +1,18 @@
+Vídeo: an10.mp4 (externa)
+Modelo: llama_vision (llama3.2-vision)
+Frames analisados: 9
+Tempo: 33.65s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: The image is blank, with no people, hands, or objects.
+  Frame 2: The image is blank, with no people, hands, or objects.
+  Frame 3: The image is blank, with no people, hands, or objects.
+  Frame 4: The image is blank, with no people, hands, or objects.
+  Frame 5: The image shows a white and yellow plastic or plastic-like object with a grid-like structure, but it does not contain any people, hands, or unusual objects.
+  Frame 6: The image shows a block of eight white and one yellow blocks of varying sizes, but there are no people, hands, or unusual objects.
+  Frame 7: The image shows a white and yellow block of plastic or plastic-like material with a grid-like structure, but it does not contain any people, hands, or unusual objects.
+  Frame 8: The image shows a white and yellow block of chocolate or candy, but it is too small to make out any details.
+  Frame 9: The image shows a white and yellow block of cheese, likely a block of cheddar or similar cheese, with a block of cheese on top.
+
+Resultado:
+NORMAL: A sequência de frames não apresenta qualquer parte do corpo humano ou objetos estranhos na área de trabalho do robô, mantendo-se dentro do contexto da operação de solda com o Kuka Robot.

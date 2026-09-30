@@ -1,0 +1,18 @@
+Vídeo: an8.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.79s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Fundo azul sem objetos visíveis.
+2. Objeto escuro aparece parcialmente.
+3. Objeto escuro permanece visível.
+4. Objeto escuro ainda visível, sem mudanças.
+5. Parte de um objeto claro aparece à esquerda.
+6. Objeto claro com detalhes visíveis à esquerda.
+7. Objeto claro permanece à esquerda.
+8. Objeto claro ainda visível à esquerda.
+9. Objeto claro continua visível à esquerda.
+
+ANOMALIA: Nos frames 5 a 9, um objeto claro aparece e permanece visível, o que não parece ser parte do ambiente normal do robô. A presença deste objeto pode indicar uma invasão na área de trabalho do robô, representando uma possível anomalia. É importante investigar para garantir que não há risco de segurança.

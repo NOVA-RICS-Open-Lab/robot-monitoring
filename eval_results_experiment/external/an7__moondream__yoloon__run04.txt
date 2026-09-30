@@ -1,0 +1,18 @@
+Vídeo: an7.mp4 (externa)
+Modelo: moondream (moondream)
+Frames analisados: 9
+Tempo: 21.45s
+
+Legendas por frame (passo intermédio, modelo local):
+  Frame 1: ?".
+  Frame 2: ?".
+  Frame 3: 
+  Frame 4: ?".
+  Frame 5: ?".
+  Frame 6: ?".
+  Frame 7: ?".
+  Frame 8: ?".
+  Frame 9: urn of water with a blue lid and handle
+
+Resultado:
+ANOMALIA: urn of water with a blue lid and handle.

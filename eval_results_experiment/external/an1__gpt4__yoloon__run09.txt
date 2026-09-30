@@ -1,0 +1,18 @@
+Vídeo: an1.mp4 (externa)
+Modelo: gpt4 (gpt-4o)
+Frames analisados: 9
+Tempo: 2.84s
+
+Resultado:
+DESCRIÇÃO POR FRAME:
+1. Imagem azul indistinta, sem detalhes visíveis.
+2. Imagem azul indistinta, sem detalhes visíveis.
+3. Imagem azul indistinta, sem detalhes visíveis.
+4. Imagem com uma faixa azul e uma área cinza, sem detalhes claros.
+5. Imagem cinza indistinta, sem detalhes visíveis.
+6. Robô industrial com peças e componentes em uma mesa azul.
+7. Imagem cinza indistinta, sem detalhes visíveis.
+8. Robô industrial com peças e componentes em uma mesa azul.
+9. Robô industrial com peças e componentes em uma mesa azul.
+
+NORMAL: A sequência de frames mostra principalmente imagens indistintas e, em alguns frames, um robô industrial operando em um ambiente controlado. Não há evidência de intrusão de objetos ou pessoas externas na área de trabalho do robô. As imagens claras mostram apenas o robô e seus componentes normais, sem anomalias detectadas.

@@ -1,0 +1,22 @@
+model: gpt4   run 1   seed 38152
+STAGE 1: 13 frames  idx=[769, 1920, 2267, 3820, 3849, 4145, 5578, 6626, 8022, 8238, 9114, 11583, 14350]
+DESCRIÇÃO POR FRAME:
+1. Robô manuseando blocos amarelos sobre a mesa.
+2. Robô continua a movimentar blocos amarelos.
+3. Robô ajusta a posição dos blocos amarelos.
+4. Robô reposiciona blocos amarelos na mesa.
+5. Robô ainda movendo blocos amarelos.
+6. Robô organiza blocos amarelos em nova posição.
+7. Robô continua a organizar blocos amarelos.
+8. Robô reposiciona blocos amarelos novamente.
+9. Robô ajusta blocos amarelos na mesa.
+10. Robô continua a movimentar blocos amarelos.
+11. Robô organiza blocos amarelos em nova configuração.
+12. Robô reposiciona blocos amarelos.
+13. Robô ajusta blocos amarelos na mesa.
+
+NORMAL: Em todos os frames, o robô está apenas manuseando blocos amarelos, que parecem ser parte do seu ambiente de trabalho normal. Não há presença de objetos estranhos ou partes do corpo humano na área de trabalho do robô. A operação parece seguir o procedimento esperado sem invasões externas.
+
+STAGE 2: not run
+
+FINAL: NORMAL

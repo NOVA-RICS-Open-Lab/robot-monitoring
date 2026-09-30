@@ -1,0 +1,37 @@
+Video: an7.mp4 (internal)
+Model: gpt4 (gpt-4o)
+
+
+STAGE 1  (9 frames, 2.70s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. Dois robôs estão posicionados sobre uma mesa com blocos amarelos.
+2. Os robôs permanecem na mesma posição, sem alterações visíveis.
+3. Nenhuma mudança na posição dos robôs ou dos blocos.
+4. Os robôs continuam estáticos, sem interação com os blocos.
+5. Uma mão humana aparece e move um dos blocos amarelos.
+6. A mão humana ainda está presente, ajustando a posição do bloco.
+7. A mão desaparece, e os robôs permanecem na mesma posição.
+8. Nenhuma alteração visível na posição dos robôs ou dos blocos.
+9. Os robôs continuam estáticos, sem interação adicional.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, mas a presença de uma mão humana interferindo no processo sugere uma possível anomalia. A intervenção manual pode indicar que o robô não estava operando conforme esperado, necessitando de ajuste humano. Além disso, a falta de dados de pressão do gripper impede a verificação de possíveis falhas na operação de agarrar.
+
+STAGE 2  (12 dense frames around src [116, 232], 3.18s)  -> ANOMALY
+DESCRIÇÃO POR FRAME:
+1. O robô está posicionado sobre um bloco amarelo à esquerda.
+2. O robô mantém a posição sobre o bloco amarelo à esquerda.
+3. O robô continua na mesma posição sobre o bloco amarelo à esquerda.
+4. O robô ainda está sobre o bloco amarelo à esquerda.
+5. O robô permanece sobre o bloco amarelo à esquerda.
+6. O robô está na mesma posição sobre o bloco amarelo à esquerda.
+7. O robô continua sobre o bloco amarelo à esquerda.
+8. Uma mão humana aproxima-se do bloco amarelo à esquerda.
+9. A mão humana toca no bloco amarelo à esquerda.
+10. A mão humana move o bloco amarelo à esquerda.
+11. A mão humana continua a mover o bloco amarelo à esquerda.
+12. A mão humana afasta-se do bloco amarelo à esquerda.
+
+ANOMALIA: Não há log de estado disponível para cruzar com os frames, o que já é uma anomalia por si só. Além disso, a presença de uma mão humana interferindo com o bloco durante a operação do robô sugere uma possível falha de segurança, pois o sistema deveria prevenir interferências externas. A ausência de dados sobre a pressão do gripper impede a verificação de se o robô estava a segurar o bloco corretamente.
+
+Result:
+ANOMALY   anomaly window ~ 1.27s .. 4.33s

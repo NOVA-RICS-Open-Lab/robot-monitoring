@@ -1,0 +1,601 @@
+video,kind,model,yolo_requested,yolo_effective,repeat,two_stage,s1_status,s2_status,status,elapsed_s,s1_frames,s2_frames,anomaly_start_s,anomaly_end_s,verdict_line
+an1,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,8.01,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an1,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,6.55,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an1,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.73,9,12,7.95,9.22,Uma mão humana entrou na área de trabalho do robô e entrou em contato direto com
+an1,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.19,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an1,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,6.62,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an1,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,6.55,9,12,7.95,9.22,"Uma mão humana entrou em contato com a área de trabalho do robô, o que represent"
+an1,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,7.56,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an1,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.12,9,12,7.95,9.22,Uma mão humana entrou na área de trabalho do robô e entrou em contato direto com
+an1,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,7.09,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an1,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,20.62,9,12,7.95,9.22,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an10,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,22.36,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia signific
+an10,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.88,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an10,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,5.56,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an10,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.74,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an10,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,6.31,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an10,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.90,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an10,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,6.71,9,12,3.20,5.30,A presença de uma mão humana na área de trabalho do robô é uma anomalia signific
+an10,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.71,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an10,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.46,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an10,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,5.97,9,12,3.20,4.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an2,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.57,9,12,2.20,3.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia clara. E
+an2,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,15.96,9,12,2.20,4.77,"A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, p"
+an2,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,17.07,9,12,2.20,4.77,"A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, p"
+an2,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,19.52,9,12,2.20,3.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em todo
+an2,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,21.16,9,12,2.20,3.47,A presença de uma mão humana na área de trabalho do robô em todos os frames anal
+an2,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,17.93,9,12,2.20,4.77,"A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, p"
+an2,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.57,9,12,2.20,4.77,"A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, p"
+an2,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,5.88,9,12,2.20,4.77,"A presença de uma mão humana nos primeiros seis frames constitui uma anomalia, p"
+an2,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,24.80,9,12,2.20,3.47,A presença de uma mão humana na área de trabalho do robô é uma anomalia signific
+an2,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.86,9,12,2.20,3.47,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an3,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,7.11,9,12,0.58,2.97,A presença de uma mão humana na área de trabalho do robô em todos os frames cons
+an3,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.91,9,12,0.58,2.97,A sequência de frames mostra claramente uma mão humana entrando na área de traba
+an3,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.37,9,12,0.58,2.97,A sequência de frames mostra claramente uma mão humana invadindo a área de traba
+an3,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,5.74,9,12,0.58,2.97,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an3,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.45,9,12,0.58,2.97,Uma mão humana entra na área de trabalho do robô e faz contato direto com ele em
+an3,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.83,9,12,0.58,2.97,A sequência de frames mostra uma mão humana entrando na área de trabalho do robô
+an3,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.74,9,12,0.58,2.97,A sequência de frames mostra uma mão humana entrando na área de trabalho do robô
+an3,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,5.42,9,12,0.58,2.97,A presença de uma mão humana na área de trabalho do robô é uma clara violação da
+an3,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.56,9,12,0.58,2.97,A sequência de frames mostra uma mão humana entrando na área de trabalho do robô
+an3,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.24,9,12,0.58,2.97,"Uma mão humana invadiu a área de trabalho do robô em vários frames, tocando e in"
+an4,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,5.51,9,12,0.42,1.68,Uma mão humana entrou na área de trabalho do robô e tocou nas peças amarelas. A 
+an4,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.36,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,5.77,9,12,0.42,1.68,Uma mão humana entrou na área de trabalho do robô e tocou nas peças amarelas. A 
+an4,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,20.42,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.47,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.87,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,26.32,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.49,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an4,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.77,9,12,0.42,1.68,Uma mão humana entrou na área de trabalho do robô e tocou nas peças. Isso repres
+an4,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,18.85,9,12,0.42,1.68,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an5,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.76,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an5,external,gpt4,off,off,2,1,ANOMALY,NORMAL,NORMAL,5.54,9,12,0.87,2.13,"Em todos os frames, apenas os braços robóticos e as peças amarelas são visíveis "
+an5,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.28,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an5,external,gpt4,off,off,4,1,ANOMALY,NORMAL,NORMAL,6.43,9,12,0.87,2.13,"Em todos os frames, apenas os braços robóticos e os blocos amarelos são visíveis"
+an5,external,gpt4,off,off,5,1,ANOMALY,NORMAL,NORMAL,6.29,9,12,0.87,2.13,"Em todos os frames, apenas os braços robóticos e os blocos amarelos são visíveis"
+an5,external,gpt4,off,off,6,1,ANOMALY,NORMAL,NORMAL,26.24,9,12,0.87,2.13,"Em todos os frames, apenas os braços robóticos e as peças amarelas são visíveis "
+an5,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.57,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an5,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,5.65,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an5,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.48,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an5,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,5.98,9,12,0.00,0.92,"Uma bola amarela, que não faz parte da operação normal do robô, entrou na área d"
+an6,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,5.87,9,12,1.60,5.02,"Em todos os frames, é visível a presença de parte de um braço humano na área de "
+an6,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.82,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.72,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.17,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.91,9,12,1.60,5.02,A presença de um braço humano na área de trabalho do robô em todos os frames con
+an6,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,12.94,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.94,9,12,1.60,5.02,A presença contínua de um braço humano próximo à área de trabalho do robô em tod
+an6,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.78,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.30,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an6,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,5.87,9,12,1.60,5.02,A presença contínua de um braço humano na área de trabalho do robô em todos os f
+an7,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,12.36,9,12,0.03,1.10,A presença de uma mão humana dentro da área de trabalho do robô é uma anomalia. 
+an7,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.33,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an7,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,5.79,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Qualque
+an7,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,5.29,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an7,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.60,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an7,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.59,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia signific
+an7,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.81,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an7,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,15.72,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an7,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.81,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma clara violação do
+an7,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,9.72,9,12,0.03,1.10,A presença de uma mão humana na área de trabalho do robô é uma anomalia. Em vári
+an8,external,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,15.21,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água nos frames 5 a 12 con
+an8,external,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.93,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,14.76,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,25.53,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.53,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,7.03,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.90,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.35,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.81,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an8,external,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,5.73,9,12,3.88,5.15,A presença de uma mão humana segurando uma garrafa de água na área de trabalho d
+an9,external,gpt4,off,off,1,1,ANOMALY,NORMAL,NORMAL,6.75,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,2,1,ANOMALY,NORMAL,NORMAL,23.21,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,3,1,ANOMALY,NORMAL,NORMAL,20.69,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,4,1,ANOMALY,NORMAL,NORMAL,5.82,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.64,9,12,0.00,1.77,A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia
+an9,external,gpt4,off,off,6,1,ANOMALY,NORMAL,NORMAL,6.19,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.48,9,12,0.00,1.77,A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia
+an9,external,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,5.33,9,12,0.00,1.77,A presença de uma garrafa de plástico na área de trabalho do robô é uma anomalia
+an9,external,gpt4,off,off,9,1,ANOMALY,NORMAL,NORMAL,5.73,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an9,external,gpt4,off,off,10,1,ANOMALY,NORMAL,NORMAL,6.27,9,12,0.00,1.77,"Em todos os frames, apenas os braços robóticos e uma garrafa de plástico são vis"
+an1,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,28.16,9,12,2.20,3.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an1,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,12.50,9,12,2.20,3.47,"O log indica um erro de gripper às 00:05, com o estado a mudar para ""idle"" e ""la"
+an1,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.76,9,12,2.20,3.47,"O log indica um erro de gripper às 00:05, com o estado a mudar para ""idle"" e ""la"
+an1,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.92,9,12,2.20,3.47,"O log indica um erro de gripper às 00:05, com o estado a mudar para ""idle"" e ""la"
+an1,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,7.13,9,12,2.20,3.47,"O log indica que houve um erro relacionado à garra (""last_error"": ""gripper"") e o"
+an1,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.98,9,12,2.20,3.47,"O log indica um erro de gripper às 00:05, com o estado a mudar para ""idle"" e ""la"
+an1,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,34.27,9,12,2.20,3.47,"O log indica um erro de garra às 00:05, com o estado mudando para ""idle"" e ""last"
+an1,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.21,9,12,2.20,3.47,"O log indica que houve um erro relacionado à garra (""last_error"": ""gripper"") e o"
+an1,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.42,9,12,2.20,3.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an1,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,7.59,9,12,2.20,3.47,"O log indica que houve um erro relacionado ao gripper, com o estado mudando para"
+an10,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.20,9,12,1.82,3.08,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an10,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.53,9,12,1.82,3.08,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an10,internal,gpt4,off,off,3,1,ANOMALY,UNKNOWN,ANOMALY,5.78,9,12,1.82,3.08,"I'm sorry, I can't assist with that."
+an10,internal,gpt4,off,off,4,1,ANOMALY,UNKNOWN,ANOMALY,5.45,9,12,1.82,3.08,"I'm sorry, but I can't determine the content of the frames or analyze them for a"
+an10,internal,gpt4,off,off,5,1,ANOMALY,UNKNOWN,ANOMALY,25.71,9,12,1.82,3.08,"I'm sorry, I can't assist with that."
+an10,internal,gpt4,off,off,6,1,ANOMALY,UNKNOWN,ANOMALY,6.25,9,12,1.82,3.08,"I'm sorry, I can't assist with that."
+an10,internal,gpt4,off,off,7,1,ERROR,,ERROR,26.93,9,0,,,[ERRO: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in
+an10,internal,gpt4,off,off,8,1,ANOMALY,UNKNOWN,ANOMALY,15.07,9,12,1.82,3.08,"I'm sorry, I can't assist with that."
+an10,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,7.44,9,12,1.82,3.08,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an10,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,17.18,9,12,1.82,3.08,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an2,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,12.76,9,12,3.20,5.30,"O log indica que o robô estava em estado ""running"" e deveria estar segurando um "
+an2,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,23.30,9,12,3.20,5.30,O log indica que houve uma queda repentina da pressão do gripper de 520 para 0 n
+an2,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,22.39,9,12,4.17,5.43,O log indica que houve uma queda repentina da pressão da garra de 520 para 0 ent
+an2,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,7.46,9,12,3.20,5.30,"O log indica que o robô estava em estado ""running"" até 00:04, mas a pressão do g"
+an2,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,14.48,9,12,3.20,4.47,"O log indica que o robô estava em estado ""running"" até 00:04, mas em 00:05 o est"
+an2,internal,gpt4,off,off,6,1,ANOMALY,UNKNOWN,ANOMALY,26.55,9,12,3.20,5.30,"I'm sorry, I can't assist with that."
+an2,internal,gpt4,off,off,7,1,ANOMALY,UNKNOWN,ANOMALY,8.83,9,12,3.20,5.30,"I'm sorry, I can't assist with that."
+an2,internal,gpt4,off,off,8,1,ANOMALY,UNKNOWN,ANOMALY,5.90,9,12,3.20,5.30,"I'm sorry, I can't assist with that."
+an2,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.51,9,12,3.20,4.47,"O log indica que o robô estava em estado ""running"" até 00:04, mas em 00:05 o est"
+an2,internal,gpt4,off,off,10,1,ANOMALY,UNKNOWN,ANOMALY,24.97,9,12,3.20,5.30,"I'm sorry, I can't assist with that."
+an3,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,22.60,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado mudando para"
+an3,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,6.57,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,5.63,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,5.49,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,7.34,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,15.91,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,6.77,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.18,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado mudando para"
+an3,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,9.04,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an3,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,5.81,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an4,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.94,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an4,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,7.67,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, e o estado do robô mudou "
+an4,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,7.00,9,12,3.20,4.47,"O log indica que houve um erro relacionado à garra (""last_error"": ""gripper"") e o"
+an4,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,8.20,9,12,3.20,4.47,"O log indica que houve um erro relacionado à garra (""last_error"": ""gripper"") e o"
+an4,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,6.15,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado do robô muda"
+an4,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,22.43,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado do robô muda"
+an4,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,6.31,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado mudando para"
+an4,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,7.30,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado do robô muda"
+an4,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.93,9,12,3.20,4.47,"O log indica que houve um erro relacionado ao gripper, com o estado mudando para"
+an4,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,11.27,9,12,3.20,4.47,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an5,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,9.91,9,12,1.82,3.08,"O log indica um erro de gripper às 00:05, com o estado mudando para ""idle"" e ""la"
+an5,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,6.48,9,12,1.82,3.08,"O log indica que houve um erro com o gripper, e o estado do robô mudou para ""idl"
+an5,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.69,9,12,1.82,3.08,"O log indica um erro de gripper às 00:05, com o estado mudando para ""idle"" e ""la"
+an5,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.77,9,12,1.82,3.08,"O log indica um erro de gripper às 00:05, com o estado mudando para ""idle"" e ""la"
+an5,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,5.96,9,12,1.82,3.08,"O log indica que houve um erro relacionado à garra (""last_error"": ""gripper"") e o"
+an5,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,48.66,9,12,1.82,3.08,"O log indica um erro de garra às 00:05, com o estado mudando para ""idle"" e ""last"
+an5,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.95,9,12,1.82,3.08,"O log indica que houve um erro com o gripper, e o estado do robô mudou para ""idl"
+an5,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,6.43,9,12,1.82,3.08,"O log indica um erro de gripper às 00:05, com o estado do robô mudando para ""idl"
+an5,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.35,9,12,1.82,3.08,"O log indica um erro de gripper às 00:05, com o estado mudando para ""idle"" e ""la"
+an5,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.18,9,12,1.82,3.08,"O log indica que houve um erro relacionado com a garra (""last_error"": ""gripper"")"
+an6,internal,gpt4,off,off,1,1,NORMAL,,NORMAL,3.58,9,0,,,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an6,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.80,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an6,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,20.66,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an6,internal,gpt4,off,off,4,1,ANOMALY,NORMAL,NORMAL,5.64,9,12,2.20,3.47,Não há registo de anomalias no log de estado. O braço robótico executa a tarefa 
+an6,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,37.85,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an6,internal,gpt4,off,off,6,1,NORMAL,,NORMAL,3.32,9,0,,,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an6,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,5.62,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an6,internal,gpt4,off,off,8,1,NORMAL,,NORMAL,3.17,9,0,,,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an6,internal,gpt4,off,off,9,1,ANOMALY,NORMAL,NORMAL,6.95,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o br"
+an6,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.55,9,12,2.20,3.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an7,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.48,9,12,1.27,4.33,"Não há log de estado disponível para cruzar com os frames, mas a presença de uma"
+an7,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.79,9,12,3.20,5.30,"Não há dados no log de estado do robô, o que impede a verificação de transições "
+an7,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.14,9,12,3.20,4.47,"Não há dados no log de estado do robô, o que impede a verificação de transições "
+an7,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,6.50,9,12,1.27,4.33,"Não há registro de estado do robô no log, o que é incomum. Além disso, os robôs "
+an7,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,7.18,9,12,1.27,4.33,"Não há registro de estado no log, o que impede a verificação de transições norma"
+an7,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.88,9,12,1.27,4.33,"Não há log de estado disponível para cruzar com os frames, o que já é uma anomal"
+an7,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,7.03,9,12,1.27,4.33,"Não há registro de estado do robô no log, o que impede a verificação de erros in"
+an7,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,7.37,9,12,3.20,4.47,"Não há dados no log de estado do robô, o que impede a verificação de transições "
+an7,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,7.65,9,12,1.27,4.33,"Não há log de estado disponível para cruzar com os frames, mas a presença de uma"
+an7,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.31,9,12,1.27,4.33,"Não há log de estado disponível para cruzar com os frames, mas a presença de uma"
+an8,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,6.62,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,5.95,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,20.67,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,20.74,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,6.04,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum, pois não há dados sobre a pressão d"
+an8,internal,gpt4,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,5.76,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,6.47,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,8.73,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum, pois não há registro de atividade o"
+an8,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,6.01,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an8,internal,gpt4,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,6.00,9,12,3.20,4.47,"O log de estado está vazio, o que é incomum durante a operação de um robô indust"
+an9,internal,gpt4,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,5.65,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,2,1,ANOMALY,NORMAL,NORMAL,6.15,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an9,internal,gpt4,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,6.95,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,4,1,ANOMALY,NORMAL,NORMAL,5.69,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an9,internal,gpt4,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,6.16,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,6,1,ANOMALY,NORMAL,NORMAL,21.86,9,12,3.20,4.47,O robô executou a tarefa de agarrar e mover um objeto amarelo de forma consisten
+an9,internal,gpt4,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,6.81,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,21.02,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,5.73,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, o que impede a verifi"
+an9,internal,gpt4,off,off,10,1,ANOMALY,NORMAL,NORMAL,5.69,9,12,3.20,4.47,"Não há log de estado disponível para cruzar com os frames, mas visualmente, o ro"
+an1,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,27.98,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,29.48,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,29.32,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,39.90,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,29.31,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,39.93,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,29.40,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,29.42,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,29.38,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an1,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,29.34,9,12,7.95,9.22,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an10,external,qwen3_vl,off,off,1,1,ANOMALY,NORMAL,NORMAL,35.63,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,2,1,ANOMALY,NORMAL,NORMAL,35.77,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,3,1,ANOMALY,NORMAL,NORMAL,35.66,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,4,1,ANOMALY,NORMAL,NORMAL,35.84,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,5,1,ANOMALY,NORMAL,NORMAL,35.62,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,6,1,ANOMALY,NORMAL,NORMAL,35.71,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,7,1,ANOMALY,NORMAL,NORMAL,35.69,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,8,1,ANOMALY,NORMAL,NORMAL,35.65,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,9,1,ANOMALY,NORMAL,NORMAL,35.66,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an10,external,qwen3_vl,off,off,10,1,ANOMALY,NORMAL,NORMAL,35.67,9,12,3.20,4.47,"<explicação factual e elaborada — várias frases, justifica com base no que viste"
+an2,external,qwen3_vl,off,off,1,1,ANOMALY,UNKNOWN,ANOMALY,39.06,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,2,1,ANOMALY,UNKNOWN,ANOMALY,38.99,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,3,1,ANOMALY,UNKNOWN,ANOMALY,39.01,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,4,1,ANOMALY,UNKNOWN,ANOMALY,38.96,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,5,1,ANOMALY,UNKNOWN,ANOMALY,38.97,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,6,1,ANOMALY,UNKNOWN,ANOMALY,39.01,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,7,1,ANOMALY,UNKNOWN,ANOMALY,39.00,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,8,1,ANOMALY,UNKNOWN,ANOMALY,39.47,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,9,1,ANOMALY,UNKNOWN,ANOMALY,39.03,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an2,external,qwen3_vl,off,off,10,1,ANOMALY,UNKNOWN,ANOMALY,38.98,9,12,2.20,3.47,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 12 linhas no total, não saltes n"
+an3,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,33.43,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,33.40,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,33.53,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,33.38,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,33.41,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,33.37,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,33.51,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,33.34,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,33.39,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an3,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,33.33,9,12,0.58,1.85,"<think> Okay, let's tackle this problem. The user wants me to analyze 12 frames "
+an4,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,35.29,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,35.43,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,35.27,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,35.37,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,35.36,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,35.40,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,35.40,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,40.54,9,12,0.00,1.62,"A mão humana entra em contato com a bandeja inferior (frames 7-12), violando a s"
+an4,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,35.39,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an4,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,35.38,9,12,0.00,1.62,"A mão humana entra em contato direto com a bandeja inferior (frames 7-12), repre"
+an5,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,39.52,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,39.52,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,39.52,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,39.46,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,39.48,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,39.50,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,39.65,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,39.43,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,39.46,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an5,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,39.43,9,12,0.05,0.98,"A bola amarela, objeto externo não relacionado à operação de soldagem do robô, e"
+an6,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,45.73,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,45.79,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,45.93,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,45.87,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,45.88,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,45.74,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,45.76,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,45.88,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,45.84,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an6,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.01,9,12,1.60,2.87,"A mão humana está presente em todas as 12 imagens na área de trabalho do robô, v"
+an7,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,32.80,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,32.64,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,32.63,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,32.64,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,32.63,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,32.78,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,32.73,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,32.68,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,32.68,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an7,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,32.70,9,12,0.03,1.10,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames from a "
+an8,external,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.06,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,45.87,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.00,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,45.91,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,45.94,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,45.94,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,45.94,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,45.92,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,45.98,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an8,external,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.06,9,12,0.00,2.80,"A mão humana é observada nos frames 3-12, entrando em contato com a área de trab"
+an9,external,qwen3_vl,off,off,1,1,NORMAL,,NORMAL,22.84,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,2,1,NORMAL,,NORMAL,22.79,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,3,1,NORMAL,,NORMAL,22.85,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,4,1,NORMAL,,NORMAL,22.84,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,5,1,NORMAL,,NORMAL,22.82,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,6,1,NORMAL,,NORMAL,22.79,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,7,1,NORMAL,,NORMAL,22.76,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,8,1,NORMAL,,NORMAL,22.75,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,9,1,NORMAL,,NORMAL,22.83,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an9,external,qwen3_vl,off,off,10,1,NORMAL,,NORMAL,22.76,9,0,,,"<think> Okay, let's tackle this problem. The user wants me to analyze 9 frames o"
+an1,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,42.86,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,42.92,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,42.92,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,43.02,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,42.95,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,42.98,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,42.93,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,43.13,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,42.96,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an1,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,42.91,9,12,5.08,6.35,"O log indica que o campo ""gripper"" está sempre em 0 (sem pressão), mas os frames"
+an10,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,42.06,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,42.15,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,42.13,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,42.14,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,42.17,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,42.33,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,42.27,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,42.14,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,42.16,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an10,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,42.31,9,12,2.43,3.70,"O frame 4 revela a introdução inesperada de um bloco verde na placa, divergindo "
+an2,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.52,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,46.56,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.48,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,46.48,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,46.42,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,46.47,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,46.46,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,46.48,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,46.55,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an2,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.51,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to understan"
+an3,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,29.70,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,29.66,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.39,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,29.73,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,29.66,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,29.64,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,29.85,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,29.84,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,29.72,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an3,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,29.67,9,12,3.20,4.47,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.43,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,46.47,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.59,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,46.82,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,46.33,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,46.30,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,46.30,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,46.41,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,46.39,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an4,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.53,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.32,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,46.36,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.32,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,46.28,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,46.41,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,46.43,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,25.17,9,12,3.07,4.33,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,46.42,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,46.44,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an5,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.53,9,12,1.82,3.08,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an6,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,41.77,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,41.78,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,41.67,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,41.85,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,41.89,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,41.78,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,41.77,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,41.77,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,41.76,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an6,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,41.83,9,12,0.00,1.97,"<think> Okay, let's tackle this problem. So, I need to analyze 12 frames of a ro"
+an7,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.18,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,46.21,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.15,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,46.14,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,46.24,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,46.17,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,46.32,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,46.18,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,46.16,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an7,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.22,9,12,4.17,5.43,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,46.21,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,46.05,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,46.12,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,46.13,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,46.27,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,46.10,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,46.04,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,46.08,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,46.11,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an8,internal,qwen3_vl,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,46.09,9,12,2.23,3.50,"<think> Okay, let's tackle this problem step by step. First, I need to analyze t"
+an9,internal,qwen3_vl,off,off,1,1,UNKNOWN,,UNKNOWN,22.91,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,2,1,UNKNOWN,,UNKNOWN,22.91,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,3,1,UNKNOWN,,UNKNOWN,22.91,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,4,1,UNKNOWN,,UNKNOWN,22.87,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,5,1,UNKNOWN,,UNKNOWN,22.87,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,6,1,UNKNOWN,,UNKNOWN,22.91,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,7,1,UNKNOWN,,UNKNOWN,22.89,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,8,1,UNKNOWN,,UNKNOWN,22.85,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,9,1,UNKNOWN,,UNKNOWN,22.86,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an9,internal,qwen3_vl,off,off,10,1,UNKNOWN,,UNKNOWN,22.87,9,0,,,"DESCRIÇÃO POR FRAME (uma linha curta por frame, 9 linhas no total, não saltes ne"
+an1,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,82.74,9,12,7.95,9.22,A análise da sequência de frames revela que uma mão humana entrou em contato com
+an1,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,77.77,9,12,3.63,9.08,"A análise da sequência de frames revela que, em Frame 9, uma mão está a alcançar"
+an1,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,79.66,9,12,7.95,9.22,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an1,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,78.98,9,12,3.63,9.08,A análise da sequência de frames revela que a área de trabalho do robô foi invad
+an1,external,llama_vision,off,off,5,1,ANOMALY,NORMAL,NORMAL,77.40,9,12,5.08,6.35,"A sequência de imagens mostra a área de trabalho do robô Kuka, com dois microscó"
+an1,external,llama_vision,off,off,6,1,ANOMALY,NORMAL,NORMAL,77.62,9,12,5.08,6.35,"A sequência de imagens mostra a área de trabalho do robô em estado normal, com o"
+an1,external,llama_vision,off,off,7,1,ANOMALY,NORMAL,NORMAL,77.83,9,12,5.08,6.35,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios "
+an1,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,79.26,9,12,3.63,9.08,"A partir do Frame 9, observa-se a presença de uma mão humana na área de trabalho"
+an1,external,llama_vision,off,off,9,1,ANOMALY,NORMAL,NORMAL,78.35,9,12,0.00,4.83,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an1,external,llama_vision,off,off,10,1,ANOMALY,NORMAL,NORMAL,77.98,9,12,0.00,4.83,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an10,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,79.40,9,12,1.27,3.37,"A partir do Frame 11, observa-se a presença de braços robóticos e objetos que nã"
+an10,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,80.36,9,12,3.20,4.47,A análise da sequência de frames revela que uma mão humana está presente na área
+an10,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,79.71,9,12,3.20,4.47,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an10,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,79.86,9,12,3.20,4.47,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an10,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,80.05,9,12,3.20,5.30,A análise da sequência de frames revela que uma mão humana entrou em contato com
+an10,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,80.41,9,12,3.20,4.47,A análise da sequência de frames revela que uma mão humana entra em contato com 
+an10,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,80.44,9,12,3.20,4.47,A análise da sequência de frames revela que uma mão humana entra em contato com 
+an10,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,81.44,9,12,3.20,4.47,A análise da sequência de frames revela que uma mão humana entrou em contato com
+an10,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,80.69,9,12,3.20,4.47,A análise da sequência de frames revela que uma mão humana entrou em contato com
+an10,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,81.09,9,12,3.20,5.30,A análise da sequência de frames revela que uma mão humana está presente na área
+an2,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,79.96,9,12,2.20,9.08,A análise da sequência de frames revela que uma mão humana está presente na área
+an2,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,80.04,9,12,2.20,3.47,A análise da sequência de frames revela que uma mão humana está presente em vári
+an2,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,80.03,9,12,2.20,9.08,A análise da sequência de frames revela que uma mão humana está presente na área
+an2,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,80.24,9,12,2.20,9.08,A análise da sequência de frames revela que a mão de uma pessoa está presente na
+an2,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,79.21,9,12,0.00,1.97,"A partir do Frame 11, uma mão humana entra na área de trabalho do robô, indicand"
+an2,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,79.89,9,12,0.00,1.97,"A partir do Frame 11, uma mão humana entra em contato com a área de trabalho do "
+an2,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,79.22,9,12,2.20,3.47,A análise da sequência de frames revela que uma mão humana está presente em vári
+an2,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,80.94,9,12,2.20,9.08,A análise da sequência de frames revela que a mão de uma pessoa está presente na
+an2,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,80.48,9,12,2.20,9.08,A análise da sequência de frames revela que a mão de uma pessoa aparece em vária
+an2,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,80.62,9,12,2.20,9.08,A análise da sequência de frames revela que a mão de uma pessoa entra em contato
+an3,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,80.14,9,12,4.33,5.60,A análise da sequência de frames revela que a mão humana entra em contato com o 
+an3,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,79.98,9,12,0.00,1.78,"A análise da sequência de frames revela que objetos externos, incluindo uma mão "
+an3,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,80.13,9,12,4.33,5.60,A análise da sequência de frames revela que a mão humana está presente em várias
+an3,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,80.54,9,12,0.58,7.97,A análise da sequência de frames revela que uma mão humana está presente na área
+an3,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,80.85,9,12,0.58,7.97,A análise da sequência de frames revela que uma mão humana entra em contato com 
+an3,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,80.23,9,12,4.33,5.60,A análise da sequência de frames revela que a mão humana entra em contato com a 
+an3,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,80.68,9,12,0.00,1.78,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an3,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,80.78,9,12,0.58,7.97,A análise da sequência de frames revela que uma mão humana está presente em vári
+an3,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.00,9,12,0.00,1.78,"A análise da sequência de frames revela que objetos externos, incluindo uma mão "
+an3,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,80.21,9,12,0.00,1.78,"A partir do Frame 6, observa-se a presença de uma mão humana na área de trabalho"
+an4,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.44,9,12,0.42,1.68,A análise da sequência de frames revela que uma mão humana está presente em vári
+an4,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,81.48,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em todo
+an4,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.94,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em vári
+an4,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,80.89,9,12,0.42,1.68,A análise da sequência de frames revela que uma mão humana está presente em vári
+an4,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,81.86,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em todo
+an4,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,80.80,9,12,0.42,7.05,"A análise da sequência de frames revela que, em Frame 2, uma mão humana está a m"
+an4,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.75,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em todo
+an4,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,80.77,9,12,3.72,4.98,A análise da sequência de frames revela que a mão de uma pessoa está presente em
+an4,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,82.03,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em todo
+an4,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,82.39,9,12,3.72,4.98,A análise da sequência de frames revela que uma mão humana está presente em todo
+an5,external,llama_vision,off,off,1,1,NORMAL,,NORMAL,34.93,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an5,external,llama_vision,off,off,2,1,NORMAL,,NORMAL,34.77,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an5,external,llama_vision,off,off,3,1,NORMAL,,NORMAL,35.07,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an5,external,llama_vision,off,off,4,1,NORMAL,,NORMAL,34.90,9,0,,,"A sequência de frames mostra a área de trabalho do robô Kuka, com microscópios, "
+an5,external,llama_vision,off,off,5,1,NORMAL,,NORMAL,35.02,9,0,,,A sequência de imagens mostra a operação do robô Kuka em uma área de trabalho co
+an5,external,llama_vision,off,off,6,1,NORMAL,,NORMAL,34.82,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an5,external,llama_vision,off,off,7,1,NORMAL,,NORMAL,34.71,9,0,,,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an5,external,llama_vision,off,off,8,1,NORMAL,,NORMAL,35.46,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an5,external,llama_vision,off,off,9,1,NORMAL,,NORMAL,34.52,9,0,,,"A sequência de frames mostra a área de trabalho do robô, com microscópios, bloco"
+an5,external,llama_vision,off,off,10,1,NORMAL,,NORMAL,34.56,9,0,,,A sequência de imagens não apresenta nenhuma parte do corpo humano ou objetos es
+an6,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.12,9,12,0.00,2.80,"A análise da sequência de frames revela que, em várias ocasiões, partes do corpo"
+an6,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,81.38,9,12,8.45,9.72,"A análise da sequência de frames revela que objetos externos, como a mão e o bra"
+an6,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.20,9,12,8.45,9.72,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,81.28,9,12,8.45,9.72,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,80.86,9,12,8.45,9.72,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,81.19,9,12,1.60,5.02,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,80.61,9,12,1.60,2.87,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,81.13,9,12,8.45,9.72,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an6,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.01,9,12,1.60,2.87,"A análise da sequência de frames revela que objetos externos, como a mão e o pap"
+an6,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,82.05,9,12,8.45,9.72,"A análise da sequência de frames revela que objetos externos, incluindo uma mão,"
+an7,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.09,9,12,0.03,1.10,"A partir do Frame 3, observa-se a presença de uma mão humana na área de trabalho"
+an7,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,80.43,9,12,0.03,1.10,A análise da sequência de frames revela que uma mão humana entrou em contato com
+an7,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,79.96,9,12,0.03,3.00,"A análise da sequência de frames revela que, em várias ocasiões, partes do corpo"
+an7,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,79.82,9,12,0.03,3.00,A análise da sequência de frames revela que uma mão humana está presente na área
+an7,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,79.66,9,12,0.03,3.00,A análise da sequência de frames revela que uma mão humana está presente na área
+an7,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,78.85,9,12,1.37,2.63,"A análise da sequência de frames revela que, em Frame 1, há uma mão e um braço h"
+an7,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,80.47,9,12,0.03,1.10,"A análise da sequência de frames revela que objetos externos, incluindo uma mão,"
+an7,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,80.33,9,12,0.03,1.10,"A partir do Frame 3, observa-se a presença de uma mão humana na área de trabalho"
+an7,external,llama_vision,off,off,9,1,ANOMALY,NORMAL,NORMAL,79.11,9,12,1.37,2.63,"A sequência de imagens mostra a área de trabalho do robô Kuka Robot, que opera e"
+an7,external,llama_vision,off,off,10,1,ANOMALY,NORMAL,NORMAL,79.10,9,12,1.37,2.63,"A sequência de imagens mostra a área de trabalho do robô Kuka Robot, que opera e"
+an8,external,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,80.37,9,12,0.00,5.08,"A análise da sequência de frames revela que objetos externos, como a mão, o braç"
+an8,external,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,80.38,9,12,3.88,7.30,"A análise da sequência de frames revela que várias partes do corpo humano, inclu"
+an8,external,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,79.83,9,12,3.88,5.15,"A partir do Frame 5, uma mão humana é visível na área de trabalho, segurando uma"
+an8,external,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,80.38,9,12,3.88,7.30,"A análise da sequência de frames revela que objetos externos, incluindo uma mão,"
+an8,external,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,79.27,9,12,1.60,5.02,"A partir do Frame 9, observa-se a presença de uma mão humana segurando uma garra"
+an8,external,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,79.95,9,12,0.00,5.08,"A análise da sequência de frames revela que objetos externos, como a mão, o tabl"
+an8,external,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,79.72,9,12,0.00,2.80,A análise da sequência de frames revela que a mão de uma pessoa está presente em
+an8,external,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,79.74,9,12,0.00,2.80,"A análise da sequência de frames revela que, em Frame 3, uma mão humana está pre"
+an8,external,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,79.86,9,12,0.00,2.80,A análise da sequência de frames revela que a mão de uma pessoa está presente em
+an8,external,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,78.77,9,12,1.60,5.02,"A partir do Frame 9, uma mão humana é visível na área de trabalho, segurando uma"
+an9,external,llama_vision,off,off,1,1,NORMAL,,NORMAL,34.60,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka, com microscópios,"
+an9,external,llama_vision,off,off,2,1,NORMAL,,NORMAL,34.38,9,0,,,A sequência de frames não mostra qualquer parte do corpo humano ou objetos estra
+an9,external,llama_vision,off,off,3,1,NORMAL,,NORMAL,34.56,9,0,,,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an9,external,llama_vision,off,off,4,1,NORMAL,,NORMAL,34.41,9,0,,,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an9,external,llama_vision,off,off,5,1,NORMAL,,NORMAL,34.16,9,0,,,A sequência de frames não mostra qualquer parte do corpo humano ou objetos estra
+an9,external,llama_vision,off,off,6,1,NORMAL,,NORMAL,34.25,9,0,,,A sequência de frames não mostra qualquer parte do corpo humano ou objetos estra
+an9,external,llama_vision,off,off,7,1,NORMAL,,NORMAL,34.91,9,0,,,"A sequência de imagens mostra a área de trabalho do robô Kuka Robot, que opera e"
+an9,external,llama_vision,off,off,8,1,NORMAL,,NORMAL,34.27,9,0,,,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an9,external,llama_vision,off,off,9,1,NORMAL,,NORMAL,34.40,9,0,,,A sequência de frames não mostra qualquer parte do corpo humano ou objetos estra
+an9,external,llama_vision,off,off,10,1,NORMAL,,NORMAL,34.39,9,0,,,A sequência de imagens não mostra qualquer parte do corpo humano ou objetos estr
+an1,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.49,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an1,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,80.79,9,12,5.08,6.35,"O log de estado do robô indica que o estado mudou de ""running"" para ""idle"" em 00"
+an1,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.27,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an1,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,81.25,9,12,2.20,4.77,A análise dos logs de estado do robô e das descrições dos frames revela que houv
+an1,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,81.53,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an1,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,81.20,9,12,2.20,4.77,A análise dos logs de estado do robô e das descrições dos frames revela que houv
+an1,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.49,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an1,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,81.16,9,12,6.52,9.08,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an1,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.47,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an1,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,81.42,9,12,5.08,6.35,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an10,internal,llama_vision,off,off,1,1,NORMAL,,NORMAL,35.79,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an10,internal,llama_vision,off,off,2,1,NORMAL,,NORMAL,34.92,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an10,internal,llama_vision,off,off,3,1,NORMAL,,NORMAL,35.03,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an10,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,83.77,9,12,1.82,3.08,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an10,internal,llama_vision,off,off,5,1,NORMAL,,NORMAL,35.24,9,0,,,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an10,internal,llama_vision,off,off,6,1,NORMAL,,NORMAL,35.13,9,0,,,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an10,internal,llama_vision,off,off,7,1,NORMAL,,NORMAL,35.04,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an10,internal,llama_vision,off,off,8,1,NORMAL,,NORMAL,35.03,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an10,internal,llama_vision,off,off,9,1,NORMAL,,NORMAL,35.47,9,0,,,"O log de estado do robô não apresenta erros ou anomalias, e as descrições dos fr"
+an10,internal,llama_vision,off,off,10,1,NORMAL,,NORMAL,34.91,9,0,,,"O log de estado do robô não indica qualquer anomalia, e as descrições dos frames"
+an2,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.39,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,82.07,9,12,3.20,4.47,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.70,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,81.22,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,81.75,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,82.01,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.69,9,12,3.20,5.30,A análise dos logs de estado do robô e das descrições dos frames revela que houv
+an2,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,81.68,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.42,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an2,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,81.64,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,82.63,9,12,2.23,4.33,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an3,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,82.18,9,12,2.23,4.33,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.97,9,12,2.23,4.33,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an3,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,82.10,9,12,2.23,4.33,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,82.92,9,12,3.20,4.47,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,82.87,9,12,2.23,4.33,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an3,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,82.48,9,12,3.20,4.47,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,82.57,9,12,3.20,4.47,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,82.29,9,12,3.20,7.23,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an3,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,82.95,9,12,2.23,4.33,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,82.59,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,82.51,9,12,3.20,4.47,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,84.36,9,12,3.20,5.30,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an4,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,82.10,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,82.87,9,12,3.20,5.30,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an4,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,82.51,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.84,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,82.78,9,12,3.20,5.30,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an4,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.80,9,12,3.20,5.30,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an4,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,82.01,9,12,3.20,4.47,"O log de estado do robô indica que o estado mudou de ""running"" para ""idle"" em 00"
+an5,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.68,9,12,1.82,3.08,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an5,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,81.35,9,12,1.82,3.08,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an5,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.40,9,12,1.82,3.57,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an5,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,81.81,9,12,1.82,3.57,A análise dos frames e do log de estado do robô revela uma anomalia durante a fa
+an5,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,83.58,9,12,1.82,3.57,"O log de estado do robô indica que o estado mudou de ""running"" para ""idle"" em 00"
+an5,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,82.91,9,12,1.82,3.57,A análise dos logs de estado do robô e das descrições dos frames revela que houv
+an5,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.30,9,12,1.20,2.95,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an5,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,83.08,9,12,1.82,3.57,"O log de estado do robô indica que o estado mudou de ""running"" para ""idle"" em 00"
+an5,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.72,9,12,1.82,3.08,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an5,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,81.28,9,12,1.82,3.08,A análise dos frames e do log de estado do robô indica que houve uma anomalia du
+an6,internal,llama_vision,off,off,1,1,ANOMALY,NORMAL,NORMAL,80.34,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,2,1,ANOMALY,NORMAL,NORMAL,80.48,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,3,1,ANOMALY,NORMAL,NORMAL,80.52,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,4,1,ANOMALY,NORMAL,NORMAL,80.43,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,5,1,ANOMALY,NORMAL,NORMAL,80.38,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,6,1,ANOMALY,NORMAL,NORMAL,80.62,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,7,1,ANOMALY,NORMAL,NORMAL,80.33,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,8,1,ANOMALY,NORMAL,NORMAL,80.59,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,9,1,ANOMALY,NORMAL,NORMAL,80.33,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an6,internal,llama_vision,off,off,10,1,ANOMALY,NORMAL,NORMAL,80.44,9,12,5.08,6.35,"O log de estado do robô não registra nenhuma anomalia, e as descrições dos frame"
+an7,internal,llama_vision,off,off,1,1,ANOMALY,ANOMALY,ANOMALY,81.47,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,2,1,ANOMALY,ANOMALY,ANOMALY,81.55,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,3,1,ANOMALY,ANOMALY,ANOMALY,81.60,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,4,1,ANOMALY,ANOMALY,ANOMALY,81.58,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,5,1,ANOMALY,ANOMALY,ANOMALY,81.31,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,6,1,ANOMALY,ANOMALY,ANOMALY,82.46,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,7,1,ANOMALY,ANOMALY,ANOMALY,81.48,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,8,1,ANOMALY,ANOMALY,ANOMALY,81.17,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,9,1,ANOMALY,ANOMALY,ANOMALY,81.38,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an7,internal,llama_vision,off,off,10,1,ANOMALY,ANOMALY,ANOMALY,81.49,9,12,3.20,4.47,O log de estado do robô indica uma queda repentina da pressão do gripper durante
+an8,internal,llama_vision,off,off,1,1,NORMAL,,NORMAL,35.17,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,2,1,NORMAL,,NORMAL,34.90,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,3,1,NORMAL,,NORMAL,34.83,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,4,1,NORMAL,,NORMAL,35.15,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,5,1,NORMAL,,NORMAL,34.91,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,6,1,NORMAL,,NORMAL,34.85,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,7,1,NORMAL,,NORMAL,34.73,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,8,1,NORMAL,,NORMAL,34.89,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,9,1,NORMAL,,NORMAL,34.98,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an8,internal,llama_vision,off,off,10,1,NORMAL,,NORMAL,34.92,9,0,,,"O log de estado do robô não indica qualquer anomalia, com transições normais ent"
+an9,internal,llama_vision,off,off,1,1,NORMAL,,NORMAL,35.02,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,2,1,NORMAL,,NORMAL,34.78,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,3,1,NORMAL,,NORMAL,35.03,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,4,1,NORMAL,,NORMAL,34.98,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,5,1,NORMAL,,NORMAL,34.79,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,6,1,NORMAL,,NORMAL,34.97,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,7,1,NORMAL,,NORMAL,34.81,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,8,1,NORMAL,,NORMAL,34.92,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,9,1,NORMAL,,NORMAL,35.11,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
+an9,internal,llama_vision,off,off,10,1,NORMAL,,NORMAL,34.90,9,0,,,"O log de estado do robô não apresenta erros ou estados inesperados, e as descriç"
