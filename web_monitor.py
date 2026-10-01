@@ -229,25 +229,20 @@ def call_vision(frame_bgr) -> str:
     except Exception as e:
         return f"[ERROR vision: {e}]"
 
+TEXT_JUDGE_MODEL = "gpt-4o"  # the vision stage can be local (Ollama), but the
+                              # NORMAL/ANOMALY verdict is always rendered by
+                              # GPT-4o reading that stage's text output.
+
 def call_text(objetos) -> str:
-    with _cfg_lock: model = _cfg["vision_model"]
     prompt = _build_texto_prompt(objetos)
     try:
-        if model.startswith("ollama/"):
-            import requests as req
-            r = req.post("http://localhost:11434/api/generate", json={
-                "model": model[7:], "prompt": prompt, "stream": False,
-                "options": {"num_predict": 20, "temperature": 0},
-            }, timeout=60)
-            return r.json()["response"].strip()
-        else:
-            from openai import OpenAI
-            r = OpenAI().chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=20, temperature=0,
-            )
-            return r.choices[0].message.content.strip()
+        from openai import OpenAI
+        r = OpenAI().chat.completions.create(
+            model=TEXT_JUDGE_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=20, temperature=0,
+        )
+        return r.choices[0].message.content.strip()
     except Exception as e:
         return f"[ERROR text: {e}]"
 

@@ -39,9 +39,12 @@ before it becomes a logged report.
 
 - Python 3.10+
 - A webcam, or your own video file(s) to analyze
-- One vision model:
-  - **GPT-4o** (default) — needs an OpenAI API key ([get one here](https://platform.openai.com/api-keys)). Pay-per-use.
-  - **or a local model via [Ollama](https://ollama.com/)** — free, runs on your own GPU/CPU, no API key. Tested with `qwen3-vl:8b` and `llama3.2-vision`.
+- An OpenAI API key ([get one here](https://platform.openai.com/api-keys)), always. The
+  monitor runs as two stages: an object-listing stage, which can be GPT-4o or a local
+  model through [Ollama](https://ollama.com/), and a classification stage that turns
+  that text into `NORMAL`/`ANOMALY`, which is always GPT-4o regardless of which model
+  did the first stage. So even the fully-local setup still makes one small (text-only,
+  cheap) OpenAI call per analysis.
 - A GPU is recommended for YOLO and for local Ollama models, but not required for the GPT-4o-only path.
 
 ## Quick start
@@ -74,9 +77,10 @@ Open **http://localhost:5000**. The shipped `config.example.json` points at the
 see a detection fire without wiring up a camera first. Give it a moment — the first
 GPT-4o call at startup takes a few seconds.
 
-If you don't want to use OpenAI at all: [install Ollama](https://ollama.com/download),
+To run the object-listing stage locally instead of on GPT-4o: [install Ollama](https://ollama.com/download),
 pull a vision model (`ollama pull qwen3-vl:8b`), then on the setup page set
-**Vision model** to `ollama/qwen3-vl:8b`. No `.env` needed in that case.
+**Vision model** to `ollama/qwen3-vl:8b`. `.env` with `OPENAI_API_KEY` is still
+needed either way, because the classification stage always calls GPT-4o.
 
 ## Setting it up for your own cell
 
